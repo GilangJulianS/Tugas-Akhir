@@ -1,0 +1,6 @@
+Sekjen\Product_Title_Position-Vocation  PKS\Organization_Political_Party  Anis\Person  Matta\Person  menegaskan PKS\Organization_Political_Party  dalam posisi menunggu keputusan resmi Presiden\Product_Title_Position-Vocation  SBY\Person  menyangkut posisi di koalisi. PKS\Organization_Political_Party  siap menerima apapun keputusan SBY\Person .
+"Kita tunggu pernyataan resmi Pak\Product_Title_Other  SBY\Person . Selain Pak\Product_Title_Other  SBY\Person  semua bukan official," kata Anis\Person  kepada detikcom, Rabu\Timex_Day-Of-Week  (4/4/2012\Timex_Date ).
+Anis\Person  menuturkan PKS\Organization_Political_Party  telah menyampaikan surat resmi ke SBY\Person  sebelum mengambil sikap resmi soal kenaikan harga BBM. PKS\Organization_Political_Party  siap menghadapi konsekuensi apapun.
+"PKS\Organization_Political_Party  sudah menyampaikan surat kepada SBY\Person  mengenai opsi lain yang bisa diambil sebelum kita menyatakan sikap secara terbuka. Kita menyadari resiko dari sikap yang kita ambil," katanya.
+PKS\Organization_Political_Party  pun siap dengan kemungkinan didepak dari koalisi. Sekaligus kehilangan 3\Countx_N-Person  menteri\Countx_N-Person  di kabinet.
+"Bagi kami dalam kerangka mengambil keputusan yang berpihak kepada kepentingan publik PKS\Organization_Political_Party  siap menerima keputusan apapun Pak\Product_Title_Other  SBY\Person ," tandasnya.

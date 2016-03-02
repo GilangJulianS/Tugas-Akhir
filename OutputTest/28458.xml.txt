@@ -1,0 +1,33 @@
+ATHENA/Location_GPE_Country--MICOM: Pengunjuk rasa terlibat bentrok dengan polisi antihuru hara di IbuKota Yunani/Location_GPE_Country, Athena/Location_GPE_Country, beberapa jam setelah seorang pensiunan bunuh diri di luar gedung parlemen.
+Laki-laki berusia 77/Numex_Age tahun/Numex_Age itu bunuh diri dengan cara menembak kepalanya di lapangan/Facility_GOE_Park Syntagma/Facility_GOE_Park, di pusat kota Athena/Location_GPE_Country yang sibuk, Kamis/Timex_Day-Of-Week/Timex_Day-Of-Week (5/4/Timex_Date) malam.
+Pria tua yang oleh media setempat disebut bernama Dimitris/Person Christoulas/Person itu adalah seorang pensiunan ahli kimia yang hidup bersama istri dan seorang anak perempuannya.
+Dalam surat terakhir yang ditulisnya,  Dimitris/Person menyalahkan pemerintah yang memangkas uang pensiun hingga dia tak menerima apapun di hari tuanya.
+"Pemerintah telah menghancurkan semua sarana penyambung hidup saya berupa uang pensiun yang saya bayar selama 35/Numex_Age tahun/Numex_Age tanpa bantuan apapun dari negara," tulis Dimitris/Person.
+"Dan karena usia saya tak memungkinkan saya bereaksi dinamis...Saya tak melihat cara lain selain kematian terhormat ini, sehingga saya tak perlu mengorek sampah hanya untuk menyambung hidup," sambung dia.
+Kematian Dimitris/Person ini mengundang simpati khalayak luas. Karangan bunga dan kartu ucapan simpati diletakkan di lokasi meninggalnya pria tua itu.
+Salah satu tulisan tangan warga berbunyi "Sudah cukup!" pesan lain berbunyi "Siapa yang akan jadi korban berikut?".
+Aksi bunuh diri Dimitris/Person ini kemudian menarik ratusan/Countx_N-Person orang/Countx_N-Person untuk menggelar aksi unjuk rasa di lapangan yang tepat berada di depan gedung parlemen Yunani/Location_GPE_Country.
+Unjuk rasa ini kemudian menjadi rusuh setelah demonstran melempar bom/Product_Weapon molotov/Product_Weapon ke arah polisi dan polisi bereaksi dengan menembakkan gas/Product_Weapon air/Product_Weapon mata/Product_Weapon.
+Sementara itu, Perdana/Product_Title_Position-Vocation Menteri/Product_Title_Position-Vocation Yunani/Product_Title_Position-Vocation Lucas/Person Papademos/Person dalam pernyataan resminya menyebut kematian Dimitris/Person sebagai sebuah tragedi.
+"Dalam saat-saat sulit ini kita semua -negara dan rakyat- harus membantu warga kita yang tengah putus asa," kata Papademos/Person.
+Sedangkan juru bicara pemerintah Yunani/Location_GPE_Country, Pantelis/Person Kapsis/Person juga menyebut aksi bunuh diri Dimitris/Person adalah sebuah tragedi.
+"Tetapi situasi pastinya tidak diketahui," ujar Kapsis/Person.
+Warga Athena/Location_GPE_Country mengumpulkan karangan bunga di lokasi pensiunan yang bunuh diri.
+Pimpinan Partai/Organization_Political_Party Pasok/Organization_Political_Party yang berhaluan sosialis, Evangelos/Person Venizelos/Person yang merupakan mayoritas dalam koalisi pemerintah menyerukan rekan-rekannya mengurangi pernyataan politis dan lebih menunjukkan solidaritas dan kebersamaan.
+Sedangkan pimpinan Partai/Organization_Political_Party Demokrasi/Organization_Political_Party Baru/Organization_Political_Party Antonis/Person Samaras/Person mengatakan para politisi harus berbuat lebih banyak untuk melepaskan Yunani/Location_GPE_Country dari keputusasaan.
+Penghematan anggaran besar-besaran dilakukan Yunani/Location_GPE_Country agar memenuhi syarat untuk mendapatkan bantuan finansial dari Uni/Location_Region_Continental Eropa/Location_Region_Continental demi menyelamatkan negeri itu dari kebangkrutan.
+Ribuan/Countx_N-Person pegawai/Countx_N-Person pemerintah kehilangan pekerjaan, pajak dinaikkan dan terjadi pemangkasan gaji dan uang pensiun.
+Kondisi ini membuat angka bunuh diri meningkat 18/Numex_Percent%/Numex_Percent pada 2010/Timex_Date dibanding tahun sebelumnya. Dan di Athena/Location_GPE_Country saja, angka bunuh diri melonjak hingga 25/Numex_Percent%/Numex_Percent tahun lalu. (BBC/OL-3)
+
+						
+						
+							Share
+							|
+							
+							
+							
+							
+						
+						
+						
+					 

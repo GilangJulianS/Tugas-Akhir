@@ -1,0 +1,7 @@
+100\Countx_N-Person  Orang\Countx_N-Person  pengurus PKS\Organization_Political_Party  dari wilayah DKI\Location_GPE_Province , Jawa\Location_GPE_Province  Barat\Location_GPE_Province  dan Banten\Location_GPE_Province  dikumpulkan. Mereka melakukan rapat membahas posisi PKS\Organization_Political_Party  di setgab\Organization_Political_Other  koalisi\Organization_Political_Other .
+"Kita ingin mendengarkan apa yang ada di grass root kami," ujar Presiden PKS\Organization_Political_Party , Luthfi\Person  Hasan\Person  Ishaaq\Person , di kantor\Facility_GOE_Other  DPP\Organization_Other , Pasar\Location_GPE_County  Minggu\Location_GPE_County , Jaksel\Location_GPE_City , Sabtu\Timex_Day-Of-Week  (7/4/2012\Timex_Date ).
+Meski begitu, Lutfi\Person  menegaskan jika rapat ini bukanlah forum pengambil keputusan. PKS\Organization_Political_Party  hanya ingin mendengarkan aspirasi yang berkembang di lapangan.
+"Forum ini adalah untuk dengarkan dinamika di gras root. Aspirasi mereka jadi bahan pertimbangan," jelas Lutfi\Person .
+Lutfi\Person  sendiri belum tahu reaksi kader-kadernya terkait kisruh di setgab\Organization_Political_Other . Namun dia memastikan, aspirasi kader akan menjadi pertimbangan PKS\Organization_Political_Party  dalam mengambil sikap.
+"Karena mereka adalah petugas-petugas kami yang langsung berhubungan dengan grass root," tandasnya.
+Rapat yang berlangsung tertutup ini berlangsung sejak pukul\Timex_Time  11.00\Timex_Time  WIB\Timex_Time . Namun Lutfi\Person  sendiri baru tiba sekitar pukul\Timex_Time  14.00\Timex_Time  WIB\Timex_Time .

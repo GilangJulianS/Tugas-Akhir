@@ -1,0 +1,21 @@
+Meski hujan deras terus mengguyur Jakarta/Location_GPE_Province sejak Selasa/Timex_Day-Of-Week (3/4/Timex_Date), ketinggian air di pintu Manggarai/Location_GPE_County masih terpantau normal.
+"Ketinggian 690/Measurement_Space cm/Measurement_Space dengan status siaga 4/Numex_Other pada pukul 02.00/Timex_Time WIB/Timex_Time," ujar Apip/Person, salah satu operator di pintu air Manggarai/Location_GPE_County kepada
+, Rabu/Timex_Day-Of-Week (4/4/2012/Timex_Date) subuh/Timex_Time.
+Adanya isu banjir kiriman dari Katulampa/Location_GPE_County, Bogor/Location_GPE_City membuat pihaknya mengantisipasi dengan membuka pintu dan mengeruk sampah yang ada di sekitar pintu ini.
+"Ada 2/Countx_N-Product pintu/Countx_N-Product yang sudah kami buka, kami juga membersihkan sampah yang ada di sekitar pintu air," tambah Apip/Person.
+Ketinggian 690/Measurement_Space cm/Measurement_Space ini sendiri masih jauh dari ambang batas normal siaga 4/Numex_Other, yaitu 750/Measurement_Space cm/Measurement_Space. Menurut informasi yang dihimpun detikcom, berikut ini daftar tingkat kegawatan per ketinggian air di beberapa pintu air.
+Katulampa/Location_GPE_County
+Siaga 1/Numex_Other di atas 200/Measurement_Space cm/Measurement_Space
+Siaga 2/Numex_Other 150/Measurement_Space-200/Measurement_Space cm/Measurement_Space
+Siaga 3/Numex_Other 80/Measurement_Space-150/Measurement_Space cm/Measurement_Space
+Siaga 4/Numex_Other kurang dari 80/Measurement_Space cm/Measurement_Space
+Manggarai/Location_GPE_County
+Siaga 1/Numex_Other di atas 950/Measurement_Space cm/Measurement_Space
+Siaga 2/Numex_Other 850/Measurement_Space-950/Measurement_Space cm/Measurement_Space
+Siaga 3/Numex_Other 750/Measurement_Space-850/Measurement_Space cm/Measurement_Space
+Siaga 4/Numex_Other di bawah 750/Measurement_Space cm/Measurement_Space
+Depok/Location_GPE_City
+Siaga 1/Numex_Other di atas 350/Measurement_Space cm/Measurement_Space
+Siaga 2/Numex_Other 270/Measurement_Space-350/Measurement_Space cm/Measurement_Space
+Siaga 3/Numex_Other 200/Measurement_Space-270/Measurement_Space cm/Measurement_Space
+Siaga 4/Numex_Other 200/Measurement_Space cm/Measurement_Space

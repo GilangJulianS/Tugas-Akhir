@@ -1,0 +1,6 @@
+PEKANBARU\Location_GPE_City --MICOM: Gara-gara obat nyamuk bakar, sebuah rumah di Jalan\Location_Address_Postal  Jenderal\Location_Address_Postal  Sudirman\Location_Address_Postal , Pekanbaru\Location_GPE_City , Riau\Location_GPE_Province , Kamis\Timex_Day-Of-Week  (5/4\Timex_Date ) dini hari ludes dilalap si jago merah\Color_Nature .
+"Saya melihat api awalnya dari depan rumah. Tidak ada penyebab lain saya rasa selain obat nyamuk yang terpasang di atas karpet," kata Ali\Person  Usman\Person , penghuni rumah tersebut.
+Ali\Person  mengatakan bara obat nyamuk tersebut membakar karpet yang membentang di ruang tamu. Api kemudian membesar dan terus merayap ke dinding dan langit-langit rumah.
+"Saya sempat menyiramnya dengan air yang saya ambil dari kamar mandi belakang. Tapi api terus membesar," katanya.
+Kobaran api kemudian menyambar tabung elpiji 3\Measurement_Weight  kilogram\Product_Unit_Other . Ledakan keras kemudian terdengar dan api makin membesar.
+Petugas pemadam kebakaran mengaku tidak mampu berbuat banyak karena keterlambatan informasi atas peristiwa itu. "Tapi setidaknya, api sudah berhasil dipadamkan sebelum merambat ke rumah warga lainnya yang berada disampingnya," kata seorang\Countx_N-Person  petugas. (Ant/OL-04\Numex_Other )

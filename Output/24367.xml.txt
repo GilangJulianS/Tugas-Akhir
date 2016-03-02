@@ -1,0 +1,4 @@
+PORTLAND\Location_GPE_City --MICOM: Seorang\Countx_N-Person  perawat asal Oregon\Location_GPE_Province  divonis delapan\Periodx_Day  hari\Periodx_Day  penjara setelah juri memutus dirinya bersalah mengambil foto lansia atau pasien cacat dan mengunggahnya di laman Facebook\Product_Other  miliknya.
+Juri memutus Nai\Person  Mai\Person  Chao\Person , 26\Periodx_Year , bersalah melanggar privasi orang lain. Dia dituding menggambil foto memalukan pasien yang tengah menggunakan pispot dan mengunggahnya di Facebook. Gambar-gambar itu diambil pada April\Timex_Date  2011\Timex_Date .
+Chao\Person  menyerahkan izin perawatnya pada Januari\Timex_Date  dan kemudian dipecat dari regency\Facility_Other  Pacific\Facility_Other  Nursing\Facility_Other  and\Facility_Other  Rehabt\Facility_Other  Center\Facility_Other .
+Selain hukuman penjara, Chao\Person  juga diharuskan menuliskan surat permintaan maaf sepanjang 1.000\Countx_Other  kata\Countx_Other . (AP/OL-12)

@@ -1,0 +1,6 @@
+TANGERANG\Location_GPE_City , KOMPAS.com\Location_Address_URL  -- Warga Desa\Location_GPE_County  Ciangir\Location_GPE_County , Kecamatan\Location_GPE_County  Legok\Location_GPE_County , Kabupaten\Location_GPE_City  Tangerang\Location_GPE_City , Banten\Location_GPE_Province , geger karena ditemukan sesosok mayat perempuan dalam kondisi mengenaskan, Sabtu\Timex_Day-Of-Week  (7/4/2012\Timex_Date ).
+Saat ditemukan Sabtu\Timex_Day-Of-Week  pagi, perempuan berusia sekitar 20\Numex_Age  tahun\Numex_Age  itu mengenakan jilbab. Pada lehernya tampak luka bekas jeratan.
+Berdasarkan informasi yang dihimpun Kompas\Product_Printing_Newspaper , mayat itu ditemukan Ujang\Person , warga sekitar yang hendak ke sawah. Saat sedang berjalan menuju sawah, ia melihat mayat tersebut tertelengkup berlumuran darah.
+"Saya langsung melaporkan temuan ini kepada ketua\Product_Title_Position-Vocation  RT\Location_GPE_County  setempat," kata Ujang\Person .
+Hanya berselang beberapa\Periodx_Time  menit\Periodx_Time , informasi itu sudeh menyebar ke warga sekitar. Warga yang penasaran berdatangan ke lokasi kejadian. Namun, tak satupun warga mengenali  korban.
+Setelah melakukan olah tempat kejadian perkara, polisi\Product_Title_Position-Vocation  membawa korban ke RSUD\Facility_GOE_Other  Tangerang\Facility_GOE_Other  untuk diotopsi.
