@@ -23,7 +23,11 @@ public class CorpusParser {
     
     public static void main(String[] args) throws Exception{
         br = new BufferedReader(new FileReader("corpus tagged.txt"));
-        bw = new BufferedWriter(new FileWriter("corpus simple.txt"));
+        bw = new BufferedWriter(new FileWriter("corpus.xml"));
+        
+        bw.write("<?xml version='1.0' encoding='UTF-8'?>\n\n");
+        bw.write("<DATA>\n");
+        
         String line;
         while((line = br.readLine()) != null){
             line = br.readLine();
@@ -31,6 +35,7 @@ public class CorpusParser {
             process(line, 0);
         }
         
+        bw.write("</DATA>");
         bw.close();
         br.close();
     }
@@ -43,8 +48,8 @@ public class CorpusParser {
         idx2 = getEndidx(str, idx1);
         phrase = new Phrase(str.substring(idx1, idx2), tag, true);
         String output = phrase.toString();
-        System.out.println(output);
-        bw.write(output + "\n");
+//        System.out.println(output);
+        bw.write("\t<SENTENCE>\n\t\t" + output + "\n\t</SENTENCE>\n");
     }
     
     public static int getEndidx(String str, int curIdx){

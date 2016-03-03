@@ -16,8 +16,10 @@ import java.util.Scanner;
 public class Phrase {
     
     public List<Phrase> childs;
+    public List<Phrase> parentsChilds;
     public String phrase;
     public String tag;
+    private static int npcount = 1;
     
     public Phrase(String phrase, String tag, boolean doProcess){
         this.phrase = phrase;
@@ -80,6 +82,9 @@ public class Phrase {
     public String toString(){
         StringBuilder builder = new StringBuilder();
 //        ---- parent tag ----
+        if((tag.startsWith("NP") || tag.startsWith("PRP")) && !phrase.contains("(NP") && !phrase.contains("*") && !phrase.contains("(PRP")){
+            builder.append("<COREF ID=\"" + (npcount++) + "\">");
+        }
         if(childs.size() == 0){
             if(phrase.contains("*"))
                 return "";
@@ -91,6 +96,9 @@ public class Phrase {
                 builder.append(p.toString());
             }
         }
-        return builder.toString();
+        if(tag.startsWith("NP") && !phrase.contains("(NP")){
+            builder.append("</COREF> ");
+        }
+        return builder.toString().replace(" </COREF>", "</COREF>");
     }
 }
