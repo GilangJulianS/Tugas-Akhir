@@ -17,42 +17,48 @@ import model.Phrase;
  */
 public class CorpusParser {
     
-    private static Phrase phrase;
-    private static BufferedReader br;
-    private static BufferedWriter bw ;
+    private Phrase phrase;
+    private BufferedReader br;
+    private BufferedWriter bw ;
     
     public static void main(String[] args) throws Exception{
-        br = new BufferedReader(new FileReader("corpus tagged.txt"));
-        bw = new BufferedWriter(new FileWriter("corpus.xml"));
+        CorpusParser parser = new CorpusParser();
+        parser.neTaggedtoXML("corpus tagged.txt", "corpus.xml");
+    }
+    
+    public void neTaggedtoXML(String inputFile, String outputFile) throws Exception{
+        br = new BufferedReader(new FileReader(inputFile));
+        bw = new BufferedWriter(new FileWriter(outputFile));
         
         bw.write("<?xml version='1.0' encoding='UTF-8'?>\n\n");
-        bw.write("<DATA>\n");
+        bw.write("<data>\n");
         
         String line;
+	int lineCounter = 0;
         while((line = br.readLine()) != null){
-            line = br.readLine();
-//            System.out.println(line);
-            process(line, 0);
+//            System.out.println();
+	    lineCounter++;
+            process(line, 0, lineCounter);
         }
         
-        bw.write("</DATA>");
+        bw.write("</data>");
         bw.close();
         br.close();
     }
     
-    public static void process(String str, int startIdx) throws Exception{
+    public void process(String str, int startIdx, int count) throws Exception{
         int idx1 = str.indexOf("(", startIdx) + 1;
         int idx2 = str.indexOf(" ", idx1);
         String tag = str.substring(idx1, idx2);
         idx1 = idx2+1;
         idx2 = getEndidx(str, idx1);
         phrase = new Phrase(str.substring(idx1, idx2), tag, true);
-        String output = phrase.toString();
+        String output = phrase.toString().replace(" <", "<");
 //        System.out.println(output);
-        bw.write("\t<SENTENCE>\n\t\t" + output + "\n\t</SENTENCE>\n");
+        bw.write("<sentence id=\"" + count + "\">\n" + output + "\n</sentence>\n");
     }
     
-    public static int getEndidx(String str, int curIdx){
+    public int getEndidx(String str, int curIdx){
         int counter = 1;
         int idx = curIdx;
         while(counter > 0){

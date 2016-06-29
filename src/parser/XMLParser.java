@@ -24,7 +24,16 @@ public class XMLParser {
     static List<String> entities;
     
     public static void main(String[] args) throws DocumentException, UnsupportedEncodingException, IOException{
-        
+        XMLParser parser = new XMLParser();
+        parser.xmlToNETaggedTxt();
+    }
+    
+    public XMLParser(){}
+    
+    /*
+     * convert xml to (words)/(ne tag) format txt
+     */
+    public void xmlToNETaggedTxt() throws DocumentException, UnsupportedEncodingException, IOException{
         File dir = new File("ALL-Train");
         File[] files = dir.listFiles();
         for(File file : files){

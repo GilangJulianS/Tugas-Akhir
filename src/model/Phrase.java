@@ -16,7 +16,6 @@ import java.util.Scanner;
 public class Phrase {
     
     public List<Phrase> childs;
-    public List<Phrase> parentsChilds;
     public String phrase;
     public String tag;
     private static int npcount = 1;
@@ -81,14 +80,21 @@ public class Phrase {
     @Override
     public String toString(){
         StringBuilder builder = new StringBuilder();
+        
+        if(childs.size() == 0 && (phrase.contains("*") || phrase.contains("&brr;") || phrase.contains("&brl;"))){
+            return "";
+        }
+        
 //        ---- parent tag ----
-        if((tag.startsWith("NP") || tag.startsWith("PRP")) && !phrase.contains("(NP") && !phrase.contains("*") && !phrase.contains("(PRP")){
-            builder.append("<COREF ID=\"" + (npcount++) + "\">");
+        if((tag.startsWith("NP") || tag.startsWith("PRP")) && !phrase.contains("(NP") && !phrase.contains("(PRP")){
+            if(tag.contains("SBJ")){
+		builder.append("<phrase type=\"np-sbj\" id=\"" + (npcount++) + "\">");
+	    }else{
+		builder.append("<phrase type=\"np\" id=\"" + (npcount++) + "\">");
+	    }
         }
         if(childs.size() == 0){
-            if(phrase.contains("*"))
-                return "";
-            builder.append(phrase + "\\" + tag + " ");
+            builder.append(phrase.replace(" ", "_").replace("&", "&amp;") + "\\" + tag + " ");
         }else{
             for(int i=0; i<childs.size(); i++){
                 Phrase p = childs.get(i);
@@ -96,9 +102,9 @@ public class Phrase {
                 builder.append(p.toString());
             }
         }
-        if(tag.startsWith("NP") && !phrase.contains("(NP")){
-            builder.append("</COREF> ");
+        if((tag.startsWith("NP") || tag.startsWith("PRP")) && !phrase.contains("(NP") && !phrase.contains("(PRP")){
+            builder.append("</phrase>");
         }
-        return builder.toString().replace(" </COREF>", "</COREF>");
+        return builder.toString();
     }
 }
