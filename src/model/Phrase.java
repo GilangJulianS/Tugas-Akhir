@@ -23,6 +23,11 @@ public class Phrase {
     public Phrase(String phrase, String tag, boolean doProcess){
         this.phrase = phrase;
         this.tag = tag;
+        if(phrase.length() == 3 && isPunctuation(phrase)){
+            this.phrase = "";
+            this.tag = "";
+            doProcess = false;
+        }
         childs = new ArrayList<>();
         if(doProcess){
             if(containTag(this.phrase)){
@@ -31,6 +36,13 @@ public class Phrase {
                 this.phrase = this.phrase.substring(1, this.phrase.length()-1);
             }
         }
+    }
+    
+    public boolean isPunctuation(String input){
+        if(input.equals("(.)") || input.equals("(,)") || input.equals("(/)")){
+            return true;
+        }
+        return false;
     }
     
     public void process(String str, int startIdx){
@@ -81,7 +93,7 @@ public class Phrase {
     public String toString(){
         StringBuilder builder = new StringBuilder();
         
-        if(childs.size() == 0 && (phrase.contains("*") || phrase.contains("&brr;") || phrase.contains("&brl;"))){
+        if(childs.size() == 0 && (phrase.contains("*") || phrase.contains("&brr;") || phrase.contains("&brl;") || phrase.length() == 0)){
             return "";
         }
         
@@ -94,7 +106,7 @@ public class Phrase {
 	    }
         }
         if(childs.size() == 0){
-            builder.append(phrase.replace(" ", "_").replace("&", "&amp;") + "\\" + tag + " ");
+            builder.append(phrase.replace(" ", "\\" + tag + " ").replace("&", "&amp;") + "\\" + tag + " ");
         }else{
             for(int i=0; i<childs.size(); i++){
                 Phrase p = childs.get(i);

@@ -29,7 +29,8 @@ public class XMLCorpusParser {
     
     public static void main(String[] args) throws Exception{
         XMLCorpusParser parser = new XMLCorpusParser();
-//        parser.insertNETag("corpus_complete.xml", "corpus_ne_simple_resample_8.txt");
+//        String neFile = "corpus_ne_2_suku.txt";
+//        parser.insertNETag("corpus_complete.xml", neFile, neFile + ".xml");
 //        parser.xmlToCSV("corpus_ne_simple_resample_8.txt.xml", "coref_simple_resample_8.csv");
         parser.completeXMLTag("corpus.xml", "corpus_complete.xml");
 //        System.out.println(parser.completeTag("Selama\\IN<phrase type=\"np\" id=\"43\">bertahun-tahun\\CD</phrase><phrase type=\"np-sbj\" id=\"44\">monyet\\NN</phrase>mengganggu\\VB<phrase type=\"np\" id=\"45\">warga\\NN Delhi\\NNP</phrase>.\\Z "));
@@ -49,8 +50,8 @@ public class XMLCorpusParser {
         while((line = reader.readLine()) != null){
             String[] neWords = line.split("\\s+");
             List<Node> phrases = sentences.get(currLine).selectNodes("phrase");
-            System.out.println("line " + line);
-            System.out.println("xml" + sentences.get(currLine).asXML());
+            System.err.println("line " + line);
+            System.err.println("xml" + sentences.get(currLine).asXML());
             for(Node phrase : phrases){
                 List<String> neTags = new ArrayList<>();
                 String phraseString = phrase.getText();
@@ -62,9 +63,9 @@ public class XMLCorpusParser {
                         if(neTag != null && !neTag.equals("") && !neTags.contains(neTag)){
                             neTags.add(neTag);
                         }
-                        if(!word.contains("\\Z")){
-                            currIdx++;
-                        }
+//                        if(!word.contains("\\Z")){
+//                            currIdx++;
+//                        }
                     }
                     int tagCounter = 0;
                     StringBuilder tagBuilder = new StringBuilder();
