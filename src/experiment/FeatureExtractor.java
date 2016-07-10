@@ -25,7 +25,7 @@ public class FeatureExtractor {
     
     public static void main(String[] args) throws Exception{
 	bw = new BufferedWriter(new FileWriter("feature.arff"));
-	File file = new File("corpus_complete.xml");
+	File file = new File("corpus_ne_simple_reweight.txt.xml");
         SAXReader reader = new SAXReader();
 	Document document = reader.read(file);
 	
@@ -71,8 +71,10 @@ public class FeatureExtractor {
 	}
     }
     
+    // substring match, ne match, s1 pronoun, s2 pronoun, s1 proper name, s2 proper name
     public static void extractLexicalFeature(Node n1, Node n2) throws Exception{
 	bw.write(extractFeature1(n1.getText(), n2.getText()) + ", ");
+        bw.write(extractFeature2(n1, n2) + ", ");
 	bw.write(extractFeature3(n1.getText(), n2.getText()) + ", ");
 	bw.write(extractFeature4(n1.getText(), n2.getText()) + ", ");
     }
@@ -98,8 +100,22 @@ public class FeatureExtractor {
     }
     
     // fitur same entity type
-    public static boolean extractFeature2(String s1, String s2){
-	return false;
+    public static boolean extractFeature2(Node n1, Node n2){
+	String[] neList1 = n1.valueOf("@ne").split("\\|");
+        String[] neList2 = n2.valueOf("@ne").split("\\|");
+        boolean match = false;
+        for(String ne1 : neList1){
+            for(String ne2 : neList2){
+                if(ne1.equals(ne2)){
+                    match = true;
+                    break;
+                }
+            }
+            if(match){
+                break;
+            }
+        }
+        return match;
     }
     
     // fitur isPronoun

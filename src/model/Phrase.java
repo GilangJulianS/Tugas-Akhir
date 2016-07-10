@@ -23,11 +23,11 @@ public class Phrase {
     public Phrase(String phrase, String tag, boolean doProcess){
         this.phrase = phrase;
         this.tag = tag;
-        if(phrase.length() == 3 && isPunctuation(phrase)){
-            this.phrase = "";
-            this.tag = "";
-            doProcess = false;
-        }
+//        if(phrase.length() == 3 && isPunctuation(phrase)){
+//            this.phrase = "";
+//            this.tag = "";
+//            doProcess = false;
+//        }
         childs = new ArrayList<>();
         if(doProcess){
             if(containTag(this.phrase)){
@@ -38,12 +38,12 @@ public class Phrase {
         }
     }
     
-    public boolean isPunctuation(String input){
-        if(input.equals("(.)") || input.equals("(,)") || input.equals("(/)")){
-            return true;
-        }
-        return false;
-    }
+//    public boolean isPunctuation(String input){
+//        if(input.equals("(.)") || input.equals("(,)") || input.equals("(/)")){
+//            return true;
+//        }
+//        return false;
+//    }
     
     public void process(String str, int startIdx){
         int idx1 = startIdx;
@@ -97,6 +97,10 @@ public class Phrase {
             return "";
         }
         
+        if(phrase.equals(",") || phrase.equals(".") || phrase.equals("/")){
+            return phrase;
+        }
+        
 //        ---- parent tag ----
         if((tag.startsWith("NP") || tag.startsWith("PRP")) && !phrase.contains("(NP") && !phrase.contains("(PRP")){
             if(tag.contains("SBJ")){
@@ -110,8 +114,18 @@ public class Phrase {
         }else{
             for(int i=0; i<childs.size(); i++){
                 Phrase p = childs.get(i);
-                boolean space = (i != childs.size()-1);
-                builder.append(p.toString());
+                String phraseString = p.toString();
+                if(phraseString.equals(",") || phraseString.equals("/") || phraseString.equals(".")){
+                    int idx = builder.lastIndexOf("\\");
+                    if(idx != -1){
+                        builder.insert(idx, phraseString);
+                    }else{
+                        builder.append(phraseString);
+                    }
+                }else{
+//                  boolean space = (i != childs.size()-1);
+                    builder.append(phraseString);
+                }
             }
         }
         if((tag.startsWith("NP") || tag.startsWith("PRP")) && !phrase.contains("(NP") && !phrase.contains("(PRP")){
