@@ -22,6 +22,9 @@ import org.dom4j.io.SAXReader;
 public class FeatureExtractor {
     
     static BufferedWriter bw;
+    static List<Integer> dotIdx;
+    static List<Integer> commaIdx;
+    static List<Integer> quoteIdx;
     
     public static void main(String[] args) throws Exception{
 	bw = new BufferedWriter(new FileWriter("feature.arff"));
@@ -41,13 +44,32 @@ public class FeatureExtractor {
     public static void process(int curIdx, List<Node> sentences) throws Exception{
 	ArrayList<Node> phrases = new ArrayList<>();
 	phrases.addAll(sentences.get(curIdx).selectNodes("phrase"));
+        
 	for(int i=curIdx+1; i<curIdx+5; i++){
 	    if(i >= sentences.size())
 		break;
-	    List<Node> others = sentences.get(i).selectNodes("phrase");
-	    if(others != null && others.size() > 0)
-		phrases.addAll(others);
+	    List<Node> nodes = sentences.get(i).selectNodes("phrase");
+	    if(nodes != null && nodes.size() > 0)
+		phrases.addAll(nodes);
 	}
+        
+        quoteIdx = new ArrayList<>();
+        dotIdx = new ArrayList<>();
+        commaIdx = new ArrayList<>();
+        for(int i=0; i<phrases.size(); i++){
+            String[] words = phrases.get(i).getText().split(" ");
+            String phraseString = words[words.length-1].split("\\\\")[0];
+            if(phraseString.endsWith(".")){
+                dotIdx.add(i);
+            }else if(phraseString.endsWith(",")){
+                commaIdx.add(i);
+            }else if(phraseString.equals("\"")){
+                quoteIdx.add(i);
+            }
+//            System.out.println(phrases.get(i).getText());
+//            System.out.println(dotIdx.size());
+        }
+        
 	extractFeature(phrases);
     }
     
@@ -64,19 +86,44 @@ public class FeatureExtractor {
 		    continue;
 		}
 		if(p2 != null){
-		    extractLexicalFeature(p, p2);
+		    extractLexicalFeature(p, p2, i, j);
 		    bw.write(p.getText() + ", " + p2.getText() + "\n");
 		}
 	    }
 	}
     }
     
+    public static int getDistance(String phrase1, String phrase2, int phraseIdx1, int phraseIdx2){
+        int counter = 0;
+//        System.out.println(phrase1 + " " + phrase2);
+        for(int i=0; i<dotIdx.size(); i++){
+//            System.out.println(phraseIdx1 + " " + dotIdx.get(i) + " " + phraseIdx2 + " " + counter);
+            if(phraseIdx1 > dotIdx.get(i)){
+                continue;
+            }else if(phraseIdx2 <= dotIdx.get(i)){
+                break;
+            }else{
+                counter++;
+            }
+        }
+        return counter;
+    }
+    
     // substring match, ne match, s1 pronoun, s2 pronoun, s1 proper name, s2 proper name
-    public static void extractLexicalFeature(Node n1, Node n2) throws Exception{
+    // distance, 
+    public static void extractLexicalFeature(Node n1, Node n2, int idx1, int idx2) throws Exception{
 	bw.write(extractFeature1(n1.getText(), n2.getText()) + ", ");
         bw.write(extractFeature2(n1, n2) + ", ");
 	bw.write(extractFeature3(n1.getText(), n2.getText()) + ", ");
 	bw.write(extractFeature4(n1.getText(), n2.getText()) + ", ");
+        bw.write(getDistance(n1.getText(), n2.getText(), idx1, idx2) + ", ");
+        bw.write(extractFeature6(n1.getText(), idx1, idx2) + ", ");
+//        bw.write(extractFeature7(n1, n2) + ", ");
+        bw.write(extractFeature8(n1.getText()) + ", ");
+        bw.write(extractFeature8(n2.getText()) + ", ");
+        bw.write(extractFeature9(idx1) + ", ");
+        bw.write(extractFeature9(idx2) + ", ");
+        bw.write(extractFeature10(idx1, idx2) + ", ");
     }
     
     // fitur substring match
@@ -148,5 +195,45 @@ public class FeatureExtractor {
 	    retval += ", false";
 	}
 	return retval;
+    }
+    
+    public static boolean extractFeature6(String s1, int idx1, int idx2){
+        // frase bersebelahan dan frase 1 diakhiri tanda koma
+        if(idx2 - idx1 == 1 && s1.split("\\\\")[0].endsWith(",")){
+            return true;
+        }
+        return false;
+    }
+    
+//    public static boolean extractFeature7(Node n1, Node n2){
+//        
+//    }
+    
+    public static boolean extractFeature8(String str){
+        String s = str.split("\\\\")[0].toLowerCase();
+        return (s.equals("aku") || s.equals("saya") || s.equals("beta"));
+    }
+    
+    public static boolean extractFeature9(int strIdx){
+        int openIdx = -1, closeIdx = -1;
+        for(int i=0; i<quoteIdx.size(); i++){
+            if(openIdx == -1){
+                openIdx = quoteIdx.get(i);
+            }else if(closeIdx == -1){
+                closeIdx = quoteIdx.get(i);
+            }else{
+                if(openIdx <= strIdx && closeIdx >= strIdx){
+                    return true;
+                }else{
+                    openIdx = -1;
+                    closeIdx = -1;
+                }
+            }
+        }
+        return false;
+    }
+    
+    public static boolean extractFeature10(int idx1, int idx2){
+        return idx2 - idx1 == 1;
     }
 }

@@ -30,10 +30,10 @@ public class XMLCorpusParser {
     public static void main(String[] args) throws Exception{
         XMLCorpusParser parser = new XMLCorpusParser();
         
-        String neFile = "corpus_ne_simple_reweight.txt";
-        parser.insertNETag("corpus_complete.xml", neFile, neFile + ".xml");
+//        String neFile = "corpus_ne_simple_reweight.txt";
+//        parser.insertNETag("corpus_complete.xml", neFile, neFile + ".xml");
 
-//        parser.xmlToCSV("corpus_ne_simple_reweight.txt.xml", "coref_simple_reweight.csv");
+        parser.xmlToCSV("corpus_ne_simple_reweight.txt.xml", "coref_simple_reweight.csv");
 
 //        parser.completeXMLTag("corpus.xml", "corpus_complete.xml");
 
