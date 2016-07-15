@@ -15,6 +15,7 @@ import java.util.List;
 import java.util.Scanner;
 import org.dom4j.Attribute;
 import org.dom4j.Document;
+import org.dom4j.DocumentException;
 import org.dom4j.Element;
 import org.dom4j.Node;
 import org.dom4j.io.SAXReader;
@@ -33,9 +34,11 @@ public class XMLCorpusParser {
 //        String neFile = "corpus_ne_simple_reweight.txt";
 //        parser.insertNETag("corpus_complete.xml", neFile, neFile + ".xml");
 
-        parser.xmlToCSV("corpus_ne_simple_reweight.txt.xml", "coref_simple_reweight.csv");
+//        parser.xmlToCSV("corpus_ne_simple_reweight.txt.xml", "coref_simple_reweight.csv");
 
 //        parser.completeXMLTag("corpus.xml", "corpus_complete.xml");
+
+        parser.insertCorefLabel("corpus_ne_simple_reweight.txt.xml", "coref_simple_reweight_processed.csv", "corpus_ne_simple_reweight_coref.xml");
 
 //        System.out.println(parser.completeTag("Selama\\IN<phrase type=\"np\" id=\"43\">bertahun-tahun\\CD</phrase><phrase type=\"np-sbj\" id=\"44\">monyet\\NN</phrase>mengganggu\\VB<phrase type=\"np\" id=\"45\">warga\\NN Delhi\\NNP</phrase>.\\Z "));
     }
@@ -130,6 +133,29 @@ public class XMLCorpusParser {
 	
 	bw.close();
 	br.close();
+    }
+    
+    public void insertCorefLabel(String xmlFile, String labelFile, String outputFile) throws Exception{
+        File file = new File(xmlFile);
+        SAXReader saxReader = new SAXReader();
+        Document document = saxReader.read(file);
+        BufferedReader reader = new BufferedReader(new FileReader(labelFile));
+        BufferedWriter writer = new BufferedWriter(new FileWriter(outputFile));
+        
+        String line;
+        while((line = reader.readLine()) != null){
+            String[] attribute = line.split(",");
+            String idx = attribute[0];
+            String coref = attribute[attribute.length - 1];
+            if(!coref.equals("null")){
+                Node node = document.selectSingleNode("//phrase[@id='" + idx + "']");
+                Element element = (Element) node;
+                element.addAttribute("coref", coref);
+            }
+        }
+        writer.write(document.asXML());
+        writer.close();
+        reader.close();
     }
     
     /*

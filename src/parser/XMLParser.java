@@ -16,6 +16,7 @@ import org.dom4j.io.XMLWriter;
 /**
  *
  * @author macair
+ * This class was used to create a new dataset to train named entity tagger
  */
 public class XMLParser {
     
