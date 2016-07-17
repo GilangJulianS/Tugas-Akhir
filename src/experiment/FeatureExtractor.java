@@ -10,8 +10,10 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import org.dom4j.Document;
+import org.dom4j.Element;
 import org.dom4j.Node;
 import org.dom4j.io.SAXReader;
 
@@ -25,34 +27,65 @@ public class FeatureExtractor {
     static List<Integer> dotIdx;
     static List<Integer> commaIdx;
     static List<Integer> quoteIdx;
+    static List<Node> allPhrase;
+    static HashMap<String, Integer> phraseIndex;
     
     public static void main(String[] args) throws Exception{
 	bw = new BufferedWriter(new FileWriter("feature.arff"));
-	File file = new File("corpus_ne_simple_reweight.txt.xml");
+	File file = new File("corpus_ne_simple_reweight_coref.xml");
         SAXReader reader = new SAXReader();
 	Document document = reader.read(file);
 	
 	List<Node> sentences = document.selectNodes("/data/sentence");
+        phraseIndex = new HashMap<>();
+        allPhrase = new ArrayList<>();
+        allPhrase.addAll(document.selectNodes("/data/sentence/phrase"));
+        mapIndex();
+        
+        for(int i=0; i<allPhrase.size(); i++){
+            Node phrase = allPhrase.get(i);
+            Element phraseElement = (Element) phrase;
+            String coref = phraseElement.attributeValue("coref");
+            String corefId = getSmallestCorefId(coref);
+            
+            if(corefId != null){
+                System.out.println(coref + " " + corefId);
+                int startIdx = phraseIndex.get(corefId);
+                int endIdx = i;
+                List<Node> phrases = new ArrayList<>();
+                for(int j=startIdx; j<=endIdx; j++){
+                    phrases.add(allPhrase.get(j));
+                }
+                process(phrases);
+            }
+        }
 	
-	for(int i=0; i<sentences.size(); i++){
-	    process(i, sentences);
-	    System.out.println("sentence " + i);
-	}
 	bw.close();
     }
     
-    public static void process(int curIdx, List<Node> sentences) throws Exception{
-	ArrayList<Node> phrases = new ArrayList<>();
-	phrases.addAll(sentences.get(curIdx).selectNodes("phrase"));
-        
-	for(int i=curIdx+1; i<curIdx+5; i++){
-	    if(i >= sentences.size())
-		break;
-	    List<Node> nodes = sentences.get(i).selectNodes("phrase");
-	    if(nodes != null && nodes.size() > 0)
-		phrases.addAll(nodes);
-	}
-        
+    private static String getSmallestCorefId(String corefId){
+        if(corefId == null) return null;
+        String smallestId = corefId;
+        if(corefId.contains("|")){
+            String[] corefsId = corefId.split("\\|");
+            smallestId = corefsId[corefsId.length - 1];
+        }
+        return smallestId;
+    }
+    
+    private static void mapIndex(){
+        int idx = 0;
+        for(Node n : allPhrase){
+            Element e = (Element)n;
+            String id = e.attributeValue("id");
+            if(id != null){
+                phraseIndex.put(id, idx);
+            }
+            idx++;
+        }
+    }
+    
+    public static void process(List<Node> phrases) throws Exception{
         quoteIdx = new ArrayList<>();
         dotIdx = new ArrayList<>();
         commaIdx = new ArrayList<>();
@@ -87,10 +120,32 @@ public class FeatureExtractor {
 		}
 		if(p2 != null){
 		    extractLexicalFeature(p, p2, i, j);
-		    bw.write(p.getText() + ", " + p2.getText() + "\n");
+//		    bw.write(p.getText() + ", " + p2.getText() + ", ");
+                    bw.write(extractLabel(p, p2) + "\n");
 		}
 	    }
 	}
+    }
+    
+    public static String extractLabel(Node n1, Node n2){
+        boolean isCoref = false;
+        
+        Element e1 = (Element)n1;
+        Element e2 = (Element)n2;
+        String id = e1.attributeValue("id");
+        String coref = e2.attributeValue("coref");
+        
+        if(coref != null){
+            String[] corefs = coref.split("\\|");
+            for(String c : corefs){
+                if(c.equals(id)){
+                    isCoref = true;
+                }
+            }
+        }
+        
+        if(isCoref) return "YES";
+        return "NO";
     }
     
     public static int getDistance(String phrase1, String phrase2, int phraseIdx1, int phraseIdx2){
@@ -197,6 +252,7 @@ public class FeatureExtractor {
 	return retval;
     }
     
+    // fitur apositif
     public static boolean extractFeature6(String s1, int idx1, int idx2){
         // frase bersebelahan dan frase 1 diakhiri tanda koma
         if(idx2 - idx1 == 1 && s1.split("\\\\")[0].endsWith(",")){
@@ -209,11 +265,13 @@ public class FeatureExtractor {
 //        
 //    }
     
+    // fitur first person
     public static boolean extractFeature8(String str){
         String s = str.split("\\\\")[0].toLowerCase();
         return (s.equals("aku") || s.equals("saya") || s.equals("beta"));
     }
     
+    // fitur in quotation
     public static boolean extractFeature9(int strIdx){
         int openIdx = -1, closeIdx = -1;
         for(int i=0; i<quoteIdx.size(); i++){
@@ -233,6 +291,7 @@ public class FeatureExtractor {
         return false;
     }
     
+    // fitur nearest candidate
     public static boolean extractFeature10(int idx1, int idx2){
         return idx2 - idx1 == 1;
     }
