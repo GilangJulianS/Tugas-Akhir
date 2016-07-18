@@ -49,7 +49,6 @@ public class FeatureExtractor {
             String corefId = getSmallestCorefId(coref);
             
             if(corefId != null){
-                System.out.println(coref + " " + corefId);
                 int startIdx = phraseIndex.get(corefId);
                 int endIdx = i;
                 List<Node> phrases = new ArrayList<>();
@@ -86,6 +85,11 @@ public class FeatureExtractor {
     }
     
     public static void process(List<Node> phrases) throws Exception{
+        setPunctuationIndex(phrases);
+	extractFeatureToArff(phrases);
+    }
+    
+    public static void setPunctuationIndex(List<Node> phrases){
         quoteIdx = new ArrayList<>();
         dotIdx = new ArrayList<>();
         commaIdx = new ArrayList<>();
@@ -99,14 +103,10 @@ public class FeatureExtractor {
             }else if(phraseString.equals("\"")){
                 quoteIdx.add(i);
             }
-//            System.out.println(phrases.get(i).getText());
-//            System.out.println(dotIdx.size());
         }
-        
-	extractFeature(phrases);
     }
     
-    public static void extractFeature(List<Node> phrases) throws Exception{
+    public static void extractFeatureToArff(List<Node> phrases) throws Exception{
 	for(int i=0; i<phrases.size() - 1; i++){
 	    Node p = phrases.get(i);
 	    Node p2 = null;
@@ -119,7 +119,10 @@ public class FeatureExtractor {
 		    continue;
 		}
 		if(p2 != null){
-		    extractLexicalFeature(p, p2, i, j);
+		    List<String> features = extractLexicalFeature(p, p2, i, j);
+                    for(String feature : features){
+                        bw.write(feature + ", ");
+                    }
 //		    bw.write(p.getText() + ", " + p2.getText() + ", ");
                     bw.write(extractLabel(p, p2) + "\n");
 		}
@@ -148,6 +151,27 @@ public class FeatureExtractor {
         return "NO";
     }
     
+    // substring match, ne match, s1 pronoun, s2 pronoun, s1 proper name, s2 proper name
+    // distance, 
+    public static List<String> extractLexicalFeature(Node n1, Node n2, int idx1, int idx2) throws Exception{
+        List<String> features = new ArrayList<>();
+	features.add(extractFeature1(n1.getText(), n2.getText()) + "");
+        features.add(extractFeature2(n1, n2) + "");
+	features.add(extractFeature3(n1.getText()) + "");
+        features.add(extractFeature3(n2.getText()) + "");
+	features.add(extractFeature4(n1.getText()) + "");
+        features.add(extractFeature4(n2.getText()) + "");
+        features.add(getDistance(n1.getText(), n2.getText(), idx1, idx2) + "");
+        features.add(extractFeature6(n1.getText(), idx1, idx2) + "");
+//        bw.write(extractFeature7(n1, n2) + ", ");
+        features.add(extractFeature8(n1.getText()) + "");
+        features.add(extractFeature8(n2.getText()) + "");
+        features.add(extractFeature9(idx1) + "");
+        features.add(extractFeature9(idx2) + "");
+        features.add(extractFeature10(idx1, idx2) + "");
+        return features;
+    }
+    
     public static int getDistance(String phrase1, String phrase2, int phraseIdx1, int phraseIdx2){
         int counter = 0;
 //        System.out.println(phrase1 + " " + phrase2);
@@ -164,41 +188,31 @@ public class FeatureExtractor {
         return counter;
     }
     
-    // substring match, ne match, s1 pronoun, s2 pronoun, s1 proper name, s2 proper name
-    // distance, 
-    public static void extractLexicalFeature(Node n1, Node n2, int idx1, int idx2) throws Exception{
-	bw.write(extractFeature1(n1.getText(), n2.getText()) + ", ");
-        bw.write(extractFeature2(n1, n2) + ", ");
-	bw.write(extractFeature3(n1.getText(), n2.getText()) + ", ");
-	bw.write(extractFeature4(n1.getText(), n2.getText()) + ", ");
-        bw.write(getDistance(n1.getText(), n2.getText(), idx1, idx2) + ", ");
-        bw.write(extractFeature6(n1.getText(), idx1, idx2) + ", ");
-//        bw.write(extractFeature7(n1, n2) + ", ");
-        bw.write(extractFeature8(n1.getText()) + ", ");
-        bw.write(extractFeature8(n2.getText()) + ", ");
-        bw.write(extractFeature9(idx1) + ", ");
-        bw.write(extractFeature9(idx2) + ", ");
-        bw.write(extractFeature10(idx1, idx2) + ", ");
-    }
-    
     // fitur substring match
     public static boolean extractFeature1(String s1, String s2){
-	String str1 = s1.replaceAll("\\\\[\\w]+", "");
-	String str2 = s2.replaceAll("\\\\[\\w]+", "");
-	String[] a1 = str1.split(" ");
-	String[] a2 = str2.split(" ");
-	boolean found = false;
-	for(String a : a1){
-	    for(String b : a2){
-		if(a.contains(b) || b.contains(a)){
-		    found = true;
-		    break;
-		}
-	    }
-	    if(found)
-		break;
-	}
-	return found;
+//      fitur substring per kata
+//	String str1 = s1.replaceAll("\\\\[\\w]+", "");
+//	String str2 = s2.replaceAll("\\\\[\\w]+", "");
+//	String[] a1 = str1.split(" ");
+//	String[] a2 = str2.split(" ");
+//	boolean found = false;
+//	for(String a : a1){
+//	    for(String b : a2){
+//		if(a.contains(b) || b.contains(a)){
+//		    found = true;
+//		    break;
+//		}
+//	    }
+//	    if(found)
+//		break;
+//	}
+//	return found;
+        String str1 = s1.replaceAll("[.,'\"\\-:]", "").toLowerCase();
+        String str2 = s2.replaceAll("[.,'\"\\-:]", "").toLowerCase();
+        if(str1.contains(str2) || str2.contains(str1)){
+            return true;
+        }
+        return false;
     }
     
     // fitur same entity type
@@ -221,35 +235,19 @@ public class FeatureExtractor {
     }
     
     // fitur isPronoun
-    public static String extractFeature3(String s1, String s2){
-	String retval;
-	if(s1.contains("\\PR")){
-	    retval = "true";
-	}else{
-	    retval = "false";
+    public static boolean extractFeature3(String s){
+	if(s.contains("\\PR")){
+	    return true;
 	}
-	if(s2.contains("\\PR")){
-	    retval += ", true";
-	}else{
-	    retval += ", false";
-	}
-	return retval;
+        return false;
     }
     
     // fitur is proper name
-    public static String extractFeature4(String s1, String s2){
-	String retval;
-	if(s1.contains("\\NNP")){
-	    retval = "true";
-	}else{
-	    retval = "false";
+    public static boolean extractFeature4(String s){
+	if(s.contains("\\NNP")){
+	    return true;
 	}
-	if(s2.contains("\\NNP")){
-	    retval += ", true";
-	}else{
-	    retval += ", false";
-	}
-	return retval;
+        return false;
     }
     
     // fitur apositif
