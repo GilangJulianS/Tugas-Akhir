@@ -61,15 +61,15 @@ public class CorpusParser {
         for(TreeNode node : nodes){
             // tidak punya child
             if(node.getChildList() == null){
-                if(node.getType().equals("NP") || node.getType().equals("PRP")){
+                if((node.getType().equals("NP") || node.getType().equals("PRP")) && !hasNPChild(node)){
                     builder.append("<phrase type=\"np\" id=\"" + (CorpusParser.npCount++) + "\">");
-                    builder.append(node.getPhrase() + "\\" + node.getType() + " ");
+                    builder.append(node.getPhrase().replace("&", "&amp;") + "\\" + node.getType() + " ");
                     builder.append("</phrase>");
                 }else{
-                    builder.append(node.getPhrase() + "\\" + node.getType() + " ");
+                    builder.append(node.getPhrase().replace("&", "&amp;") + "\\" + node.getType() + " ");
                 }
             }else{
-                if(node.getType().equals("NP") || node.getType().equals("PRP")){
+                if((node.getType().equals("NP") || node.getType().equals("PRP")) && !hasNPChild(node)){
                     builder.append("<phrase type=\"np\" id=\"" + (CorpusParser.npCount++) + "\">");
                     builder.append(treeNodeToXml(node.getChildList()));
                     builder.append("</phrase>");
@@ -79,6 +79,24 @@ public class CorpusParser {
             }
         }
         return builder.toString().replace(" <", "<");
+    }
+    
+    public boolean hasNPChild(TreeNode node){
+//        System.out.println("node " + node.getPhrase());
+        boolean found = false;
+        if(node.getChildList() == null){
+//            System.out.println("false");
+            return false;
+        }else{
+            for(TreeNode child : node.getChildList()){
+                if(child.getType().equals("NP") || child.getType().equals("PRP") || hasNPChild(child)){
+                    found = true;
+                    break;
+                }
+            }
+        }
+//        System.out.println(found);
+        return found;
     }
     
     public void neTaggedtoXML(String inputFile, String outputFile) throws Exception{

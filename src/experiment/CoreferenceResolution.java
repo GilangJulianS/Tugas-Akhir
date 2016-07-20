@@ -32,7 +32,8 @@ public class CoreferenceResolution {
     static int sentencesIdx = 0;
     
     public static void main(String[] args) throws Exception{
-        addCoreference("corpus_ne_simple_reweight.txt.xml", "coref_svm.model", "feature_header.arff", 20);
+//        addCoreference("corpus_ne_simple_reweight.txt.xml", "coref_j48.model", "feature_header.arff", 20);
+        addCoreference("corpus_ne_simple_reweight.txt2.xml", "coref_j48.model", "feature_header.arff", 20);
     }
     
     public static void addCoreference(String xmlFile, String modelFile, String headerFile, int maxSentence) throws Exception{

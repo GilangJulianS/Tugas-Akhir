@@ -31,14 +31,16 @@ public class XMLCorpusParser {
     public static void main(String[] args) throws Exception{
         XMLCorpusParser parser = new XMLCorpusParser();
         
-//        String neFile = "corpus_ne_simple_reweight.txt";
+        String neFile = "corpus_ne_simple_reweight.txt";
 //        parser.insertNETag("corpus_complete.xml", neFile, neFile + ".xml");
+//        parser.insertNETag("corpus_complete2.xml", neFile, neFile + "2.xml");
 
 //        parser.xmlToCSV("corpus_ne_simple_reweight.txt.xml", "coref_simple_reweight.csv");
 
 //        parser.completeXMLTag("corpus.xml", "corpus_complete.xml");
+//        parser.completeXMLTag("corpus2.xml", "corpus_complete2.xml");
 
-        parser.insertCorefLabel("corpus_ne_simple_reweight.txt.xml", "coref_simple_reweight_processed.csv", "corpus_ne_simple_reweight_coref.xml");
+//        parser.insertCorefLabel("corpus_ne_simple_reweight.txt.xml", "coref_simple_reweight_processed.csv", "corpus_ne_simple_reweight_coref.xml");
 
 //        System.out.println(parser.completeTag("Selama\\IN<phrase type=\"np\" id=\"43\">bertahun-tahun\\CD</phrase><phrase type=\"np-sbj\" id=\"44\">monyet\\NN</phrase>mengganggu\\VB<phrase type=\"np\" id=\"45\">warga\\NN Delhi\\NNP</phrase>.\\Z "));
     }
