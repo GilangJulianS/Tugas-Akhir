@@ -5,10 +5,14 @@
  */
 package parser;
 
+import IndonesianNLP.IndonesianPhraseChunker;
+import IndonesianNLP.IndonesianSentenceDetector;
+import IndonesianNLP.TreeNode;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
+import java.util.List;
 import model.Phrase;
 
 /**
@@ -19,11 +23,62 @@ public class CorpusParser {
     
     private Phrase phrase;
     private BufferedReader br;
-    private BufferedWriter bw ;
+    private BufferedWriter bw;
+    private static int npCount = 1;
     
     public static void main(String[] args) throws Exception{
         CorpusParser parser = new CorpusParser();
-        parser.neTaggedtoXML("corpus tagged.txt", "corpus.xml");
+//        parser.neTaggedtoXML("corpus tagged.txt", "corpus.xml");
+        parser.rawToXML("corpus_no_tag.txt", "corpus2.xml");
+    }
+    
+    public void rawToXML(String inputFile, String outputFile) throws Exception{
+        BufferedReader reader = new BufferedReader(new FileReader(inputFile));
+        BufferedWriter writer = new BufferedWriter(new FileWriter(outputFile));
+        int lineCounter = 1;
+        
+        writer.write("<?xml version='1.0' encoding='UTF-8'?>\n\n");
+        writer.write("<data>\n");
+        
+        String line;
+        while((line = reader.readLine()) != null){
+            IndonesianPhraseChunker chunker = new IndonesianPhraseChunker(line);
+            chunker.extractPhrase();
+            chunker.printPhraseTree(chunker.getPhraseTree());
+            List<TreeNode> nodes = chunker.getPhraseTree();
+            writer.write("<sentence id=\"" + lineCounter + "\">\n" + treeNodeToXml(nodes) + "\n</sentence>\n");
+            
+            lineCounter++;
+        }
+        
+        writer.write("</data>");
+        writer.close();
+        reader.close();
+    }
+    
+    public String treeNodeToXml(List<TreeNode> nodes){
+        StringBuilder builder = new StringBuilder();
+        for(TreeNode node : nodes){
+            // tidak punya child
+            if(node.getChildList() == null){
+                if(node.getType().equals("NP") || node.getType().equals("PRP")){
+                    builder.append("<phrase type=\"np\" id=\"" + (CorpusParser.npCount++) + "\">");
+                    builder.append(node.getPhrase() + "\\" + node.getType() + " ");
+                    builder.append("</phrase>");
+                }else{
+                    builder.append(node.getPhrase() + "\\" + node.getType() + " ");
+                }
+            }else{
+                if(node.getType().equals("NP") || node.getType().equals("PRP")){
+                    builder.append("<phrase type=\"np\" id=\"" + (CorpusParser.npCount++) + "\">");
+                    builder.append(treeNodeToXml(node.getChildList()));
+                    builder.append("</phrase>");
+                }else{
+                    builder.append(treeNodeToXml(node.getChildList()));
+                }
+            }
+        }
+        return builder.toString().replace(" <", "<");
     }
     
     public void neTaggedtoXML(String inputFile, String outputFile) throws Exception{
