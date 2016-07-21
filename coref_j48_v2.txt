@@ -1,0 +1,593 @@
+Pemerintah\NNP kota\NNP Delhi\NNP 3, pemerintah\NNP kota\NNP Delhi\NNP 41
+Pemkot\NNP Delhi\NNP 11, pemkot\NNP Delhi\NNP 56
+orang\NN kaya\NN Cina\NNP 67, Cina.\NNP 74
+orang\NN kaya\NN Cina\NNP 67, Cina\NNP 111
+orang\NN kaya\NN Cina\NNP 67, Cina\NNP 122
+Cina.\NNP 74, budaya\NN Cina\NNP 108
+Cina\NNP 77, budaya\NN Cina\NNP 108
+Cina\NNP 77, Cina\NNP 111
+Cina\NNP 77, Cina\NNP 122
+Amerika\NNP 88, Amerika\NNP Serikat\NNP 174
+pendiri\NN Facebook\NNP 127, pendiri\NN Facebook\NNP 129
+Mark\NNP Zuckerberg\NNP 133, Zuckerberg\NNP 162
+tanggal\NN 15\CD Oktober\NNP nanti.\NN 144, Oktober\NNP nanti.\NN 211
+Amerika\NNP Serikat\NNP 174, Amerika\NNP 240
+Jaksa\NN Kalifornia\NNP 193, Jaksa\NN 207
+Brasil\NNP 200, Brasil\NNP 258
+Brasil\NNP 200, Sejumlah\CD surat\NN kabar\NN Brasil\NNP 271
+Amerika,\NNP 239, Amerika\NNP 240
+Tiririca\NNP 272, Tiririca\NNP 293
+Tiririca\NNP 274, Tiririca\NNP 293
+Parlemen\NNP Eropa\NNP 333, Parlemen\NNP Eropa\NNP 362
+presenter\NNP Sarah\NNP Murdoch\NNP 420, Sarah\NNP Murdoch\NNP 459
+Amanda\NNP Ware\NNP 432, Amanda\NNP 450
+Amanda\NNP Ware\NNP 432, Ware\NNP 454
+Sarah\NNP Murdoch.\NNP 436, Sarah\NNP Murdoch\NNP 459
+Sarah\NNP Murdoch\NNP 445, Sarah\NNP Murdoch\NNP 459
+Don\NNP Quixote\NNP 464, Don\NNP Quixote\NNP 471
+YouTube\NNP 465, YouTube.\NNP 473
+YouTube\NNP 465, YouTube\NNP 511
+YouTube.\NNP 473, YouTube.\NNP 513
+bahasa\NNP Spanyol,\NNP 481, Bahasa\NNP Spanyol\NNP 492
+kantor\NNP berita\NNP AFP.\NNP 497, kantor\NNP berita\NNP AFP\NNP 540
+YouTube\NNP 511, YouTube.\NNP 513
+The\NNP Hobbit\NNP 514, The\NNP Hobbit\NNP 516
+The\NNP Hobbit\NNP 516, The\NNP Hobbit\NNP 591
+sutradara\NNP Peter\NNP Jackson\NNP 519, Jackson,\NNP 601
+Piala\NNP Oscar\NNP 522, Oscar\NNP 602
+Lord\NNP of\NNP the\NNP Rings\NNP :\NNP The\NNP Return\NNP of\NNP the\NNP King.\NNP 524, Lord\NNP of\NNP the\NNP Rings\NNP :\NNP The\NNP Return\NNP of\NNP the\NNP King,\NNP 605
+Wellington,\NNP 525, Wellington.\NNP 594
+Petani\NNP Roland\NNP Cavaille\NNP 624, Cavaille\NNP 642
+Petani\NNP Roland\NNP Cavaille\NNP 624, Cavaille\NNP 656
+Petani\NNP Roland\NNP Cavaille\NNP 624, Cavaille\NNP 662
+Indeks\NNP Harga\NNP Saham\NNP Gabungan\NNP 803, saham\NN 847
+Senin,\NNP 890, Senin,\NNP 972
+Bank\NNP Indonesia\NNP 908, Indonesia\NNP 986
+Bank\NNP Indonesia\NNP 908, Indonesia\NNP 990
+Kerajaan\NNP Inggris\NNP 955, Inggris.\NNP 963
+ICMI\NNP 959, Ketua\NNP ICMI\NNP London\NNP 1012
+pengusaha\NN Indonesia\NNP 961, pengusaha\NN Indonesia.\NNP 1010
+Inggris.\NNP 963, Inggris,\NNP 1008
+Inggris.\NNP 963, Indonesia\NNP dan\CC Inggris\NNP 1015
+ICMI\NNP London\NNP 966, London.\NNP 975
+ICMI\NNP London\NNP 966, Ketua\NNP ICMI\NNP London\NNP 1012
+Muslimin\NNP Anwar,\NNP 968, Muslimin\NNP Anwar\NNP 1013
+Senin,\NNP 972, Senin.\NNP 1043
+NTT,\NNP 1030, NTT,\NNP 1090
+Labuhan\NNP Bajo\NNP 1033, Labuhan\NNP Bajo\NNP 1092
+Bali.\NNP 1034, Bali\NNP 1064
+Direktur\NNP Utama\NNP IATA,\NNP 1040, IATA,\NNP 1099
+Roekman\NNP Prawirasastra\NNP 1041, Roekman\NNP 1068
+Roekman\NNP Prawirasastra\NNP 1041, Roekman\NNP 1101
+Jakarta,\NNP 1042, Jakarta,\NNP 1138
+Roekman\NNP 1044, Roekman\NNP 1101
+NTT,\NNP 1051, NTT,\NNP 1090
+sebesar\JJ 160\CD ribu\CD dolar\NN AS\NNP 1108, dolar\NN AS,\NNP 1245
+Jakarta,\NNP 1138, Jakarta,\NNP 1194
+Jakarta,\NNP 1138, Jakarta,\NNP 1299
+senilai\NN 430\CD juta\CD dolar\NN AS.\NNP 1171, dolar\NN AS,\NNP 1245
+Jakarta,\NNP 1194, Jakarta,\NNP 1299
+pemegang\NN saham\NN Indonesia\NNP 1234, Indonesia,\NNP 1348
+Bank\NNP Indonesia\NNP 1241, Surat\NNP Bank\NNP Indonesia\NNP 1302
+dolar\NN AS,\NNP 1245, 1,3\CD miliar\CD dolar\NN AS.\NNP 1361
+dolar\NN AS,\NNP 1245, 8,3\CD miliar\CD dolar\NN AS.\NNP 1376
+BCA\NNP 1291, BCA\NNP dan\CC Mandiri\NNP 1337
+Surat\NNP Bank\NNP Indonesia\NNP 1302, Indonesia,\NNP 1348
+Kredit\NN BCA\NNP 1304, kredit\NN 1338
+Malaysia\NNP 1345, Malaysia\NNP 1396
+Indonesia,\NNP 1348, Indonesia\NNP 1351
+Indonesia,\NNP 1348, beberapa\CD wilayah\NN Indonesia.\NNP 1441
+Indonesia,\NNP 1348, PT\NNP Bank\NNP Pan\NNP Indonesia\NNP Tbk\NNP 1507
+Indonesia,\NNP 1348, Indonesia.\NNP 1509
+pembangunan\NN ekonomi\NN Malaysia\NNP 1350, Malaysia\NNP 1396
+Indonesia\NNP 1351, PT\NNP Bank\NNP Pan\NNP Indonesia\NNP Tbk\NNP 1507
+harian\NNP Utusan\NNP Malaysia,\NNP 1353, Malaysia\NNP 1356
+Malaysia\NNP 1356, 20,2\CD miliar\CD ringgit\NN Malaysia\NNP 1357
+Malaysia\NNP 1356, 4,7\CD miliar\CD ringgit\NN Malaysia\NNP 1360
+Indonesia\NNP 1359, PT\NNP Bank\NNP Pan\NNP Indonesia\NNP Tbk\NNP 1507
+4,7\CD miliar\CD ringgit\NN Malaysia\NNP 1360, 4,7\CD miliar\CD ringgit.\NN 1384
+parlemen\NN Malaysia\NNP 1362, Malaysia\NNP 1367
+Indonesia\NNP 1382, PT\NNP Bank\NNP Pan\NNP Indonesia\NNP Tbk\NNP 1507
+Indonesia\NNP 1382, Indonesia\NNP 1545
+Australia\NNP 1406, Australia\NNP and\NNP New\NNP Zealand\NNP 1540
+Kamis.\NNP 1437, Kamis,\NNP 1503
+beberapa\CD wilayah\NN Indonesia.\NNP 1441, Indonesia.\NNP 1509
+beberapa\CD wilayah\NN Indonesia.\NNP 1441, beberapa\CD 1603
+Lembaga\NNP Penjamin\NNP Simpanan\NNP 1455, simpanan\NN 1486
+Fitch\NNP Ratings,\NNP 1502, Fitch,\NNP 1573
+PT\NNP Bank\NNP Pan\NNP Indonesia\NNP Tbk\NNP 1507, bank\NN 1658
+Panin\NNP 1508, Panin\NNP 1654
+Panin\NNP 1508, PT\NNP Panin\NNP Life\NNP Tbk\NNP 1660
+Panin\NNP 1543, Panin\NNP 1654
+Panin\NNP 1543, PT\NNP Panin\NNP Life\NNP Tbk\NNP 1660
+ANZ\NNP 1548, ANZ\NNP 1662
+Fitch,\NNP 1573, pengertian\NN Fitch,\NNP 1629
+Direktur\NNP Utama\NNP PT\NNP Bank\NNP Mandiri\NNP 1680, Bank\NNP Mandiri\NNP 1682
+Direktur\NNP Utama\NNP PT\NNP Bank\NNP Mandiri\NNP 1680, Bank\NNP Mandiri\NNP 1730
+Direktur\NNP Utama\NNP PT\NNP Bank\NNP Mandiri\NNP 1680, Bank\NNP Mandiri\NNP 1739
+Agus\NNP D.W.\NNP Martowardojo\NNP 1681, Agus\NNP 1723
+Menteri\NNP Negara\NNP BUMN,\NNP 1694, Menteri\NNP Negara\NNP BUMN,\NNP 1728
+Sugiharto,\NNP 1695, Sugiharto,\NNP 1729
+Jakarta,\NNP 1696, Jakarta,\NNP 1765
+Bank\NNP Mandiri.\NNP 1706, Bank\NNP Mandiri\NNP 1739
+Bank\NNP Mandiri.\NNP 1706, diri\NN 1785
+Bank\NNP Mandiri\NNP 1739, diri\NN 1785
+Presiden\NNP Bank\NNP Dunia,\NNP 1748, Bank\NNP Dunia,\NNP 1798
+Presiden\NNP Bank\NNP Dunia,\NNP 1748, Bank\NNP Dunia\NNP 1805
+Presiden\NNP Bank\NNP Dunia,\NNP 1748, Bank\NNP Dunia\NNP 1808
+Bank\NNP Dunia\NNP 1752, Bank\NNP Dunia,\NNP 1798
+Bank\NNP Dunia\NNP 1752, Bank\NNP Dunia\NNP 1805
+Bank\NNP Dunia\NNP 1752, Bank\NNP Dunia\NNP 1808
+IMF/\NNP WB\NNP 1753, IMF/\NNP WB\NNP 1803
+Bank\NNP Dunia\NNP 1761, Bank\NNP Dunia\NNP 1805
+Jakarta,\NNP 1765, Gedung\NNP Depkeu\NNP Jakarta,\NNP 1884
+Jumat.\NNP 1766, Jumat.\NNP 1831
+Indonesia\NNP 1771, pemerintah\NNP Indonesia\NNP 1824
+Indonesia\NNP 1771, pemerintah\NNP Indonesia\NNP 1860
+Bank\NNP Dunia.\NNP 1776, Bank\NNP Dunia\NNP 1808
+Bank\NNP Dunia.\NNP 1776, Bank\NNP Dunia\NNP 1829
+Bank\NNP Dunia.\NNP 1776, Bank\NNP Dunia\NNP 1850
+Bank\NNP Dunia.\NNP 1776, Bank\NNP Dunia\NNP 1857
+Indonesia\NNP 1780, pemerintah\NNP Indonesia\NNP 1824
+Indonesia\NNP 1780, pemerintah\NNP Indonesia\NNP 1860
+Bank\NNP Dunia\NNP 1789, Bank\NNP Dunia\NNP 1829
+Bank\NNP Dunia\NNP 1789, Bank\NNP Dunia\NNP 1850
+Bank\NNP Dunia\NNP 1789, Bank\NNP Dunia\NNP 1857
+Bank\NNP Dunia,\NNP 1798, Bank\NNP Dunia\NNP 1850
+Bank\NNP Dunia,\NNP 1798, Bank\NNP Dunia\NNP 1857
+Bank\NNP Dunia\NNP 1805, Bank\NNP Dunia\NNP 1808
+Indonesia,\NNP 1806, Indonesia\NNP 1809
+Jepang\NNP 1823, Kedutaan\NNP Besar\NNP Jepang\NNP 1827
+pemerintah\NNP Indonesia\NNP 1824, pemerintah\NN 1904
+Jakarta\NNP 1828, Gedung\NNP Depkeu\NNP Jakarta,\NNP 1884
+pemerintah\NNP Indonesia\NNP 1860, pemerintah\NN 1904
+pemerintah\NNP Indonesia\NNP 1860, pemerintah.\NN 1974
+Gubernur\NNP BI,\NNP 1878, Gubernur.\NN 1897
+Gedung\NNP Depkeu\NNP Jakarta,\NNP 1884, Jakarta,\NNP 1935
+Gedung\NNP Depkeu\NNP Jakarta,\NNP 1884, Jakarta,\NNP 2004
+Senin.\NNP 1885, Senin.\NNP 1936
+Jakarta,\NNP 1935, Jakarta,\NNP 2004
+Jakarta,\NNP 1935, Jakarta,\NNP 2048
+Jakarta,\NNP 1935, Jakarta,\NNP 2087
+Jakarta,\NNP 1935, Jakarta.\NNP 2096
+BES\NNP 2003, saham\NN BES\NNP 2092
+Jakarta,\NNP 2004, Jakarta,\NNP 2087
+Jakarta,\NNP 2004, Jakarta.\NNP 2096
+Jakarta,\NNP 2004, Jakarta,\NNP 2154
+Jumat.\NNP 2005, Jumat,\NNP 2088
+saham\NN DEJ\NNP 2007, saham\NN 2106
+SSA\NNP 2010, SSA.\NNP 2016
+saham\NN DEJ\NNP 2024, saham\NN 2106
+Jakarta,\NNP 2048, Jakarta,\NNP 2154
+Jakarta,\NNP 2048, Jakarta,\NNP 2217
+Jakarta,\NNP 2087, Jakarta,\NNP 2154
+Jakarta,\NNP 2087, Jakarta,\NNP 2217
+Jakarta.\NNP 2096, Jakarta,\NNP 2154
+Jakarta.\NNP 2096, Jakarta,\NNP 2217
+Ke-23\CD saham\NN BES\NNP 2097, 3.\CD 2208
+PT\NNP Bintang\NNP Nusantara\NNP Sekuritas,\NNP 2107, ANTARA\NNP 2164
+Menteri\NNP Keuangan\NNP Jepang\NNP Koji\NNP Omi,\NNP 2151, Jepang\NNP 2200
+Menteri\NNP Keuangan\NNP Jepang\NNP Koji\NNP Omi,\NNP 2151, Jepang,\NNP 2204
+Jakarta,\NNP 2154, Jakarta,\NNP 2217
+Jakarta,\NNP 2154, Jakarta.\NNP 2269
+Jepang\NNP 2200, Jepang,\NNP 2204
+negara-negara\NN Asean\NNP 2202, Asean\NNP 2207
+Jakarta,\NNP 2217, Jakarta.\NNP 2269
+Jakarta,\NNP 2217, Jakarta,\NNP 2340
+Jakarta.\NNP 2269, Jakarta,\NNP 2340
+Dirjend\NNP Industri\NNP Logam\NNP Mesin\NNP Tekstil\NNP Departemen\NNP Perindustrian\NNP Ansari\NNP Bukhari\NNP 2311, hari.\NN 2366
+Jakarta,\NNP 2340, Jakarta,\NNP 2434
+Selasa,\NNP 2341, Selasa.\NNP 2398
+Selasa,\NNP 2341, Selasa,\NNP 2435
+Selasa.\NNP 2398, Selasa,\NNP 2479
+April\NNP 2007\CD 2408, 2007\CD 2472
+BI\NNP 2425, Deputi\NNP Gubernur\NNP Senior\NNP BI,\NNP 2469
+BI\NNP 2425, itung-itungan\NN BI\NNP 2489
+Miranda\NNP S.\NNP Goeltom\NNP 2426, Miranda\NNP S.\NNP Goeltom\NNP 2470
+Miranda\NNP S.\NNP Goeltom\NNP 2426, Miranda\NNP 2480
+Jakarta,\NNP 2434, Jakarta,\NNP 2478
+Jakarta,\NNP 2434, Jakarta,\NNP 2526
+Selasa,\NNP 2435, Selasa,\NNP 2479
+Miranda\NNP 2436, Miranda\NNP S.\NNP Goeltom\NNP 2470
+Miranda\NNP 2436, Miranda\NNP 2480
+Pertumbuhan\NN ekonomi\NN Indonesia\NNP 2455, pertumbuhan\NN ekonomi\NN Indonesia\NNP 2495
+Deputi\NNP Gubernur\NNP Senior\NNP BI,\NNP 2469, TI\NN 2512
+Selasa,\NNP 2479, Selasa.\NNP 2582
+dolar\NN AS,\NNP 2503, 100\CD dolar\NN AS\NNP 2638
+Bank\NNP Mandiri\NNP 2510, Bank\NNP Mandiri\NNP 2546
+Jakarta,\NNP 2526, Jakarta,\NNP 2670
+PT\NNP Truba\NNP Jaya\NNP Engineering\NNP 2654, PT\NNP Truba\NNP Jaya\NNP Engineering,\NNP 2699
+Jakarta,\NNP 2670, Gedung\NNP Bappenas\NNP Jakarta,\NNP 2736
+Jakarta,\NNP 2670, Jakarta,\NNP 2780
+Agustus\NNP 2007,\CD 2696, 2007\CD 2820
+Papua\NNP 2751, Pemda\NNP Papua\NNP 2754
+Jakarta,\NNP 2780, Kantor\NNP Pusat\NNP Ditjen\NNP Bea\NNP dan\NNP Cukai\NNP Rawamangun\NNP Jakarta,\NNP 2835
+Selasa,\NNP 2781, Selasa.\NNP 2836
+Indonesia,\NNP 2894, neraca\NN eksternal\JJ Indonesia\NNP 3001
+Fitch\NNP 2902, Fitch\NNP 2956
+Indonesia\NNP 2942, neraca\NN eksternal\JJ Indonesia\NNP 3001
+Indonesia\NNP 2942, Indonesia\NNP 3032
+Menteri\NNP Kehutanan\NNP MS\NNP Ka'ban,\NNP 3059, Ka'ban\NNP 3101
+Menteri\NNP Kehutanan\NNP MS\NNP Ka'ban,\NNP 3059, Ka'ban,\NNP 3113
+Jakarta,\NNP 3063, Jakarta,\NNP 3135
+Jakarta,\NNP 3063, Bursa\NNP Efek\NNP Jakarta\NNP 3185
+Jakarta,\NNP 3063, Jakarta,\NNP 3187
+Jakarta,\NNP 3135, Jakarta,\NNP 3240
+Bursa\NNP Efek\NNP Jakarta\NNP 3185, Jakarta,\NNP 3240
+Jakarta,\NNP 3187, Jakarta,\NNP 3240
+28\CD Juli\NNP 2006.\CD 3204, 2006\CD 3303
+31\CD Desember\NNP 2006\CD 3209, 2006\CD 3303
+Indonesia\NNP 3220, Indonesia\NNP 3252
+Indonesia\NNP 3220, Indonesia\NNP 3280
+Indonesia\NNP 3220, Indonesia\NNP 3282
+Indonesia\NNP 3220, Indonesia\NNP 3286
+Indonesia\NNP 3220, Indonesia\NNP 3296
+Indonesia\NNP 3229, Indonesia\NNP 3280
+Indonesia\NNP 3229, Indonesia\NNP 3282
+Indonesia\NNP 3229, Indonesia\NNP 3286
+Indonesia\NNP 3229, Indonesia\NNP 3296
+Jakarta,\NNP 3240, Jakarta,\NNP 3321
+Indonesia\NNP 3246, Indonesia\NNP 3280
+Indonesia\NNP 3246, Indonesia\NNP 3282
+Indonesia\NNP 3246, Indonesia\NNP 3286
+Indonesia\NNP 3246, Indonesia\NNP 3296
+Indonesia\NNP 3246, utang\NN Indonesia\NNP 3356
+Indonesia\NNP 3252, Indonesia\NNP 3286
+Indonesia\NNP 3252, Indonesia\NNP 3296
+Indonesia\NNP 3252, utang\NN Indonesia\NNP 3356
+Indonesia,\NNP 3265, utang\NN Indonesia\NNP 3356
+Indonesia,\NNP 3279, Indonesia\NNP 3280
+Indonesia,\NNP 3279, Indonesia\NNP 3282
+Indonesia,\NNP 3279, utang\NN Indonesia\NNP 3356
+Indonesia\NNP 3280, utang\NN Indonesia\NNP 3356
+Indonesia\NNP 3282, utang\NN Indonesia\NNP 3356
+Indonesia\NNP 3286, utang\NN Indonesia\NNP 3356
+Indonesia\NNP 3296, utang\NN Indonesia\NNP 3356
+bappenas\NNP 3316, data\NN Bappenas,\NNP 3353
+Kamis.\NNP 3322, Kamis.\NNP 3394
+Bank\NNP Indonesia\NNP 3368, Bank\NNP Indonesia\NNP 3480
+rencana\NN BI\NNP 3383, BI,\NNP 3481
+Sertifikat\NNP Bank\NNP Indonesia\NNP 3384, Bank\NNP Indonesia\NNP 3480
+Jakarta,\NNP 3393, PT\NNP Bursa\NNP Efek\NNP Jakarta\NNP 3458
+22\CD Februari\NNP 2007\CD 3421, 22\CD Februari\NNP 2007.\CD 3477
+22\CD Februari\NNP 2007\CD 3421, Februari\NNP 2007\CD 3512
+20\CD Februari\NNP 2007,\CD 3429, Februari\NNP 2007\CD 3512
+Kepala\NNP Biro\NNP Humas\NNP Depkeu,\NNP 3436, Humas\NNP 3491
+BI,\NNP 3481, BI,\NNP 3560
+Selasa,\NNP 3482, Selasa.\NNP 3586
+Selasa,\NNP 3494, Selasa.\NNP 3586
+Mei\NNP 2006\CD 3508, 2006\CD 3565
+Februari\NNP 2007\CD 3512, akhir\NN Februari\NNP 2007\CD 3613
+Jakarta,\NNP 3623, Jakarta,\NNP 3668
+Jakarta,\NNP 3623, Jakarta,\NNP 3713
+Jakarta,\NNP 3668, Jakarta,\NNP 3801
+Jumat.\NNP 3669, Jumat.\NNP 3802
+dolar\NN AS\NNP 3692, dolar\NN AS,\NNP 3770
+dolar\NN AS\NNP 3692, dolar\NN AS\NNP 3775
+Indonesia\NNP 3699, Sertifikat\NNP Bank\NNP Indonesia\NNP 3700
+dolar\NN AS\NNP 3706, dolar\NN AS,\NNP 3770
+dolar\NN AS\NNP 3709, dolar\NN AS,\NNP 3770
+Jakarta,\NNP 3713, Jakarta,\NNP 3801
+instrumen\NN BI,\NNP 3737, BI\NNP 3738
+dolar\NN AS,\NNP 3770, senilai\NN 47\CD juta\CD dolar\NN AS\NNP 3837
+dolar\NN AS\NNP 3775, senilai\NN 47\CD juta\CD dolar\NN AS\NNP 3837
+PT\NNP Salim\NNP Ivomas\NNP Pratama\NNP 3786, Salim\NNP Ivomas\NNP 3829
+PT\NNP Salim\NNP Ivomas\NNP Pratama\NNP 3786, Salim\NNP Ivomas\NNP 3834
+Bursa\NNP Efek\NNP Jakarta\NNP 3852, Bursa\NNP Efek\NNP Jakarta\NNP 3992
+Indonesia\NNP 3915, PT\NNP Bank\NNP Negara\NNP Indonesia\NNP Persero\NNP Tbk.\NNP 4005
+Sri\NNP Mulyani\NNP 3930, Menteri\NNP Keuangan\NNP Menkeu\NNP Sri\NNP Mulyani\NNP Indrawati\NNP 4037
+Jakarta,\NNP 3933, Jakarta,\NNP 4044
+Bank\NNP BNI\NNP 3970, BNI\NNP 4025
+Bank\NNP BNI\NNP 3970, Bank\NNP BNI\NNP 4031
+Bursa\NNP Efek\NNP Jakarta\NNP 3992, Jakarta\NNP 3994
+Bursa\NNP Efek\NNP Jakarta\NNP 3992, Bursa\NNP Efek\NNP Jakarta\NNP 4097
+Jakarta\NNP 3994, Bursa\NNP Efek\NNP Jakarta\NNP 4097
+Rabu.\NNP 3995, Rabu,\NNP 4099
+BNIMF\NNP 4009, pinjaman\NN BNIMF\NNP 4010
+BNIMF\NNP 4020, Karyawan\NN BNIMF\NNP 4027
+Jakarta,\NNP 4044, Jakarta,\NNP 4120
+29\CD September\NNP 2007,\CD 4049, September\NNP 4176
+Sekretaris\NNP Perusahaan\NNP TRUB\NNP Jenty\NNP Tjandradjaja,\NNP 4095, Perusahaan\NN 4233
+Jakarta,\NNP 4120, Jakarta,\NNP 4184
+Jakarta,\NNP 4120, Jakarta,\NNP 4221
+Kamis.\NNP 4121, Kamis.\NNP 4185
+Kamis.\NNP 4121, Kamis.\NNP 4222
+Kamis.\NNP 4121, Kamis,\NNP 4250
+AALI\NNP 4174, Direktur\NNP AALI\NNP Santosa,\NNP 4182
+Jakarta,\NNP 4184, Jakarta,\NNP 4302
+Kamis.\NNP 4185, Kamis,\NNP 4250
+24\CD Juni\NNP 2008,\CD 4210, 2008,\CD 4272
+Jakarta,\NNP 4221, Jakarta,\NNP 4302
+Direktur\NNP Toba\NNP Pulp,\NNP 4300, Toba\NNP Pulp\NNP 4336
+Jakarta,\NNP 4302, Jakarta,\NNP 4362
+Toba\NNP Pulp\NNP 4305, Toba\NNP Pulp\NNP 4338
+Deputi\NNP Gubernur\NNP Senior\NNP BI\NNP Miranda\NNP Goeltom\NNP 4359, BI\NNP 4361
+Deputi\NNP Gubernur\NNP Senior\NNP BI\NNP Miranda\NNP Goeltom\NNP 4359, BI\NNP 4494
+Jakarta,\NNP 4362, Jakarta,\NNP 4465
+30\CD September\NNP 2007,\CD 4439, 2007\CD 4581
+Jakarta,\NNP 4465, Jakarta,\NNP 4562
+Jakarta,\NNP 4465, Jakarta,\NNP 4596
+bulan\NN Oktober\NNP 4467, bulan\NN Oktober\NNP 2007\CD 4530
+bulan\NN Oktober\NNP 4467, Oktober\NNP 4535
+bulan\NN September\NNP 4469, September\NNP 4602
+Januari\NNP 4473, Januari\NNP 4534
+Oktober\NNP 4474, bulan\NN Oktober\NNP 2007\CD 4530
+Oktober\NNP 4474, Oktober\NNP 4535
+Oktober\NNP 4474, Oktober\NNP 2007\CD 4538
+Oktober\NNP 4474, Oktober\NNP 2006\CD 4539
+Oktober\NNP 4474, Oktober\NNP 2007\CD 4600
+Oktober\NNP 4474, Oktober\NNP 2007\CD 4615
+Oktober\NNP 4474, Akhir\NN Oktober\NNP 2007\CD 4618
+Oktober\NNP 2007\CD 4476, 2007,\CD 4492
+Oktober\NNP 2007\CD 4476, bulan\NN Oktober\NNP 2007\CD 4530
+Oktober\NNP 2007\CD 4476, Oktober\NNP 4535
+Oktober\NNP 2007\CD 4476, Oktober\NNP 2007\CD 4538
+Oktober\NNP 2007\CD 4476, 2007\CD 4581
+Oktober\NNP 2007\CD 4476, Oktober\NNP 2007\CD 4600
+Oktober\NNP 2007\CD 4476, Oktober\NNP 2007\CD 4615
+Oktober\NNP 2007\CD 4476, Akhir\NN Oktober\NNP 2007\CD 4618
+Oktober\NNP 2006\CD 4477, Oktober\NNP 4535
+Oktober\NNP 2006\CD 4477, Oktober\NNP 2006\CD 4539
+bulan\NN Oktober\NNP 2007\CD 4530, 2007\CD 4581
+bulan\NN Oktober\NNP 2007\CD 4530, Oktober\NNP 2007\CD 4600
+bulan\NN Oktober\NNP 2007\CD 4530, Oktober\NNP 2007\CD 4615
+bulan\NN Oktober\NNP 2007\CD 4530, Oktober\NNP 4623
+bulan\NN Oktober\NNP 2007\CD 4530, Oktober\NNP 4646
+Januari\NNP 4534, Januari\NNP 4645
+Oktober\NNP 4535, Oktober\NNP 2007\CD 4600
+Oktober\NNP 4535, Oktober\NNP 2007\CD 4615
+Oktober\NNP 4535, Akhir\NN Oktober\NNP 2007\CD 4618
+Oktober\NNP 4535, Oktober\NNP 4623
+Oktober\NNP 4535, 31\CD Oktober\NNP 2007\CD 4635
+Oktober\NNP 4535, Oktober\NNP 4646
+Oktober\NNP 4535, 31\CD Oktober\NNP 4669
+Oktober\NNP 2007\CD 4538, 2007\CD 4581
+Oktober\NNP 2007\CD 4538, Oktober\NNP 2007\CD 4600
+Oktober\NNP 2007\CD 4538, Oktober\NNP 2007\CD 4615
+Oktober\NNP 2007\CD 4538, Akhir\NN Oktober\NNP 2007\CD 4618
+Oktober\NNP 2007\CD 4538, Oktober\NNP 4623
+Oktober\NNP 2007\CD 4538, 31\CD Oktober\NNP 2007\CD 4635
+Oktober\NNP 2007\CD 4538, Oktober\NNP 4646
+Oktober\NNP 2006\CD 4539, Oktober\NNP 4623
+Oktober\NNP 2006\CD 4539, Oktober\NNP 4646
+436,5\CD juta\CD dolar\NN AS\NNP 4545, dolar\NN AS.\NNP 4604
+436,5\CD juta\CD dolar\NN AS\NNP 4545, dolar\NN AS,\NNP 4681
+Jakarta,\NNP 4562, Jakarta,\NNP 4641
+Komisi\NNP XI\NNP 4594, Komisi\NNP XI\NNP DPR,\NNP 4753
+Jakarta,\NNP 4596, Jakarta,\NNP 4641
+Jakarta,\NNP 4596, Jakarta,\NNP 4755
+Oktober\NNP 2007\CD 4600, Oktober\NNP 4646
+dolar\NN AS.\NNP 4604, dolar\NN AS,\NNP 4681
+dolar\NN AS.\NNP 4604, 118,6\CD miliar\CD dolar\NN AS\NNP 4692
+dolar\NN AS.\NNP 4604, 85,6\CD miliar\CD dolar\NN AS.\NNP 4694
+dolar\NN AS.\NNP 4604, dolar\NN AS,\NNP 4711
+dolar\NN AS.\NNP 4604, 60\CD dolar\NN AS\NNP 4715
+dolar\NN AS.\NNP 4604, 54,3\CD miliar\CD dolar\NN AS.\NNP 4744
+dolar\NN AS.\NNP 4604, sebesar\JJ 69,8\CD dolar\NN AS\NNP 4747
+dolar\NN AS.\NNP 4604, 56,655\CD miliar\CD dolar\NN AS,\NNP 4750
+dolar\NN AS.\NNP 4610, dolar\NN AS,\NNP 4681
+dolar\NN AS.\NNP 4610, 85,6\CD miliar\CD dolar\NN AS.\NNP 4694
+dolar\NN AS.\NNP 4610, dolar\NN AS,\NNP 4711
+dolar\NN AS.\NNP 4610, 54,3\CD miliar\CD dolar\NN AS.\NNP 4744
+dolar\NN AS.\NNP 4610, sebesar\JJ 69,8\CD dolar\NN AS\NNP 4747
+dolar\NN AS.\NNP 4610, 56,655\CD miliar\CD dolar\NN AS,\NNP 4750
+dolar\NN AS.\NNP 4610, dolar\NN AS.\NNP 4770
+Oktober\NNP 2007\CD 4615, 2007\CD 4774
+Akhir\NN Oktober\NNP 2007\CD 4618, 2007\CD 4774
+54,2\CD miliar\CD dolar\NN AS.\NNP 4621, dolar\NN AS,\NNP 4681
+54,2\CD miliar\CD dolar\NN AS.\NNP 4621, dolar\NN AS,\NNP 4711
+54,2\CD miliar\CD dolar\NN AS.\NNP 4621, dolar\NN AS.\NNP 4770
+54,2\CD miliar\CD dolar\NN AS.\NNP 4621, dolar\NN AS\NNP 4773
+Menteri\NNP Keuangan\NNP Sri\NNP Mulyani\NNP Indrawati,\NNP 4632, Mulyani,\NNP 4721
+Selasa,\NNP 4633, Selasa.\NNP 4756
+31\CD Oktober\NNP 2007\CD 4635, 2007\CD 4774
+Jakarta,\NNP 4641, Jakarta,\NNP 4755
+Selasa,\NNP 4642, Selasa.\NNP 4756
+dolar\NN AS,\NNP 4681, 54,3\CD miliar\CD dolar\NN AS.\NNP 4744
+dolar\NN AS,\NNP 4681, sebesar\JJ 69,8\CD dolar\NN AS\NNP 4747
+dolar\NN AS,\NNP 4681, 56,655\CD miliar\CD dolar\NN AS,\NNP 4750
+dolar\NN AS,\NNP 4681, dolar\NN AS.\NNP 4770
+dolar\NN AS,\NNP 4681, dolar\NN AS\NNP 4773
+118,6\CD miliar\CD dolar\NN AS\NNP 4692, dolar\NN AS.\NNP 4770
+118,6\CD miliar\CD dolar\NN AS\NNP 4692, dolar\NN AS\NNP 4773
+85,6\CD miliar\CD dolar\NN AS.\NNP 4694, dolar\NN AS.\NNP 4770
+85,6\CD miliar\CD dolar\NN AS.\NNP 4694, dolar\NN AS\NNP 4773
+dolar\NN AS,\NNP 4711, dolar\NN AS.\NNP 4770
+dolar\NN AS,\NNP 4711, dolar\NN AS\NNP 4773
+60\CD dolar\NN AS\NNP 4715, dolar\NN AS.\NNP 4770
+60\CD dolar\NN AS\NNP 4715, dolar\NN AS\NNP 4773
+Jakarta,\NNP 4755, Jakarta,\NNP 4834
+Rabu\NNP 4800, Rabu.\NNP 4835
+Oktober\NNP 2007\CD 4802, Oktober\NNP 4895
+Oktober\NNP 2007\CD 4802, Oktober\NNP 4926
+Direktur\NNP perseroan\NNP Susanto,\NNP 4887, perseroan\NN 4931
+Senin,\NNP 4890, Senin.\NNP 5016
+Dolar\NN AS\NNP 4935, dolar\NN 4963
+Kamis.\NNP 4990, Kamis,\NNP 5086
+BNI\NNP 4992, BNI\NNP 4996
+Wadirut\NNP Bank\NNP Mandiri,\NNP 5013, bank\NN 5104
+Jakarta,\NNP 5015, Jakarta,\NNP 5085
+Jakarta,\NNP 5085, Jakarta,\NNP 5197
+Bank\NNP Indonesia\NNP 5185, Bank\NNP Indonesia\NNP 5224
+Bank\NNP Indonesia\NNP 5185, Indonesia\NNP 5228
+Jumat\NNP dini\JJ hari.\JJ 5198, Jumat\NNP dini\JJ hari.\JJ 5242
+Jumat\NNP dini\JJ hari.\JJ 5198, Jumat.\NNP 5296
+Bank\NNP Indonesia\NNP 5224, Indonesia\NNP 5228
+Indonesia\NNP 5228, PT\NNP Pemeringkat\NNP Efek\NNP Indonesia\NNP 5279
+Jumat\NNP dini\JJ hari.\JJ 5242, Jumat.\NNP 5296
+Presiden\NNP Susilo\NNP Bambang\NNP Yudhoyono,\NNP 5333, Presiden\NN 5442
+Presiden\NNP Susilo\NNP Bambang\NNP Yudhoyono,\NNP 5333, Presiden\NN 5447
+Menteri\NNP Keuangan\NNP Sri\NNP Mulyani\NNP 5343, Sri\NNP Mulyani.\NNP 5389
+Menteri\NNP Keuangan\NNP Sri\NNP Mulyani\NNP 5343, Sri\NNP Mulyani,\NNP 5403
+Menteri\NNP Keuangan\NNP Sri\NNP Mulyani\NNP 5343, Sri\NNP Mulyani,\NNP 5419
+Menteri\NNP Keuangan\NNP Sri\NNP Mulyani\NNP 5343, Sri\NNP Mulyani.\NNP 5431
+Sri\NNP Mulyani.\NNP 5357, Sri\NNP Mulyani,\NNP 5403
+Sri\NNP Mulyani.\NNP 5357, Sri\NNP Mulyani,\NNP 5419
+Sri\NNP Mulyani.\NNP 5357, Sri\NNP Mulyani.\NNP 5431
+Sri\NNP Mulyani.\NNP 5389, Sri\NNP Mulyani,\NNP 5419
+Sri\NNP Mulyani.\NNP 5389, Sri\NNP Mulyani.\NNP 5431
+dolar\NN AS\NNP 5460, dolar\NN AS\NNP 5495
+dolar\NN AS\NNP 5460, dolar\NN AS.\NNP 5500
+dolar\NN AS\NNP 5460, dolar\NN AS\NNP 5508
+dolar\NN AS\NNP 5460, dolar\NN AS,\NNP 5522
+dolar\NN AS,\NNP 5464, dolar\NN AS\NNP 5495
+dolar\NN AS,\NNP 5464, dolar\NN AS.\NNP 5500
+dolar\NN AS,\NNP 5464, dolar\NN AS\NNP 5508
+dolar\NN AS,\NNP 5464, dolar\NN AS,\NNP 5522
+dolar\NN AS.\NNP 5467, dolar\NN AS\NNP 5495
+dolar\NN AS.\NNP 5467, dolar\NN AS.\NNP 5500
+dolar\NN AS.\NNP 5467, dolar\NN AS\NNP 5508
+dolar\NN AS.\NNP 5467, dolar\NN AS,\NNP 5522
+dolar\NN AS\NNP 5479, dolar\NN AS\NNP 5508
+dolar\NN AS\NNP 5479, dolar\NN AS,\NNP 5522
+pasar\NN modal\NN Indonesia,\NNP 5483, pasar\NN 5517
+pasar\NN modal\NN Indonesia,\NNP 5483, pasar,\NN 5524
+dolar\NN AS,\NNP 5522, 1,306\CD miliar\CD dolar\NN AS\NNP 5687
+dolar\NN AS,\NNP 5522, senilai\NN 440,5\CD juta\CD dolar\NN AS.\NNP 5689
+Bank\NNP Danamon\NNP 5536, Bank\NNP danamon\NNP 5576
+Kamis,\NNP 5595, Kamis,\NNP 5693
+SPA\NNP 5596, SPA\NNP 5600
+Sekretaris\NNP Perusahaan\NNP UNTR\NNP Tjandrawati\NNP Waas\NNP 5622, perusahaan\NN 5805
+Kamis,\NNP 5626, Kamis,\NNP 5693
+Jakarta,\NNP 5692, Jakarta,\NNP 5777
+Jakarta,\NNP 5692, Jakarta,\NNP 5864
+Jakarta,\NNP 5777, Jakarta,\NNP 5864
+Jakarta,\NNP 5777, Jakarta,\NNP 5917
+Selasa.\NNP 5778, Selasa.\NNP 5865
+Selasa.\NNP 5778, Selasa,\NNP 5906
+21\CD Agustus\NNP 2007.\CD 5854, Agustus.\NNP 5950
+21\CD Agustus\NNP 2007.\CD 5854, 2007.\CD 5954
+Jakarta,\NNP 5864, Jakarta,\NNP 5917
+Jakarta,\NNP 5864, Jakarta,\NNP 5962
+Selasa.\NNP 5865, Selasa,\NNP 5906
+seorang\NND perdana\NN menteri\NN Jepang.\NNP 5901, perdana\NN menteri\NN 5939
+Tokyo,\NNP 5905, KBRI\NNP Tokyo,\NNP 5959
+Tokyo,\NNP 5905, Bank\NNP of\NNP Tokyo\NNP -\NNP Mitsubishi,\NNP 5975
+Tokyo,\NNP 5905, Tokyo\NNP Electric\NNP Power\NNP Company\NNP Inc,\NNP 5995
+Indonesia.\NNP 5910, perekonomian\NN Indonesia\NNP 6041
+Indonesia,\NNP 5911, perekonomian\NN Indonesia\NNP 6041
+PM\NNP Abe\NNP 5912, PM\NNP Abe,\NNP 5963
+Jakarta,\NNP 5917, Jakarta,\NNP 5962
+Jakarta,\NNP 5917, Jakarta,\NNP 6049
+Indonesia,\NNP 5925, perekonomian\NN Indonesia\NNP 6041
+pertumbuhan\NN ekonomi\NN Asia\NNP 5930, pertumbuhan\NN 6057
+pertumbuhan\NN ekonomi\NN Asia\NNP 5930, pertumbuhan\NN 6063
+Indonesia\NNP 5949, perekonomian\NN Indonesia\NNP 6041
+Jakarta,\NNP 5962, Jakarta,\NNP 6049
+perekonomian\NN Indonesia\NNP 6041, perekonomian,\NN 6138
+Jakarta,\NNP 6049, Jakarta,\NNP 6145
+Presiden\NNP Susilo\NNP Bambang\NNP Yudhoyono\NNP 6139, Presiden\NNP Susilo\NNP Bambang\NNP Yudhoyono\NNP 6239
+Presiden\NNP Susilo\NNP Bambang\NNP Yudhoyono\NNP 6139, Presiden\NN 6253
+MPR/\NNP DPR,\NNP 6144, MPR/\NNP DPR,\NNP 6244
+MPR/\NNP DPR,\NNP 6144, DPR,\NNP 6275
+Jakarta,\NNP 6145, Jakarta,\NNP 6245
+Kamis.\NNP 6146, Kamis.\NNP 6246
+Presiden\NNP Susilo\NNP Bambang\NNP Yudhoyono\NNP 6239, Presiden\NN 6303
+Presiden\NNP Susilo\NNP Bambang\NNP Yudhoyono\NNP 6239, Presiden\NNP Susilo\NNP Bambang\NNP Yudhoyono\NNP 6306
+Presiden\NNP Susilo\NNP Bambang\NNP Yudhoyono\NNP 6239, Presiden\NN 6364
+MPR/\NNP DPR,\NNP 6244, DPR.\NNP 6305
+Jakarta,\NNP 6245, Jakarta,\NNP 6330
+Kamis.\NNP 6246, Kamis.\NNP 6331
+DPR,\NNP 6275, Sidang\NNP Paripurna\NNP DPR\NNP 6329
+DPR,\NNP 6275, Gedung\NNP DPR,\NNP 6393
+DPR.\NNP 6305, Gedung\NNP DPR,\NNP 6393
+Presiden\NNP Susilo\NNP Bambang\NNP Yudhoyono\NNP 6306, Presiden\NN 6364
+Jakarta,\NNP 6330, Jakarta,\NNP 6394
+Jakarta,\NNP 6330, Jakarta,\NNP 6441
+Kamis.\NNP 6331, Kamis.\NNP 6395
+Bank\NNP Indonesia\NNP 6372, Gubernur\NNP Bank\NNP Indonesia\NNP Burhanuddin\NNP Abdullah\NNP 6424
+Bank\NNP Indonesia\NNP 6372, Bank\NNP Indonesia\NNP 6448
+Bank\NNP Indonesia\NNP 6372, Bank\NNP Indonesia\NNP 6477
+BI\NNP 6373, BI\NNP 6458
+BI\NNP 6373, BI\NNP 6478
+Burhanuddin\NNP Abdullah\NNP 6374, Gubernur\NNP Bank\NNP Indonesia\NNP Burhanuddin\NNP Abdullah\NNP 6424
+Burhanuddin\NNP 6388, Burhanuddin\NNP 6466
+Jakarta,\NNP 6394, Jakarta,\NNP 6441
+Gubernur\NNP Bank\NNP Indonesia\NNP Burhanuddin\NNP Abdullah\NNP 6424, Bank\NNP Indonesia\NNP 6477
+Gubernur\NNP Bank\NNP Indonesia\NNP Burhanuddin\NNP Abdullah\NNP 6424, Bank\NNP Indonesia\NNP 6548
+dolar\NN AS.\NNP 6429, dolar\NN AS.\NNP 6476
+dolar\NN AS.\NNP 6429, dolar\NN AS,\NNP 6543
+dolar\NN AS.\NNP 6429, sekitar\RB 127\CD juta\CD dolar\NN AS\NNP 6552
+dolar\NN AS.\NNP 6429, 51,73\CD miliar\CD dolar\NN AS.\NNP 6579
+Jakarta,\NNP 6441, Jakarta,\NNP 6571
+Senin.\NNP 6442, Senin.\NNP 6494
+Senin.\NNP 6442, Senin.\NNP 6572
+Bank\NNP Indonesia\NNP 6448, Bank\NNP Indonesia\NNP 6477
+Bank\NNP Indonesia\NNP 6448, Bank\NNP Indonesia\NNP 6548
+BI\NNP 6458, BI\NNP 6525
+BI\NNP 6458, BI\NNP 6531
+Amerika\NNP Serikat\NNP 6461, Amerika\NNP Serikat\NNP 6558
+dolar\NN AS\NNP 6474, dolar\NN AS,\NNP 6543
+dolar\NN AS\NNP 6474, dolar\NN AS.\NNP 6609
+dolar\NN AS.\NNP 6476, dolar\NN AS,\NNP 6543
+dolar\NN AS.\NNP 6476, sekitar\RB 127\CD juta\CD dolar\NN AS\NNP 6552
+dolar\NN AS.\NNP 6476, 51,73\CD miliar\CD dolar\NN AS.\NNP 6579
+dolar\NN AS.\NNP 6476, dolar\NN AS.\NNP 6609
+Bank\NNP Indonesia\NNP 6477, Bank\NNP Indonesia\NNP 6548
+BI\NNP 6478, BI\NNP 6531
+Amerika\NNP Serikat\NNP 6482, Amerika\NNP Serikat\NNP 6558
+AS\NNP 6483, AS\NNP 6559
+AS\NNP 6483, 51,9\CD miliar\CD dolar\NN AS\NNP 6575
+AS\NNP 6483, 51,73\CD miliar\CD dolar\NN AS.\NNP 6579
+Deputi\NNP Gubernur\NNP BI,\NNP 6488, Deputi\NNP Gubernur\NNP 6547
+Komisi\NNP XI\NNP DPR\NNP 6490, Komisi\NNP XI\NNP DPR\NNP 6568
+Senin.\NNP 6494, Senin.\NNP 6572
+dolar\NN AS,\NNP 6543, dolar\NN AS.\NNP 6609
+dolar\NN AS,\NNP 6543, dolar\NN AS\NNP 6685
+dolar\NN AS,\NNP 6543, dolar\NN AS,\NNP 6689
+sekitar\RB 127\CD juta\CD dolar\NN AS\NNP 6552, AS\NNP 6559
+sekitar\RB 127\CD juta\CD dolar\NN AS\NNP 6552, dolar\NN AS.\NNP 6609
+sekitar\RB 127\CD juta\CD dolar\NN AS\NNP 6552, dolar\NN AS\NNP 6685
+sekitar\RB 127\CD juta\CD dolar\NN AS\NNP 6552, dolar\NN AS,\NNP 6689
+sekitar\RB 127\CD juta\CD dolar\NN AS\NNP 6552, dolar\NN AS\NNP 6694
+Amerika\NNP Serikat\NNP 6558, Amerika\NNP Serikat\NNP 6702
+Jakarta,\NNP 6571, Jakarta,\NNP 6620
+Jakarta,\NNP 6571, Jakarta,\NNP 6656
+Jakarta,\NNP 6571, Jakarta,\NNP 6700
+51,9\CD miliar\CD dolar\NN AS\NNP 6575, dolar\NN AS\NNP 6706
+51,73\CD miliar\CD dolar\NN AS.\NNP 6579, dolar\NN AS\NNP 6685
+51,73\CD miliar\CD dolar\NN AS.\NNP 6579, dolar\NN AS,\NNP 6689
+51,73\CD miliar\CD dolar\NN AS.\NNP 6579, dolar\NN AS\NNP 6706
+51,73\CD miliar\CD dolar\NN AS.\NNP 6579, dolar\NN AS,\NNP 6716
+dolar\NN AS.\NNP 6609, dolar\NN AS\NNP 6685
+dolar\NN AS.\NNP 6609, dolar\NN AS,\NNP 6689
+dolar\NN AS.\NNP 6609, dolar\NN AS\NNP 6706
+dolar\NN AS.\NNP 6609, dolar\NN AS,\NNP 6716
+dolar\NN AS.\NNP 6609, dolar\NN AS,\NNP 6732
+dolar\NN AS.\NNP 6609, dolar\NN AS,\NNP 6738
+Jakarta,\NNP 6620, Jakarta,\NNP 6656
+Jakarta,\NNP 6620, Jakarta,\NNP 6700
+Jakarta,\NNP 6620, Jakarta,\NNP 6753
+Selasa.\NNP 6621, Selasa,\NNP 6657
+Selasa.\NNP 6621, Selasa\NNP pagi,\NN 6687
+Selasa.\NNP 6621, Selasa.\NNP 6754
+Jakarta,\NNP 6656, Jakarta,\NNP 6700
+Jakarta,\NNP 6656, Jakarta,\NNP 6753
+Selasa,\NNP 6657, Selasa.\NNP 6754
+352\CD juta\CD dolar\NN AS\NNP 6669, dolar\NN AS,\NNP 6716
+352\CD juta\CD dolar\NN AS\NNP 6669, dolar\NN AS,\NNP 6732
+352\CD juta\CD dolar\NN AS\NNP 6669, dolar\NN AS,\NNP 6738
+dolar\NN AS\NNP 6685, AS\NNP 6727
+dolar\NN AS\NNP 6685, dolar\NN AS,\NNP 6732
+dolar\NN AS\NNP 6685, dolar\NN AS,\NNP 6738
+Selasa\NNP pagi,\NN 6687, Selasa.\NNP 6754
+dolar\NN AS,\NNP 6689, dolar\NN AS,\NNP 6732
+dolar\NN AS,\NNP 6689, dolar\NN AS,\NNP 6738
+dolar\NN AS\NNP 6694, dolar\NN AS,\NNP 6732
+dolar\NN AS\NNP 6694, dolar\NN AS,\NNP 6738
+Jakarta,\NNP 6700, Jakarta,\NNP 6753
+Jakarta,\NNP 6700, Jakarta,\NNP 6811
+Bank\NNP Indonesia\NNP 6708, Deputi\NNP Gubernur\NNP Bank\NNP Indonesia\NNP Muliaman\NNP D\NNP Hadad\NNP 6740
+BI\NNP 6709, BI\NNP 6796
+BI\NNP 6712, BI\NNP 6796
+Jakarta,\NNP 6753, Jakarta,\NNP 6811
+Jakarta,\NNP 6753, Jakarta,\NNP 6850
+Jakarta,\NNP 6753, Jakarta,\NNP 6877
+Jakarta,\NNP 6811, Jakarta,\NNP 6850
+Jakarta,\NNP 6811, Jakarta,\NNP 6877
+Rabu,\NNP 6812, Rabu,\NNP 6851
+Rabu,\NNP 6812, Rabu.\NNP 6878
+Rabu,\NNP 6851, Rabu,\NNP 6966
+Rabu.\NNP 6878, Rabu,\NNP 6966
+LPBN\NNP 6909, Pinjaman\NN LPBN\NNP 6945
+Fitch\NNP 6913, Fitch\NNP 6948

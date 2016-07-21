@@ -36,6 +36,7 @@ public class XMLCorpusParser {
 //        parser.insertNETag("corpus_complete2.xml", neFile, neFile + "2.xml");
 
 //        parser.xmlToCSV("corpus_ne_simple_reweight.txt.xml", "coref_simple_reweight.csv");
+        parser.xmlToCSV("coref_j48_v2.xml", "coref_j48_v2.csv");
 
 //        parser.completeXMLTag("corpus.xml", "corpus_complete.xml");
 //        parser.completeXMLTag("corpus2.xml", "corpus_complete2.xml");
@@ -110,7 +111,9 @@ public class XMLCorpusParser {
 	for(Node n : phrases){
 	    String id = n.valueOf("@id");
             String ne = n.valueOf("@ne");
-	    String coref = "null";
+            String coref = n.valueOf("@coref");
+            if(coref == null || coref.length() == 0)
+                coref = "null";
 	    if(id == null || id.equals(""))
 		id = "";
 	    bw.write(id + "," + ne + ",\"" + n.getText().replaceAll("\\\\\\w+", "") + "\"," + coref + "\n");
@@ -149,6 +152,13 @@ public class XMLCorpusParser {
             String[] attribute = line.split(",");
             String idx = attribute[0];
             String coref = attribute[attribute.length - 1];
+            
+            // buat ngambil coreference root
+            if(coref.contains("|")){
+                String[] arr = coref.split("\\|");
+                coref = arr[arr.length - 1];
+            }
+            
             if(!coref.equals("null")){
                 Node node = document.selectSingleNode("//phrase[@id='" + idx + "']");
                 Element element = (Element) node;

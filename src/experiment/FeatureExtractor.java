@@ -49,6 +49,7 @@ public class FeatureExtractor {
             String corefId = getSmallestCorefId(coref);
             
             if(corefId != null){
+                System.out.println(corefId);
                 int startIdx = phraseIndex.get(corefId);
                 int endIdx = i;
                 List<Node> phrases = new ArrayList<>();

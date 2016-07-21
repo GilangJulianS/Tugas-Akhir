@@ -34,15 +34,15 @@
 20,OTHER,hewan ini,15
 ,,dianggap mengganggu,null
 21,OTHER,ketertiban umum.,null
-22,OTHER,Jenis monyet,20|15
+22,OTHER,Jenis monyet,null
 ,,yang dikerahkan,null
 23,OTHER,pemkot,11|3
 ,,"berbadan besar, berekor panjang, dan memiliki wajah berwarna hitam.",null
-24,OTHER,Monyet ini,22|20|15
+24,OTHER,Monyet ini,22
 ,,diikat dengan,null
 25,OTHER,tali panjang,null
 ,,dan pelatih yang mengawasi,null
-26,OTHER,mereka,24|22|20|15
+26,OTHER,mereka,24|22
 ,,akan melepas,null
 27,OTHER,tali,null
 ,,begitu,null
@@ -57,12 +57,12 @@
 32,OTHER,perhatian khusus,null
 ,,karena sering diserbu,null
 33,OTHER,monyet.,28
-34,PERSON|OTHER,Monyet besar,26|24|22|20|15
+34,PERSON|OTHER,Monyet besar,26|24|22
 ,,akan dikerahkan di,null
 35,NUM,dua stadion,null
 ,,untuk mengusir serbuan,null
 36,OTHER,monyet kecil,28
-37,,,34|26|24|22|20|15
+37,,,34|26|24|22
 ,,akan dikerahkan di,null
 38,FACILITY|OTHER,dua stadion tersebut,null
 ,,untuk mengusir serbuan,null
@@ -1411,7 +1411,7 @@
 ,,lah yang mendorong,null
 785,OTHER,remaja,null
 ,,"untuk merokok,  kata""",null
-786,OTHER,nya.,null
+786,OTHER,nya.,776
 ,," Foto""",null
 787,EVENT,selebriti atau olahragawan,null
 ,,merokok,null
@@ -1433,19 +1433,19 @@
 ,,maupun,null
 796,OTHER,bintang idola,null
 ,,"yang lain,",null
-797,OTHER,mereka,null
+797,OTHER,mereka,796
 ,,ini,null
 798,OTHER,orang dewasa.,null
-799,OTHER,Mereka,null
+799,OTHER,Mereka,797|796
 ,,boleh saja merokok tanpa harus dituding bertanggung jawab terhadap apa yang di luar kekuasaan,null
-800,OTHER,nya.,null
+800,OTHER,nya.,799|797|796
 ,," '""",null
 801,TITLE|PERSON,Menteri Keuangan Sri Mulyani,null
 ,,mengatakan,null
 802,OTHER,koreksi tajam,null
 ,,pada,null
 803,OTHER|TITLE|ORGANIZATION,Indeks Harga Saham Gabungan,null
-804,ORGANIZATION,IHSG,null
+804,ORGANIZATION,IHSG,803
 ,,hingga,null
 805,OTHER|NUM,sekitar 4 persen,null
 ,,dalam,null
@@ -1463,7 +1463,7 @@
 812,OTHER,jumpa pers,null
 ,,bersama Dirut,null
 813,ORGANIZATION|LOCATION,Bursa Efek Jakarta,null
-814,OTHER,"BEJ,",null
+814,OTHER,"BEJ,",813
 815,PERSON,Erry Firmansyah,null
 ,,di,null
 816,OTHER|LOCATION,"gedung Depkeu Jakarta,",null
@@ -1483,7 +1483,7 @@
 ,,di,null
 825,OTHER,"semua provinsi,",null
 ,,kata,null
-826,OTHER,nya.,null
+826,OTHER,nya.,818
 827,OTHER,Demikian pula,null
 ,,dengan,null
 828,OTHER,harga minyak.,null
@@ -1521,7 +1521,7 @@
 846,OTHER,net buy,null
 847,OTHER,saham,null
 ,,oleh,null
-848,OTHER,investor asing,null
+848,OTHER,investor asing,840
 849,OTHER,non residence,null
 ,,mencapai,null
 850,THINGS|NUM,"Rp 17,3 triliun",null
@@ -1537,7 +1537,7 @@
 856,OTHER,"investor asing,",null
 857,OTHER,red,null
 ,,"tidak lari,  kata""",null
-858,OTHER,Menkeu.,null
+858,OTHER,Menkeu.,854
 ,,Di,null
 859,OTHER,"sektor riil,",null
 860,OTHER,pemerintah,null
@@ -1563,8 +1563,8 @@
 ,,yang berlaku efektif,null
 871,OTHER,"Januari,",null
 ,," ujar""",null
-872,OTHER,nya.,null
-873,EVENT,Pemerintah,null
+872,OTHER,nya.,858|854
+873,EVENT,Pemerintah,860
 ,,juga telah berkomitmen untuk meningkatkan,null
 874,OTHER,produksi padi nasional,null
 ,,melalui,null
@@ -1576,9 +1576,9 @@
 ,,dapat terkendali.,null
 ,,Produksi,null
 878,TITLE|PERSON,Crude Palm Oil,null
-879,PERSON,CPO,null
+879,PERSON,CPO,878
 880,ORGANIZATION,PT Astra Agro Lestari,null
-881,ORGANIZATION,AALI,null
+881,ORGANIZATION,AALI,880
 ,,pada,null
 882,TIME,Oktober 2007,null
 ,,naik,null
@@ -1591,7 +1591,7 @@
 886,OTHER|NUM,hanya 79.161 ton.,null
 887,TITLE|ORGANIZATION|OTHER,"Direktur AALI Santoso,",null
 ,,dalam laporan,null
-888,OTHER,nya,null
+888,OTHER,nya,887
 ,,ke,null
 889,OTHER,"bursa,",null
 890,OTHER,"Senin,",null
@@ -1602,7 +1602,7 @@
 ,,di,null
 893,OTHER,penghujung tahun ini.,null
 ,,"Namun ,lanjut",null
-894,OTHER,"Santoso,",null
+894,OTHER,"Santoso,",888|887
 895,OTHER,produksi,null
 ,,secara,null
 896,OTHER,total,null
@@ -1620,7 +1620,7 @@
 902,TIME,10 bulan,null
 ,,"pertama, produksi",null
 903,OTHER|ORGANIZATION,super CPO,null
-904,ORGANIZATION,AALI,null
+904,ORGANIZATION,AALI,881|880
 ,,naik,null
 905,OTHER|NUM,"sebesar 4,6 persen",null
 ,,dari,null
@@ -1673,7 +1673,7 @@
 ,,tak melihat,null
 934,OTHER,dampak yang terlalu negatif,null
 ,,karena mampu menyerap kerugian,null
-935,OTHER,nya,null
+935,OTHER,nya,931
 ,,dengan menggunakan,null
 936,OTHER,pendekatan pasar.,null
 937,OTHER,Ini,null
@@ -1684,17 +1684,17 @@
 939,OTHER,depan,null
 940,OTHER|ORGANIZATION,ekonomi RI,null
 ,,ekspansi,null
-941,ORGANIZATION,nya,null
+941,ORGANIZATION,nya,940
 ,,"akan lebih cepat,",null
 942,OTHER,kredit,null
 ,,"lebih tinggi, kata",null
-943,OTHER,nya.,null
+943,OTHER,nya.,923
 ,,Mengenai kekhawatiran besar,null
-944,OTHER,nya,null
+944,OTHER,nya,943|923
 ,,kredit akan mengancam,null
 945,OTHER,"kondisi perbankan,",null
 ,,akibat meningkatnya kredit bermasalah.,null
-946,PERSON,Halim,null
+946,PERSON,Halim,944|943|923
 ,,mengatakan,null
 947,OTHER,ketahanan perbankan,null
 948,OTHER,saat ini,null
@@ -1702,7 +1702,7 @@
 949,OTHER,risk management,null
 ,,dan,null
 950,OTHER,good corporate governance,null
-951,ORGANIZATION,GCG,null
+951,ORGANIZATION,GCG,950
 ,,dan,null
 952,OTHER,pengawasan,null
 ,,dari,null
@@ -1716,13 +1716,13 @@
 957,PERSON,Marty M Natalegawa,null
 ,,mengharapkan,null
 958,ORGANIZATION,Ikatan Cendekiawan Muslim Indonesia,null
-959,ORGANIZATION,ICMI,null
+959,ORGANIZATION,ICMI,958
 ,,London dapat memfasilitasi atau menjadi,null
 960,OTHER,jembatan,null
 ,,antara,null
 961,OTHER|LOCATION,pengusaha Indonesia,null
 ,,dengan mitra,null
-962,OTHER,nya,null
+962,OTHER,nya,961
 ,,di,null
 963,OTHER,Inggris.,null
 964,OTHER,Harapan itu,null
@@ -1732,7 +1732,7 @@
 966,LOCATION,ICMI London,null
 ,,yang terdiri atas,null
 967,OTHER,"Ketua,",null
-968,PERSON|OTHER,"Muslimin Anwar,",null
+968,PERSON|OTHER,"Muslimin Anwar,",967
 969,TITLE|PERSON,wakil ketua Nizma Agustjik,null
 ,,dan,null
 970,TITLE|PERSON,Sekretaris Dono Widiatmoko,null
@@ -1747,15 +1747,15 @@
 975,OTHER,London.,null
 ,,Dalam,null
 976,OTHER,"pertemuan itu,",null
-977,TITLE,Dubes,null
+977,TITLE,Dubes,965
 ,,melihat,null
 978,OTHER,banyak hal,null
 ,,yang bisa dilakukan oleh,null
-979,ORGANIZATION|LOCATION,ICMI London,null
+979,ORGANIZATION|LOCATION,ICMI London,966
 ,,dalam mengisi peluang yang ada dalam upaya membantu,null
 980,OTHER|LOCATION,pengusaha Indonesia,null
 ,,yang akan mengembangkan sayap,null
-981,OTHER,nya,null
+981,OTHER,nya,980
 ,,di,null
 982,OTHER,Inggris.,null
 ,,Selama,null
@@ -1770,7 +1770,7 @@
 ,,dan bahkan,null
 989,OTHER|LOCATION,investasi Inggris,null
 ,,di,null
-990,LOCATION,Indonesia,null
+990,LOCATION,Indonesia,986
 ,,terbesar,null
 991,NUM,kedua,null
 ,,setelah,null
@@ -1782,18 +1782,18 @@
 ,,Namun di,null
 995,OTHER,"sisi lain,",null
 996,OTHER,tidak banyak,null
-997,OTHER|LOCATION,pengusaha Indonesia,null
+997,OTHER|LOCATION,pengusaha Indonesia,980
 ,,yang melakukan,null
 998,OTHER,ekspansi,null
 ,,ke,null
-999,OTHER,Inggris.,null
+999,OTHER,Inggris.,987
 1000,OTHER,Celah ini,null
 ,,yang bisa dilakukan oleh,null
-1001,ORGANIZATION,ICMI London,null
+1001,ORGANIZATION,ICMI London,979|966
 ,,dalam upaya menjembatani,null
 1002,OTHER|LOCATION,para pengusaha Indonesia,null
 ,,yang akan melebarkan sayap,null
-1003,OTHER,nya,null
+1003,OTHER,nya,1002
 ,,di,null
 1004,FACILITY|OTHER,Kerajaan Inggris.,null
 ,,Mari,null
@@ -1803,15 +1803,15 @@
 ,,dan juga melihat,null
 1007,OTHER,produk unggulan,null
 ,,Indonesia yang bisa dijual di,null
-1008,OTHER,"Inggris,",null
+1008,OTHER,"Inggris,",999|987
 ,,ujar Dubes yang melihat,null
 1009,OTHER,banyak hal,null
 ,,yang bisa dilakukan,null
-1010,OTHER,pengusaha Indonesia.,null
+1010,OTHER,pengusaha Indonesia.,1003|1002
 ,,Sebelum,null
 1011,TITLE,nya,null
 1012,TITLE|ORGANIZATION|LOCATION,Ketua ICMI London,null
-1013,PERSON,Muslimin Anwar,null
+1013,PERSON,Muslimin Anwar,1012
 ,,mengatakan,null
 1014,OTHER,hubungan dagang,null
 ,,antara,null
@@ -1823,7 +1823,7 @@
 ,,nilai,null
 1018,ORGANIZATION|LOCATION,ekspor Indonesia,null
 ,,ke,null
-1019,LOCATION,Inggris,null
+1019,LOCATION,Inggris,1008|999|987
 ,,sepanjang,null
 1020,OTHER|TIME,tahun 2005,null
 ,,tercatat,null
@@ -1833,7 +1833,7 @@
 ,,didominasi jenis barang-barang,null
 1023,THINGS|OTHER,tekstil dan alas kaki.,null
 1024,ORGANIZATION,PT Indonesia Air Transport Tbk,null
-1025,ORGANIZATION,IATA,null
+1025,ORGANIZATION,IATA,1025|1025
 ,,pada,null
 1026,OTHER,tahun ini,null
 ,,berencana menambah,null
@@ -1842,9 +1842,9 @@
 1028,OTHER,kebutuhan pasar,null
 ,,di wilayah,null
 1029,FACILITY,Nusa Tenggara Timur,null
-1030,OTHER,"NTT,",null
+1030,OTHER,"NTT,",1029
 1031,LOCATION,Nusa Tenggara Barat,null
-1032,OTHER,"NTB,",null
+1032,OTHER,"NTB,",1031
 1033,LOCATION,Labuhan Bajo,null
 ,,dan,null
 1034,OTHER,Bali.,null
@@ -1859,11 +1859,11 @@
 1039,THINGS,"pesawat,",null
 ,,kata,null
 1040,TITLE|ORGANIZATION|OTHER,"Direktur Utama IATA,",null
-1041,PERSON,Roekman Prawirasastra,null
+1041,PERSON,Roekman Prawirasastra,1040
 ,,di,null
 1042,OTHER,"Jakarta,",null
 1043,OTHER,Senin.,null
-1044,PERSON,Roekman,null
+1044,PERSON,Roekman,1041|1040
 ,,mengatakan,null
 1045,OTHER,pesawat tersebut,null
 ,,akan disewakan dengan,null
@@ -1871,21 +1871,21 @@
 ,,kepada perusahaan,null
 1047,ORGANIZATION,travel,null
 ,,pariwisata.,null
-1048,OTHER,Mereka,null
+1048,OTHER,Mereka,1047
 ,,akan melayani,null
 1049,OTHER,para turis,null
 ,,lokal dan asing yang akan berkunjung ke,null
-1050,OTHER,"Bali,",null
-1051,OTHER,"NTT,",null
-1052,PERSON,NTB,null
+1050,OTHER,"Bali,",1034
+1051,OTHER,"NTT,",1030|1029
+1052,PERSON,NTB,1032|1031
 ,,maupun,null
-1053,PERSON|OTHER,Labuhan Bajo.,null
+1053,PERSON|OTHER,Labuhan Bajo.,1033
 ,,Perusahaan,null
-1054,ORGANIZATION,travel,null
+1054,ORGANIZATION,travel,1048|1047
 ,,tersebut sudah mempunyai keinginan menambah,null
 1055,NUM|OTHER,"lima pesawat lagi,",null
 ,,ujar,null
-1056,OTHER,nya.,null
+1056,OTHER,nya.,1044|1041|1040
 1057,OTHER,Saat ini,null
 1058,OTHER,kami,null
 ,,baru mampu memenuhi,null
@@ -1904,8 +1904,8 @@
 ,,akan diserahkan pada,null
 1066,OTHER,"akhir Mei,",null
 ,,tambah,null
-1067,OTHER,nya.,null
-1068,PERSON,Roekman,null
+1067,OTHER,nya.,1056|1044|1041|1040
+1068,PERSON,Roekman,1067|1056|1044|1041|1040
 ,,mengatakan selama,null
 1069,OTHER,ini,null
 1070,OTHER,perseroan,null
@@ -1918,7 +1918,7 @@
 1075,THINGS|OTHER,perusahaan minyak asing.,null
 ,,Namun,null
 1076,OTHER,saat ini,null
-1077,OTHER,perseroan,null
+1077,OTHER,perseroan,1070
 ,,juga menyediakan juga,null
 1078,OTHER,kebutuhan pesawat,null
 ,,untuk perusahaan,null
@@ -1926,20 +1926,20 @@
 ,,Sementara,null
 1080,OTHER,itu,null
 1081,TITLE|ORGANIZATION|PERSON|OTHER,"Direktur Utama PT Mirantha Nuansa Ayu,",null
-1082,PERSON,"Henry Sulysto,",null
+1082,PERSON,"Henry Sulysto,",1081
 ,,"mengatakan,",null
 1083,TITLE,kerja sama,null
 ,,dengan,null
 1084,ORGANIZATION,perusahaan penyewaan pesawat,null
 ,,sangat diperlukan karena tidak mungkin,null
-1085,OTHER,perseroan,null
+1085,OTHER,perseroan,1077|1070
 ,,menyediakan,null
 1086,OTHER,"pesawat sendiri,",null
 ,,karena,null
 1087,OTHER,risiko dan investasi,null
 1088,THINGS,nya,null
 ,,"besar, kata",null
-1089,PERSON,Henry,null
+1089,PERSON,Henry,1082|1081
 ,,Sementara wilayah,null
 1090,OTHER,"NTT,",null
 1091,ORGANIZATION,NTB,null
@@ -1960,7 +1960,7 @@
 ,,dengan,null
 1099,OTHER,"IATA,",null
 ,,lanjut,null
-1100,OTHER,Henry.,null
+1100,OTHER,Henry.,1089|1082|1081
 1101,PERSON,Roekman,null
 ,,menambahkan,null
 1102,OTHER,kontrak penyewaan pesawat,null
@@ -1991,13 +1991,13 @@
 ,,belum memasukkan pendapatan,null
 1118,OTHER,sewa/ kontrak,null
 ,,dari,null
-1119,OTHER,Mirantha.,null
+1119,OTHER,Mirantha.,1103
 ,," Kalau""",null
 1120,OTHER,itu,null
 ,,dimasukkan mungkin pendapatan,null
 1121,OTHER,nya,null
 ,,"akan lebih besar lagi,  kata""",null
-1122,OTHER,Roekman.,null
+1122,OTHER,Roekman.,1101
 ,,Sedangkan,null
 1123,TITLE,target laba bersih 2007,null
 1124,OTHER|THINGS|NUM,sebesar Rp 30 miliar,null
@@ -2019,13 +2019,13 @@
 1135,FACILITY,Tahun 2007,null
 1136,FACILITY,sebanyak - banyak Rp 250 miliar.,null
 ,,Dalam prospektus,null
-1137,EVENT,nya,null
+1137,EVENT,nya,1127
 ,,yang dipublikasikan di,null
 1138,OTHER,"Jakarta,",null
 1139,OTHER,"Selasa,",null
-1140,ORGANIZATION|OTHER,Bank Mayapada,null
+1140,ORGANIZATION|OTHER,Bank Mayapada,1137|1127
 ,,mengatakan,null
-1141,TITLE|ORGANIZATION,Obligasi Bank Mayapada II,null
+1141,TITLE|ORGANIZATION,Obligasi Bank Mayapada II,1131
 1142,OTHER|TIME,Tahun 2007,null
 ,,akan diterbitkan dalam,null
 1143,LOCATION,Seri A,null
@@ -2068,33 +2068,33 @@
 1164,TIME|OTHER,1 Mei 2007.,null
 1165,ORGANIZATION,PT Medco Energy Internasional Tbk,null
 ,,melalui anak usaha,null
-1166,OTHER,nya,null
+1166,OTHER,nya,1165
 1167,THINGS,Medco E & P Malaka,null
 ,,telah menandatangani,null
 1168,OTHER,penjualan gas,null
 ,,ke,null
 1169,ORGANIZATION,Perusahaan Listrik Negara,null
-1170,ORGANIZATION,PLN,null
+1170,ORGANIZATION,PLN,1169
 1171,OTHER|PERSON,senilai 430 juta dolar AS.,null
 ,,Dalam penjelasan,null
-1172,OTHER,nya,null
+1172,OTHER,nya,1170|1169
 ,,ke,null
 1173,ORGANIZATION,Badan Pengawas Pasar Modal,null
-1174,ORGANIZATION,"Bapepam,",null
+1174,ORGANIZATION,"Bapepam,",1173
 1175,ORGANIZATION,direksi Medco,null
 ,,"menjelaskan, pihak",null
-1176,ORGANIZATION,nya,null
+1176,ORGANIZATION,nya,1175
 ,,telah menandatangani,null
 1177,OTHER,nota kesepahaman,null
 1178,OTHER,"perjanjian jual beli gas,",null
 ,,dengan,null
-1179,OTHER,"PLN,",null
+1179,OTHER,"PLN,",1170|1169
 ,,pada,null
 1180,TIME,21 Maret,null
 ,,lalu.,null
 ,,Dalam,null
 1181,OTHER,"perjanjian tersebut,",null
-1182,PERSON,Medco,null
+1182,PERSON,Medco,1167
 ,,akan memasok,null
 1183,OTHER,gas,null
 ,,dalam,null
@@ -2183,7 +2183,7 @@
 1231,THINGS,kondisi keuangan,null
 1232,THINGS|OTHER,saat ini,null
 ,,yang sangat baik.,null
-1233,OTHER,Ia,null
+1233,OTHER,Ia,1225
 ,,"mengatakan,",null
 1234,OTHER|FACILITY,pemegang saham Indonesia,null
 ,,akan menerima,null
@@ -2191,7 +2191,7 @@
 ,,dalam,null
 1236,OTHER,rupiah,null
 ,,yang nilai,null
-1237,OTHER,nya,null
+1237,OTHER,nya,1235
 1238,OTHER,setara,null
 ,,dengan dividen yang dibayarkan dalam,null
 1239,TITLE,dollar,null
@@ -2207,11 +2207,11 @@
 ,,dalam,null
 1245,OTHER,"dolar AS,",null
 ,,ujar,null
-1246,OTHER,nya.,null
+1246,OTHER,nya.,1233|1225
 ,,Sementara,null
 1247,OTHER,itu,null
 ,,",ujar",null
-1248,OTHER,"dia,",null
+1248,OTHER,"dia,",1246|1233|1225
 1249,OTHER,dividen interim,null
 ,,untuk,null
 1250,OTHER|TIME,tahun 2006,null
@@ -2236,7 +2236,7 @@
 ,,telah dibayarkan untuk,null
 1262,OTHER|TIME,"tahun 2005,",null
 ,,kata,null
-1263,OTHER,dia.,null
+1263,OTHER,dia.,1248|1246|1233|1225
 ,,Dalam,null
 1264,ORGANIZATION|OTHER,RUPS tersebut,null
 1265,OTHER,pemegang saham,null
@@ -2248,7 +2248,7 @@
 1268,OTHER,periode,null
 ,,sampai penutupan,null
 1269,ORGANIZATION|OTHER,RUPS tahunan 2008.,null
-1270,FACILITY,Rozik B Soetjipto,null
+1270,FACILITY,Rozik B Soetjipto,1266
 ,,menggantikan,null
 1271,LOCATION|OTHER,"Soetaryo Sigit,",null
 ,,yang efektif pensiun dari,null
@@ -2256,11 +2256,11 @@
 ,,pada,null
 1273,EVENT,"penutupan rapat tersebut,",null
 ,,ujar,null
-1274,OTHER,nya.,null
+1274,OTHER,nya.,1263|1248|1246|1233|1225
 ,,Selain,null
 1275,THINGS,itu,null
 ,,",ucap",null
-1276,THINGS,nya,null
+1276,THINGS,nya,1274|1263|1248|1246|1233|1225
 1277,THINGS,pemegang saham,null
 ,,juga mengangkat kembali,null
 1278,THINGS,"Eddie A Arsyad,",null
@@ -2271,7 +2271,7 @@
 1281,THINGS,Direktur-Direktur Perseroan,null
 ,,yang akan bekerja sampai penutupan,null
 1282,ORGANIZATION|OTHER,RUPS tahunan 2009.,null
-1283,OTHER,Ia,null
+1283,OTHER,Ia,1276|1274|1263|1248|1246|1233|1225
 ,,"menambahkan, kantor",null
 1284,ORGANIZATION,Akuntan Publik Haryanto Sahari,null
 ,,dan,null
@@ -2285,7 +2285,7 @@
 ,,berakhir,null
 1289,OTHER|TIME,tanggal 31 Desember 2007.,null
 1290,ORGANIZATION,Bank Central Asia,null
-1291,ORGANIZATION,BCA,null
+1291,ORGANIZATION,BCA,1290
 ,,menargetkan dapat menyalurkan kredit,null
 1292,OTHER|THINGS|NUM,sebesar Rp 10 triliun,null
 ,,pada,null
@@ -2297,17 +2297,17 @@
 1296,OTHER,"korporasi,",null
 ,,kata,null
 1297,TITLE|ORGANIZATION,Wakil Presiden BCA,null
-1298,ORGANIZATION,Jahja Setiaatmadja,null
+1298,ORGANIZATION,Jahja Setiaatmadja,1297
 ,,di,null
 1299,OTHER,"Jakarta,",null
 ,,baru-baru ini.,null
 ,,Penyaluran kredit,null
 1300,THINGS|NUM,Rp 10 triliun,null
 ,,tersebut menurut,null
-1301,PERSON,Jahja,null
+1301,PERSON,Jahja,1298|1297
 ,,akan dianggarkan dari penarikan,null
 1302,OTHER|ORGANIZATION,Surat Bank Indonesia,null
-1303,OTHER,SBI.,null
+1303,OTHER,SBI.,1302
 1304,EVENT,Kredit BCA,null
 1305,EVENT|TIME,tahun 2006,null
 ,,tumbuh,null
@@ -2379,7 +2379,7 @@
 ,,menyalurkan kredit,null
 1342,OTHER|THINGS|NUM,sebesar Rp 584 miliar.,null
 1343,PERSON|OTHER,Penanaman modal asing,null
-1344,ORGANIZATION,PMA,null
+1344,ORGANIZATION,PMA,1343
 ,,di,null
 1345,LOCATION,Malaysia,null
 1346,OTHER|TIME,tahun 2006,null
@@ -2391,7 +2391,7 @@
 ,,menunjukkan,null
 1350,OTHER|LOCATION,pembangunan ekonomi Malaysia,null
 ,,jauh lebih menarik dibandingkan,null
-1351,LOCATION,Indonesia,null
+1351,LOCATION,Indonesia,1348
 ,,bagi,null
 1352,THINGS|OTHER,investor asing.,null
 ,,Menurut,null
@@ -2400,12 +2400,12 @@
 ,,di,null
 1355,LOCATION|OTHER,"Kuala Lumpur,",null
 ,,PMA yang masuk ke,null
-1356,LOCATION,Malaysia,null
+1356,LOCATION,Malaysia,1345
 ,,mencapai,null
 1357,PERSON,"20,2 miliar ringgit Malaysia",null
 1358,PERSON|ORGANIZATION,"5,6 miliar dolar AS",null
 ,,dibandingkan,null
-1359,LOCATION,Indonesia,null
+1359,LOCATION,Indonesia,1351|1348
 ,,yang hanya mencapai,null
 1360,PERSON,"4,7 miliar ringgit Malaysia",null
 1361,PERSON|OTHER,"1,3 miliar dolar AS.",null
@@ -2417,7 +2417,7 @@
 1365,EVENT,Dr Tan Yee Kew,null
 ,,mengemukakan dalam,null
 1366,OTHER,"sidang parlemen,",null
-1367,LOCATION,Malaysia,null
+1367,LOCATION,Malaysia,1356|1345
 ,,menduduki,null
 1368,OTHER,urutan ke-2,null
 ,,setelah,null
@@ -2440,7 +2440,7 @@
 1380,OTHER|NUM,"sebesar 11,4 miliar ringgit",null
 1381,NUM|ORGANIZATION,"3,16 miliar dolar AS",null
 ,,dan,null
-1382,LOCATION,Indonesia,null
+1382,LOCATION,Indonesia,1359|1351|1348
 ,,berada di,null
 1383,OTHER,urutan ke-4,null
 ,,dengan nilai,null
@@ -2448,7 +2448,7 @@
 ,,Jadi tidak benar,null
 1385,ORGANIZATION,PMA,null
 ,,ke,null
-1386,LOCATION,Malaysia,null
+1386,LOCATION,Malaysia,1367|1356|1345
 ,,"semakin memburuk, kata",null
 1387,TITLE|PERSON,Tan Yee Kew,null
 ,,menanggapi pernyataan,null
@@ -2461,7 +2461,7 @@
 1391,OTHER,nya,null
 ,,di,null
 1392,OTHER,Asean.,null
-1393,PERSON,Ia,null
+1393,PERSON,Ia,1387
 ,,"mengemukakan pula,",null
 1394,LOCATION,sepuluh,null
 1395,LOCATION|OTHER,negara investor utama,null
@@ -2491,7 +2491,7 @@
 1415,OTHER|NUM,"0,7 miliar Ringgit.",null
 1416,TITLE,Produksi sawit,null
 1417,ORGANIZATION,PT Astra Agro Lestari,null
-1418,ORGANIZATION,AALI,null
+1418,ORGANIZATION,AALI,1417
 ,,pada,null
 1419,TIME,kuartal pertama 2007,null
 ,,turun,null
@@ -2503,7 +2503,7 @@
 1423,PERSON,Produksi sawit,null
 ,,dalam,null
 1424,FACILITY,TBS,null
-1425,FACILITY,tandan buah segar,null
+1425,FACILITY,tandan buah segar,1424
 ,,pada,null
 1426,THINGS,kuartal I 2007,null
 1427,THINGS|NUM,sebesar 808.475 ton,null
@@ -2520,11 +2520,11 @@
 1433,OTHER|NUM,"kuartal pertama 2007,",null
 ,,kata,null
 1434,TITLE|OTHER,"Direktur AALI,",null
-1435,EVENT,Julie Syaftari,null
+1435,EVENT,Julie Syaftari,1434
 ,,kepada,null
 1436,OTHER,"BEJ,",null
 1437,OTHER,Kamis.,null
-1438,OTHER,Dia,null
+1438,OTHER,Dia,1435|1434
 ,,mengatakan,null
 1439,OTHER,penurunan produksi ini,null
 ,,terjadi di,null
@@ -2540,7 +2540,7 @@
 ,,berakibat pula pada penurunan produksi,null
 1446,EVENT,minyak sawit mentah,null
 1447,EVENT,CPO,null
-1448,EVENT,AALI,null
+1448,EVENT,AALI,1418|1417
 1449,OTHER|NUM,sebesar 10 persen,null
 ,,dari,null
 1450,NUM|THINGS,223 ton,null
@@ -2551,7 +2551,7 @@
 ,,pada,null
 1453,EVENT,"kuartal I 2007,",null
 ,,kata,null
-1454,OTHER,nya.,null
+1454,OTHER,nya.,1438|1435|1434
 1455,ORGANIZATION|PERSON,Lembaga Penjamin Simpanan,null
 1456,PERSON,LPS,null
 ,,menurunkan,null
@@ -2575,18 +2575,18 @@
 1466,NUM,"12,75 persen",null
 ,,di,null
 1467,FACILITY,Bank Perkreditan Rakyat,null
-1468,OTHER,BPR.,null
+1468,OTHER,BPR.,1467
 1469,OTHER,Makro ekonomi,null
 ,,"membaik, sedangkan",null
 1470,OTHER,inflasi dan nilai tukar,null
 ,,"terus stabil, kata",null
 1471,TITLE,Kepala Eksekutif,null
 ,,"LPS,",null
-1472,PERSON,Krisna Wijaya,null
+1472,PERSON,Krisna Wijaya,1471
 ,,di,null
 1473,OTHER,"Jakarta,",null
 1474,OTHER,Kamis.,null
-1475,OTHER,Dia,null
+1475,OTHER,Dia,1472|1471
 ,,"juga mengatakan, meski pada",null
 1476,TIME,22 Maret,null
 1477,TIME,LPS,null
@@ -2626,13 +2626,13 @@
 ,,setelah pada,null
 1496,TIME|OTHER,"awal pekan lalu,",null
 1497,OTHER|ORGANIZATION,Rapat Dewan Gubernur,null
-1498,ORGANIZATION,RDG,null
+1498,ORGANIZATION,RDG,1497
 ,,BI memutuskan untuk mempertahankan BI,null
 1499,THINGS,rate,null
 ,,pada,null
 1500,THINGS,level itu.,null
 1501,ORGANIZATION,Lembaga pemeringkat internasional,null
-1502,ORGANIZATION|OTHER,"Fitch Ratings,",null
+1502,ORGANIZATION|OTHER,"Fitch Ratings,",1501
 1503,OTHER,"Kamis,",null
 ,,memberikan,null
 1504,OTHER|THINGS,peringkat jangka panjang nasional,null
@@ -2640,12 +2640,12 @@
 1506,THINGS,AA minus/ idn,null
 ,,untuk,null
 1507,OTHER|ORGANIZATION|LOCATION,PT Bank Pan Indonesia Tbk,null
-1508,PERSON,Panin,null
+1508,PERSON,Panin,1507
 ,,yang berdomisili di,null
 1509,OTHER,Indonesia.,null
 1510,EVENT,Fitch,null
 ,,dalam siaran pers,null
-1511,OTHER,nya,null
+1511,OTHER,nya,1510
 ,,yang diterima,null
 1512,OTHER,ANTARA,null
 ,,di,null
@@ -2662,10 +2662,10 @@
 1519,OTHER,peringkat individu,null
 1520,PERSON,Individual Rating,null
 ,,dari,null
-1521,LOCATION,Panin,null
+1521,LOCATION,Panin,1508|1507
 ,,di,null
 1522,OTHER|PERSON,' C/ D '.,null
-1523,PERSON,Fitch,null
+1523,PERSON,Fitch,1511|1510
 ,,juga memberikan,null
 1524,OTHER,peringkat ekspektasi,null
 1525,OTHER|PERSON,' AA - idn ',null
@@ -2684,7 +2684,7 @@
 ,,dengan,null
 1533,THINGS,prospek,null
 ,,dari peringkat-peringkat yang diberikan adalah stabil.,null
-1534,PERSON,Fitch,null
+1534,PERSON,Fitch,1523|1511|1510
 ,,menyatakan,null
 1535,OTHER,peringkat-peringkat tersebut,null
 ,,mencerminkan,null
@@ -2697,10 +2697,10 @@
 1539,OTHER,"pemerintah,",null
 ,,serta,null
 1540,LOCATION,Australia and New Zealand,null
-1541,LOCATION,ANZ,null
+1541,LOCATION,ANZ,1540
 1542,LOCATION,Banking Group,null
 ,,walaupun mungkin terbatas.,null
-1543,PERSON,Panin,null
+1543,PERSON,Panin,1521|1508|1507
 ,,adalah,null
 1544,OTHER|NUM,bank kedelapan terbesar,null
 ,,di,null
@@ -2709,12 +2709,12 @@
 ,,dari,null
 1547,OTHER,total aset perbankan,null
 ,,dan,null
-1548,ORGANIZATION,ANZ,null
+1548,ORGANIZATION,ANZ,1541|1540
 ,,memiliki,null
 1549,OTHER,kepemilikan minoritas,null
 ,,di,null
 1550,OTHER,bank tersebut.,null
-1551,PERSON,Fitch,null
+1551,PERSON,Fitch,1534|1523|1511|1510
 ,,mengatakan,null
 1552,OTHER,sejalan,null
 ,,dengan,null
@@ -2754,8 +2754,8 @@
 ,,Secara,null
 1572,OTHER,keseluruhan,null
 ,,",lanjut",null
-1573,OTHER,"Fitch,",null
-1574,EVENT,Panin,null
+1573,OTHER,"Fitch,",1551|1534|1523|1511|1510
+1574,EVENT,Panin,1543|1521|1508|1507
 ,,membukukan,null
 1575,OTHER,profitabilitas yang lebih baik,null
 ,,dengan,null
@@ -2902,7 +2902,7 @@
 1652,NUM|OTHER,20 persen atau lebih,null
 ,,untuk,null
 1653,OTHER,beberapa tahun ke depan.,null
-1654,PERSON,Panin,null
+1654,PERSON,Panin,1649
 ,,didirikan pada,null
 1655,OTHER|TIME,tahun 1971,null
 ,,oleh,null
@@ -2914,7 +2914,7 @@
 ,,sampai,null
 1659,OTHER,saat ini,null
 ,,melalui,null
-1660,ORGANIZATION|PERSON,PT Panin Life Tbk,null
+1660,ORGANIZATION|PERSON,PT Panin Life Tbk,1654|1649
 ,,yang menguasai,null
 1661,NUM|THINGS|OTHER,"45,1 persen saham.",null
 1662,ORGANIZATION,ANZ,null
@@ -2936,14 +2936,14 @@
 ,,Seperti,null
 1671,OTHER,bank-bank sekelas,null
 ,,"yang besar,",null
-1672,TITLE,Panin,null
+1672,TITLE,Panin,1660|1654|1649
 ,,juga mengubah fokus pembiayaan,null
-1673,OTHER,nya,null
+1673,OTHER,nya,1672|1660|1654|1649
 ,,ke segmen,null
 1674,OTHER,konsumer,null
 ,,dan,null
 1675,ORGANIZATION,UKM,null
-1676,ORGANIZATION|OTHER,"usaha kecil dan menengah,",null
+1676,ORGANIZATION|OTHER,"usaha kecil dan menengah,",1675
 ,,yang menyumbang,null
 1677,NUM,64 persen,null
 ,,dari,null
@@ -2951,7 +2951,7 @@
 ,,di,null
 1679,OTHER|TIME,akhir tahun 2006.,null
 1680,TITLE|ORGANIZATION|PERSON,Direktur Utama PT Bank Mandiri,null
-1681,PERSON|OTHER,Agus D.W. Martowardojo,null
+1681,PERSON|OTHER,Agus D.W. Martowardojo,1680
 ,,mengatakan,null
 1682,FACILITY,Bank Mandiri,null
 ,,berencana akan mengakuisisi perusahaan,null
@@ -2962,7 +2962,7 @@
 1685,OTHER|FACILITY,aset minimum tertentu.,null
 ,,Dalam,null
 1686,OTHER,revisi rencana bisnis,null
-1687,OTHER,kami,null
+1687,OTHER,kami,1682
 ,,akan masukkan,null
 1688,OTHER,rencana akuisisi,null
 1689,OTHER,perusahaan ' multifinance ',null
@@ -2971,16 +2971,16 @@
 ,,dengan,null
 1691,OTHER,"aset minimum tertentu,",null
 ,,kata,null
-1692,OTHER,nya,null
+1692,OTHER,nya,1681|1680
 ,,ketika ditemui setelah,null
 1693,OTHER|ORGANIZATION,Rapat Koordinasi BUMN,null
 ,,yang juga dihadiri oleh,null
 1694,TITLE|OTHER,"Menteri Negara BUMN,",null
-1695,OTHER,"Sugiharto,",null
+1695,OTHER,"Sugiharto,",1694
 ,,di,null
 1696,OTHER,"Jakarta,",null
 1697,OTHER,Kamis.,null
-1698,PERSON,Ia,null
+1698,PERSON,Ia,1692|1681|1680
 ,,mengatakan dengan kondisi kredit bermasalah NPL yang telah mencapai,null
 1699,OTHER|FACILITY,di bawah 5 persen,null
 ,,di,null
@@ -2993,27 +2993,27 @@
 1703,OTHER|TIME,bulan Juli,null
 ,,mendatang.,null
 ,,"Sehingga ,kata",null
-1704,OTHER,"nya,",null
+1704,OTHER,"nya,",1698|1692|1681|1680
 ,,akan dilakukan,null
 1705,OTHER,revisi rencana bisnis,null
 ,,untuk mempercepat perkembangan,null
-1706,ORGANIZATION|OTHER,Bank Mandiri.,null
+1706,ORGANIZATION|OTHER,Bank Mandiri.,1687|1682
 1707,PERSON,Agus,null
 ,,mengatakan,null
 1708,OTHER,saat ini,null
 ,,NPL,null
-1709,ORGANIZATION,bank Mandiri,null
+1709,ORGANIZATION,bank Mandiri,1706|1687|1682
 ,,yaitu,null
 1710,PERSON|OTHER,"4,7 persen,",null
 ,,dengan NPL yang,null
 1711,OTHER|THINGS,kurang dari 5 persen,null
 ,,"tersebut,",null
-1712,ORGANIZATION,bank Mandiri,null
+1712,ORGANIZATION,bank Mandiri,1709|1706|1687|1682
 ,,siap untuk mengembangkan,null
 1713,OTHER,bisnis,null
 ,,dan melakukan,null
 1714,OTHER,merger maupun akuisisi.,null
-1715,ORGANIZATION,Bank Mandiri,null
+1715,ORGANIZATION,Bank Mandiri,1712|1709|1706|1687|1682
 ,,punya,null
 1716,PERSON,5 strategi bisnis,null
 ,,dan berusaha mencapai pangsa pasar,null
@@ -3023,26 +3023,26 @@
 ,,di,null
 1719,OTHER,"masing-masing segmen,",null
 ,,kata,null
-1720,OTHER,nya.,null
+1720,OTHER,nya.,1707
 ,,Meski telah merencanakan untuk,null
 1721,OTHER,merger,null
 ,,dan mengakuisisi perusahaan,null
 1722,OTHER,"multifinance,",null
-1723,PERSON,Agus,null
+1723,PERSON,Agus,1720|1707
 ,,enggan mengemukakan lebih lanjut perihal rencana,null
-1724,THINGS,nya,null
+1724,THINGS,nya,1723|1720|1707
 ,,tersebut.,null
 1725,PERSON,Kita,null
 ,,"tunggu saja, kata",null
-1726,OTHER,nya.,null
+1726,OTHER,nya.,1724|1723|1720|1707
 ,,Sementara,null
 1727,OTHER,"itu,",null
 ,,menurut,null
 1728,TITLE|OTHER,"Menteri Negara BUMN,",null
-1729,OTHER,"Sugiharto,",null
-1730,ORGANIZATION,Bank Mandiri,null
+1729,OTHER,"Sugiharto,",1728
+1730,ORGANIZATION,Bank Mandiri,1715|1712|1709|1706|1687|1682
 ,,adalah bank yang berhasil menurunkan NPL,null
-1731,OTHER,nya,null
+1731,OTHER,nya,1730|1715|1712|1709|1706|1687|1682
 ,,dari,null
 1732,PERSON,"16,17 persen",null
 ,,atau,null
@@ -3057,7 +3057,7 @@
 1737,TIME,tahun 2006.,null
 ,,Pada,null
 1738,OTHER,"2006,",null
-1739,ORGANIZATION,Bank Mandiri,null
+1739,ORGANIZATION,Bank Mandiri,1731|1730|1715|1712|1709|1706|1687|1682
 ,,berhasil memperoleh penghargaan,null
 1740,THINGS,The Best Overall for Corporate Governance Award,null
 ,,dan,null
@@ -3066,14 +3066,14 @@
 1742,LOCATION|OTHER,Asia Money.,null
 1743,TITLE,Meneg Perencanaan Pembangunan Nasional/,null
 1744,OTHER|TITLE,"Kepala Bappenas,",null
-1745,TITLE|PERSON,Paskah Suzetta,null
+1745,TITLE|PERSON,Paskah Suzetta,1744
 ,,direncanakan mengadakan,null
 1746,OTHER,"sejumlah pertemuan,",null
 ,,di antara,null
 1747,OTHER,nya,null
 ,,dengan,null
 1748,OTHER|TITLE|FACILITY,"Presiden Bank Dunia,",null
-1749,FACILITY,Paul Wolfowitz,null
+1749,FACILITY,Paul Wolfowitz,1748
 ,,dalam,null
 1750,OTHER|FACILITY,Spring Meeting,null
 1751,FACILITY,Dana Moneter Internasional/,null
@@ -3084,9 +3084,9 @@
 1755,ORGANIZATION|OTHER,Washington AS.,null
 ,,Salah satu,null
 1756,NUM,nya,null
-1757,TITLE,Pak Menteri,null
+1757,TITLE,Pak Menteri,1745|1744
 ,,bakal ketemu dengan,null
-1758,LOCATION|OTHER,"Paul Wolfowitz,",null
+1758,LOCATION|OTHER,"Paul Wolfowitz,",1749|1748
 ,,tentu saja ditemani oleh,null
 1759,PERSON|OTHER,"James Adams,",null
 1760,PERSON,Vice President,null
@@ -3095,14 +3095,14 @@
 1762,LOCATION|OTHER,"Asia Pasifik,",null
 ,,kata,null
 1763,TITLE|OTHER,"Sekretaris Utama Bappenas,",null
-1764,PERSON,Syahrial Loetan,null
+1764,PERSON,Syahrial Loetan,1763
 ,,di,null
 1765,OTHER,"Jakarta,",null
 1766,OTHER,Jumat.,null
-1767,PERSON,Dia,null
+1767,PERSON,Dia,1764|1763
 ,,menjelaskan dalam,null
 1768,OTHER,"pertemuan itu,",null
-1769,TITLE|ORGANIZATION,Meneg PPN,null
+1769,TITLE|ORGANIZATION,Meneg PPN,1757|1745|1744
 ,,akan menyampaikan,null
 1770,OTHER,kondisi terakhir,null
 ,,di,null
@@ -3117,46 +3117,46 @@
 1775,OTHER|THINGS,bantuan pinjaman,null
 ,,berbunga rendah kepada,null
 1776,ORGANIZATION|OTHER,Bank Dunia.,null
-1777,TITLE|PERSON,Pak Adams,null
+1777,TITLE|PERSON,Pak Adams,1759
 1778,PERSON,kemarin,null
 ,,sudah beri petunjuk kalau,null
-1779,OTHER,dia,null
+1779,OTHER,dia,1777|1759
 ,,akan membantu,null
-1780,LOCATION,Indonesia,null
+1780,LOCATION,Indonesia,1771
 ,,yang ingin meminta,null
 1781,EVENT,IDA,null
-1782,EVENT,International Development Assistance,null
+1782,EVENT,International Development Assistance,1781
 ,,-,null
 1783,EVENT,red,null
 ,,"yang berbunga rendah, tapi",null
-1784,OTHER,kita,null
+1784,OTHER,kita,1780|1771
 ,,tahu,null
 1785,OTHER,diri,null
 ,,juga.,null
-1786,OTHER,Kita,null
+1786,OTHER,Kita,1784|1780|1771
 ,,kan sudah masuk,null
 1787,OTHER|EVENT,"' middle income countries,",null
 ,,jadi jangan-jangan susah.,null
 ,,"Namun,",null
-1788,OTHER,dia,null
+1788,OTHER,dia,1767|1764|1763
 ,,menambahkan kemungkinan mengajukan pinjaman berbunga rendah ke,null
 1789,ORGANIZATION,Bank Dunia,null
 ,,hanya sebagai,null
 1790,OTHER,tindakan antisipasi.,null
 1791,EVENT,Bunga pinjaman,null
-1792,ORGANIZATION,IDA,null
+1792,ORGANIZATION,IDA,1782|1781
 1793,OTHER|THINGS,hanya sekitar - 2 persen,null
 ,,per,null
 1794,OTHER,tahun.,null
-1795,OTHER,Kita,null
+1795,OTHER,Kita,1786|1784|1780|1771
 ,,pengen menunjukkan kayak-kayaknya nih kalau,null
 1796,OTHER,besok,null
 ,,"susah,",null
-1797,OTHER,kita,null
+1797,OTHER,kita,1795|1786|1784|1780|1771
 ,,mau minjam ke,null
-1798,ORGANIZATION|OTHER,"Bank Dunia,",null
+1798,ORGANIZATION|OTHER,"Bank Dunia,",1789
 ,,tutur,null
-1799,OTHER,nya.,null
+1799,OTHER,nya.,1788|1767|1764|1763
 ,,Kehadiran,null
 1800,TITLE|ORGANIZATION,Meneg PPN/,null
 1801,OTHER|TITLE,Kepala Bappenas,null
@@ -3180,13 +3180,13 @@
 1812,NUM|ORGANIZATION,1 juta dolar AS,null
 ,,yang berasal dari,null
 1813,LOCATION,Policy and Human Resource Development,null
-1814,LOCATION,PHRD,null
+1814,LOCATION,PHRD,1813
 1815,LOCATION|OTHER,"Trust Fund,",null
 ,,untuk mendukung penguatan,null
 1816,OTHER,sistem administrasi perpajakan,null
 ,,dan,null
 1817,OTHER,perbaikan pelayanan.,null
-1818,EVENT,Sistem administrasi perpajakan,null
+1818,EVENT,Sistem administrasi perpajakan,1816
 ,,adalah,null
 1819,OTHER,faktor kunci,null
 ,,dalam upaya memperbaiki,null
@@ -3195,11 +3195,11 @@
 1821,OTHER,pendanaan,null
 ,,untuk,null
 1822,OTHER,pembangunan.,null
-1823,TITLE,Jepang,null
+1823,TITLE,Jepang,1811
 ,,tetap berkomitmen untuk membantu,null
 1824,OTHER|LOCATION,pemerintah Indonesia,null
 ,,memperbaiki sistem pajak,null
-1825,OTHER,"mereka,",null
+1825,OTHER,"mereka,",1824
 ,,kata,null
 1826,PERSON|OTHER,"Ken Okinawa,",null
 ,,pejabat,null
@@ -3213,15 +3213,15 @@
 1831,OTHER,Jumat.,null
 ,,Sedangkan,null
 1832,TITLE|OTHER,"Dirjen Pajak Depkeu,",null
-1833,PERSON,Darmin Nasution,null
+1833,PERSON,Darmin Nasution,1832
 ,,mengatakan pihak,null
-1834,OTHER,nya,null
+1834,OTHER,nya,1833|1832
 ,,menyambut baik,null
 1835,OTHER,dukungan masyarakat internasional,null
 ,,terhadap,null
 1836,OTHER,reformasi perpajakan,null
 ,,yang tengah dilakukan pihak,null
-1837,OTHER,nya.,null
+1837,OTHER,nya.,1834|1833|1832
 1838,EVENT,Hibah,null
 ,,dari,null
 1839,LOCATION,Jepang,null
@@ -3239,11 +3239,11 @@
 ,,dan,null
 1846,THINGS|OTHER,"pengembangan sumber daya,",null
 ,,kata,null
-1847,OTHER,Darmin.,null
+1847,OTHER,Darmin.,1837|1834|1833|1832
 1848,TIME,"Saat ini,",null
-1849,TIME,Jepang,null
+1849,TIME,Jepang,1839
 ,,tengah berkolaborasi dengan,null
-1850,ORGANIZATION,Bank Dunia,null
+1850,ORGANIZATION,Bank Dunia,1829
 ,,membantu,null
 1851,THINGS,Ditjen Pajak,null
 ,,dalam modernisasi rencana untuk mendukung reformasi,null
@@ -3264,7 +3264,7 @@
 1861,OTHER,awalan yang sangat baik,null
 ,,dalam,null
 1862,OTHER|ORGANIZATION,agenda reformasi pajak.,null
-1863,ORGANIZATION,Pemerintah,null
+1863,ORGANIZATION,Pemerintah,1860
 ,,akan terus menjaga,null
 1864,OTHER|THINGS,ketahanan fiskal,null
 ,,Indonesia atas kemungkinan terjadinya,null
@@ -3292,10 +3292,10 @@
 1877,OTHER,kita,null
 ,,"monitor dengan baik, kata",null
 1878,TITLE,"Gubernur BI,",null
-1879,PERSON,Burhanuddin Abdullah,null
+1879,PERSON,Burhanuddin Abdullah,1878
 ,,usai,null
 1880,OTHER,rapat koordinasi terbatas,null
-1881,OTHER,rakortas,null
+1881,OTHER,rakortas,1880
 ,,membahas,null
 1882,OTHER,exposure,null
 ,,ekonomi Indonesia terhadap,null
@@ -3303,7 +3303,7 @@
 ,,di,null
 1884,OTHER|LOCATION,"Gedung Depkeu Jakarta,",null
 1885,OTHER,Senin.,null
-1886,OTHER,Dia,null
+1886,OTHER,Dia,1879|1878
 ,,"mengatakan, rakortas yang dihadiri",null
 1887,OTHER,seluruh,null
 ,,pengambil,null
@@ -3311,7 +3311,7 @@
 ,,itu belum menentukan apakah,null
 1889,ORGANIZATION,Tim Koordinasi,null
 1890,ORGANIZATION,Pinjaman Komersial Luar Negeri,null
-1891,OTHER,PKLN.,null
+1891,OTHER,PKLN.,1890
 1892,EVENT|OTHER,Pembahasan tadi,null
 ,,masih dalam,null
 1893,OTHER,tahap awal.,null
@@ -3322,8 +3322,8 @@
 ,,masih meneruskan,null
 1896,OTHER,"tim itu,",null
 ,,kata,null
-1897,OTHER,Gubernur.,null
-1898,PERSON,Burhanuddin,null
+1897,OTHER,Gubernur.,1879|1878
+1898,PERSON,Burhanuddin,1897|1879|1878
 ,,menegaskan,null
 1899,OTHER,rakortas,null
 ,,sama sekali tidak dibahas,null
@@ -3360,7 +3360,7 @@
 1915,PERSON|OTHER,akhir triwulan III/ 2006.,null
 1916,ORGANIZATION|PERSON,PT Astra Otoparts Tbk,null
 ,,menjual kepemilikan saham,null
-1917,OTHER,nya,null
+1917,OTHER,nya,1916
 ,,di,null
 1918,ORGANIZATION|LOCATION,PT Exedy Indonesia,null
 1919,OTHER|PERSON,sebanyak 7.072 saham,null
@@ -3373,33 +3373,33 @@
 1923,THINGS,nya,null
 1924,OTHER|THINGS|NUM,"senilai Rp 12,977 miliar",null
 ,,kepada,null
-1925,ORGANIZATION,Exedy Corporation,null
+1925,ORGANIZATION,Exedy Corporation,1918
 ,,yang berkedudukan di,null
 1926,OTHER,Jepang.,null
-1927,OTHER,Kami,null
+1927,OTHER,Kami,1917|1916
 ,,telah menandatangani,null
 1928,OTHER,perjanjian pengikatan,null
 ,,untuk penjualan,null
 1929,OTHER,seluruh saham,null
 ,,milik,null
-1930,ORGANIZATION,PT Astra Otoparts,null
+1930,ORGANIZATION,PT Astra Otoparts,1917|1916
 ,,di,null
-1931,ORGANIZATION,PT Exedy Indonesia,null
+1931,ORGANIZATION,PT Exedy Indonesia,1925|1918
 ,,kepada,null
-1932,LOCATION|OTHER,"Exedy Corporation,",null
+1932,LOCATION|OTHER,"Exedy Corporation,",1931|1925|1918
 ,,kata,null
 1933,TITLE|ORGANIZATION|OTHER,"Sekretaris Perusahaan Astra Otoparts,",null
-1934,PERSON,Kartina Rahayu,null
+1934,PERSON,Kartina Rahayu,1933
 ,,di,null
 1935,OTHER,"Jakarta,",null
 1936,OTHER,Senin.,null
 ,,Menurut,null
-1937,OTHER,"dia,",null
+1937,OTHER,"dia,",1934|1933
 1938,OTHER,penjualan saham tersebut,null
 ,,akan berlaku efektif apabila syarat-syarat sebagaimana termuat dalam,null
 1939,OTHER,perjanjian pengikatan jual beli saham,null
 ,,telah terpenuhi.,null
-1940,OTHER,Dia,null
+1940,OTHER,Dia,1937|1934|1933
 ,,mengatakan,null
 1941,OTHER,transaksi tersebut,null
 ,,tidak mengandung,null
@@ -3421,12 +3421,12 @@
 ,,dari,null
 1951,OTHER,"ekuitas,",null
 ,,tambah,null
-1952,OTHER,nya.,null
+1952,OTHER,nya.,1940|1937|1934|1933
 1953,TITLE|PERSON,Menkeu Sri Mulyani Indrawati,null
 ,,membebaskan,null
 1954,OTHER,tarif akhir,null
 1955,OTHER,bea masuk,null
-1956,ORGANIZATION,BM,null
+1956,ORGANIZATION,BM,1955
 ,,atas,null
 1957,OTHER,impor bahan baku,null
 ,,untuk,null

@@ -6,11 +6,14 @@
 package experiment;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.util.ArrayList;
 import java.util.List;
 import org.dom4j.Document;
+import org.dom4j.Element;
 import org.dom4j.Node;
 import org.dom4j.io.SAXReader;
 import org.w3c.dom.css.Counter;
@@ -30,10 +33,11 @@ public class CoreferenceResolution {
     static Classifier classifier;
     static int counter = 0;
     static int sentencesIdx = 0;
+    static BufferedWriter writer, xmlWriter;
     
     public static void main(String[] args) throws Exception{
-//        addCoreference("corpus_ne_simple_reweight.txt.xml", "coref_j48.model", "feature_header.arff", 20);
-        addCoreference("corpus_ne_simple_reweight.txt2.xml", "coref_j48.model", "feature_header.arff", 20);
+        addCoreference("corpus_ne_simple_reweight.txt.xml", "coref_j48_v2.model", "feature_header.arff", 20);
+//        addCoreference("corpus_ne_simple_reweight.txt2.xml", "coref_j48.model", "feature_header.arff", 20);
     }
     
     public static void addCoreference(String xmlFile, String modelFile, String headerFile, int maxSentence) throws Exception{
@@ -41,6 +45,10 @@ public class CoreferenceResolution {
         File file = new File(xmlFile);
         SAXReader reader = new SAXReader();
 	Document document = reader.read(file);
+        
+        String filename = "coref_j48_v2";
+        writer = new BufferedWriter(new FileWriter(filename + ".txt"));
+        xmlWriter = new BufferedWriter(new FileWriter(filename + ".xml"));
         
         dataset = new Instances(new BufferedReader(new FileReader(headerFile)));
         dataset.setClassIndex(dataset.numAttributes() - 1);
@@ -77,6 +85,9 @@ public class CoreferenceResolution {
                 }
             }
         }
+        xmlWriter.write(document.asXML());
+        xmlWriter.close();
+        writer.close();
     }
     
     public static void classifyInstance(List<String> features, Node n1, Node n2) throws Exception{
@@ -90,8 +101,16 @@ public class CoreferenceResolution {
             }
         }
         double classLabel = classifier.classifyInstance(instance);
+//        System.out.println(classLabel);
         if(classLabel > 0){
-            System.out.println(n1.getText() + ", " + n2.getText() + "|||||" + instance.toString());
+//            writer.write(n1.getText() + ", " + n2.getText() + "|||||" + instance.toString() + "\n");
+            writer.write(n1.getText()+ " " + n1.valueOf("@id") + ", " + n2.getText() + " " + n2.valueOf("@id") + "\n");
+            Element e = (Element)n2;
+            String lastCoref = n2.valueOf("@coref");
+            if(lastCoref.length() == 0)
+                e.setAttributeValue("coref", n1.valueOf("@id"));
+            else
+                e.setAttributeValue("coref", lastCoref + "|" + n1.valueOf("@id"));
         }
     }
     
