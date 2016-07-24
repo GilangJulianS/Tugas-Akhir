@@ -28,7 +28,7 @@ public class FeatureExtractor {
     static List<Integer> commaIdx;
     static List<Integer> quoteIdx;
     static List<Node> allPhrase;
-    static HashMap<String, Integer> phraseIndex;
+    static HashMap<String, Integer> phraseMap;
     
     public static void main(String[] args) throws Exception{
 	bw = new BufferedWriter(new FileWriter("feature.arff"));
@@ -37,9 +37,10 @@ public class FeatureExtractor {
 	Document document = reader.read(file);
 	
 	List<Node> sentences = document.selectNodes("/data/sentence");
-        phraseIndex = new HashMap<>();
+        phraseMap = new HashMap<>();
         allPhrase = new ArrayList<>();
         allPhrase.addAll(document.selectNodes("/data/sentence/phrase"));
+        
         mapIndex();
         
         for(int i=0; i<allPhrase.size(); i++){
@@ -49,8 +50,7 @@ public class FeatureExtractor {
             String corefId = getSmallestCorefId(coref);
             
             if(corefId != null){
-                System.out.println(corefId);
-                int startIdx = phraseIndex.get(corefId);
+                int startIdx = phraseMap.get(corefId);
                 int endIdx = i;
                 List<Node> phrases = new ArrayList<>();
                 for(int j=startIdx; j<=endIdx; j++){
@@ -61,28 +61,6 @@ public class FeatureExtractor {
         }
 	
 	bw.close();
-    }
-    
-    private static String getSmallestCorefId(String corefId){
-        if(corefId == null) return null;
-        String smallestId = corefId;
-        if(corefId.contains("|")){
-            String[] corefsId = corefId.split("\\|");
-            smallestId = corefsId[corefsId.length - 1];
-        }
-        return smallestId;
-    }
-    
-    private static void mapIndex(){
-        int idx = 0;
-        for(Node n : allPhrase){
-            Element e = (Element)n;
-            String id = e.attributeValue("id");
-            if(id != null){
-                phraseIndex.put(id, idx);
-            }
-            idx++;
-        }
     }
     
     public static void process(List<Node> phrases) throws Exception{
@@ -113,21 +91,21 @@ public class FeatureExtractor {
 	    Node p2 = null;
 	    if(!p.valueOf("@type").contains("np"))
 		continue;
-	    for(int j=i+1; j<phrases.size(); j++){
-		p2 = phrases.get(j);
+//	    for(int j=i+1; j<phrases.size(); j++){
+		p2 = phrases.get(phrases.size() - 1);
 		if(!p2.valueOf("@type").contains("np")){
 		    p2 = null;
 		    continue;
 		}
 		if(p2 != null){
-		    List<String> features = extractLexicalFeature(p, p2, i, j);
+		    List<String> features = extractLexicalFeature(p, p2, i, phrases.size() - 1);
                     for(String feature : features){
                         bw.write(feature + ", ");
                     }
 //		    bw.write(p.getText() + ", " + p2.getText() + ", ");
                     bw.write(extractLabel(p, p2) + "\n");
 		}
-	    }
+//	    }
 	}
     }
     
@@ -153,11 +131,12 @@ public class FeatureExtractor {
     }
     
     // substring match, ne match, s1 pronoun, s2 pronoun, s1 proper name, s2 proper name
-    // distance, 
+    // distance, apositif, s1 first person, s1 first person, s1 quotation, s2 quotation, nearest
     public static List<String> extractLexicalFeature(Node n1, Node n2, int idx1, int idx2) throws Exception{
         List<String> features = new ArrayList<>();
 	features.add(extractFeature1(n1.getText(), n2.getText()) + "");
-        features.add(extractFeature2(n1, n2) + "");
+        features.add(extractFeature2(n1) + "");
+        features.add(extractFeature2(n2) + "");
 	features.add(extractFeature3(n1.getText()) + "");
         features.add(extractFeature3(n2.getText()) + "");
 	features.add(extractFeature4(n1.getText()) + "");
@@ -192,54 +171,79 @@ public class FeatureExtractor {
     // fitur substring match
     public static boolean extractFeature1(String s1, String s2){
 //      fitur substring per kata
-//	String str1 = s1.replaceAll("\\\\[\\w]+", "");
-//	String str2 = s2.replaceAll("\\\\[\\w]+", "");
-//	String[] a1 = str1.split(" ");
-//	String[] a2 = str2.split(" ");
-//	boolean found = false;
-//	for(String a : a1){
-//	    for(String b : a2){
-//		if(a.contains(b) || b.contains(a)){
-//		    found = true;
-//		    break;
-//		}
-//	    }
-//	    if(found)
-//		break;
-//	}
-//	return found;
-        String str1 = s1.replaceAll("[.,'\"\\-:]", "").toLowerCase();
-        String str2 = s2.replaceAll("[.,'\"\\-:]", "").toLowerCase();
-        if(str1.contains(str2) || str2.contains(str1)){
-            return true;
-        }
-        return false;
+	String str1 = s1.replaceAll("\\\\[\\w]+", "");
+	String str2 = s2.replaceAll("\\\\[\\w]+", "");
+	String[] a1 = str1.split(" ");
+	String[] a2 = str2.split(" ");
+	boolean found = false;
+	for(String a : a1){
+	    for(String b : a2){
+		if(a.contains(b) || b.contains(a)){
+		    found = true;
+		    break;
+		}
+	    }
+	    if(found)
+		break;
+	}
+	return found;
+//        String str1 = s1.replaceAll("[.,'\"\\-:]", "").toLowerCase();
+//        String str2 = s2.replaceAll("[.,'\"\\-:]", "").toLowerCase();
+//        if(str1.contains(str2) || str2.contains(str1)){
+//            return true;
+//        }
+//        return false;
     }
     
     // fitur same entity type
-    public static boolean extractFeature2(Node n1, Node n2){
-	String[] neList1 = n1.valueOf("@ne").split("\\|");
-        String[] neList2 = n2.valueOf("@ne").split("\\|");
-        boolean match = false;
-        for(String ne1 : neList1){
-            for(String ne2 : neList2){
-                if(ne1.equals(ne2)){
-                    match = true;
-                    break;
-                }
-            }
-            if(match){
-                break;
+//    public static boolean extractFeature2(Node n1, Node n2){
+//	String[] neList1 = n1.valueOf("@ne").split("\\|");
+//        String[] neList2 = n2.valueOf("@ne").split("\\|");
+//        boolean match = false;
+//        for(String ne1 : neList1){
+//            for(String ne2 : neList2){
+//                if(ne1.equals(ne2) && !ne1.equals("OTHER")){
+//                    match = true;
+//                    break;
+//                }
+//            }
+//            if(match){
+//                break;
+//            }
+//        }
+//        return match;
+//    }
+   
+//    fitur entity type
+    public static String extractFeature2(Node n){
+        String[] neList = n.valueOf("@ne").split("\\|");
+        String neFinal = null;
+        if(isPronoun(n.getText().split("\\\\")[0])){
+            return "PERSON";
+        }
+        for(String ne : neList){
+            if(neFinal == null || neFinal.equals("OTHER")){
+                neFinal = ne;
             }
         }
-        return match;
+        return neFinal;
     }
     
     // fitur isPronoun
     public static boolean extractFeature3(String s){
-	if(s.contains("\\PR")){
+        String s2 = s.split("\\\\")[0];
+	if(s.contains("\\PR") || isPronoun(s2)){
 	    return true;
 	}
+        return false;
+    }
+    
+    public static boolean isPronoun(String s){
+        if(s.equals("dia") || s.equals("mereka") || 
+                s.equals("ia") || s.equals("kami") || s.equals("saya") || 
+                s.equals("aku") || s.equals("kita")){
+            return true;
+        }
         return false;
     }
     
@@ -293,5 +297,28 @@ public class FeatureExtractor {
     // fitur nearest candidate
     public static boolean extractFeature10(int idx1, int idx2){
         return idx2 - idx1 == 1;
+    }
+    
+    private static String getSmallestCorefId(String corefId){
+        if(corefId == null) return null;
+        String smallestId = corefId;
+        if(corefId.contains("|")){
+            String[] corefsId = corefId.split("\\|");
+            smallestId = corefsId[corefsId.length - 1];
+//            smallestId = corefsId[0];
+        }
+        return smallestId;
+    }
+    
+    private static void mapIndex(){
+        int idx = 0;
+        for(Node n : allPhrase){
+            Element e = (Element)n;
+            String id = e.attributeValue("id");
+            if(id != null){
+                phraseMap.put(id, idx);
+            }
+            idx++;
+        }
     }
 }

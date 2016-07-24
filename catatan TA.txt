@@ -1,0 +1,11 @@
+- Dalam bahasa Indonesia sulit untuk menentukan coreference terhadap plural noun phrase. Misalnya pada kalimat "pencuri masuk ke ladang gandum, mereka diduga sudah bersembunyi sejak malam hari." Kesulitan ada pada noun phrase "pencuri" tanpa modifier "seorang" / "para" sehingga sulit untuk menentukan apakah kata ganti "mereka" merupakan coreference dari "pencuri".
+- Pada corpus yang digunakan terdapat beberapa kalimat ambigu, misalnya:
+"Sutradara kelahiran Meksiko, Guillermo Del Toro telah bersedia menjadi sutradara film tersebut, tapi menarik diri bulan Juni dengan alasan rencana produksi sudah tertunda selama dua tahun.
+Jackson, yang merebut Oscar untuk sutradara terbaik atas karya nya Lord of the Rings : The Return of the King, diperkirakan akan menggantikan dia di kursi sutradara, meski belum ada pengumuman resmi mengenai pergantian tersebut."
+Pada kalimat tersebut terdapat kata "dia" yang mungkin mengacu pada Guillermo Del Toro, namun penggunaan kata "dia" di sini cukup ambigu karena "dia" lebih tepat digunakan untuk mengacu kepada Jackson.
+- Terdapat banyak kesalahan pada NE tagger
+- Hasil training awal menghasilkan akurasi yang sangat kecil, kemudian dilakukan perubahan pada pembangkitan instance negatif pada training set. Semula training set negatif dibangkitkan dengan melakukan pemasangan antar seluruh noun phrase yang berada di antara noun phrase yang corefer. Metode tersebut kemudian diubah menjadi membangkitkan instance negatif dengan memasangkan anaphor dengan seluruh noun phrase diantara anaphor dengan antecedent nya.
+- Split antecedent masih belum bisa ditangani karena sulitnya melakukan pendeteksian plural noun phrase, dan proses pembangkitan instance yang tidak dapat mendeteksi hubungan antar noun phrase.
+- Penanganan kasus antecedent yang merupakan anaphor, fitur2 yang dihasilkan kurang menunjukkan sifat coreference.
+- Hasil klasifikasi mungkin dapat mendeteksi coreference untuk "nya" namun permasalahan berada di proses parsing kalimat yang mungkin tidak bisa menghasilkan frase "nya".
+- Coba tambahin fitur kata sebelum dan sesudah / pos tag / ne tag.

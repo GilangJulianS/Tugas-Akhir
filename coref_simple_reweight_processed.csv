@@ -3,7 +3,7 @@
 2,OTHER,pesta olahraga,null
 3,TITLE|LOCATION,Pemerintah kota Delhi,null
 ,,mengerahkan,null
-4,OTHER,monyet,1
+4,OTHER,monyet,null
 ,,untuk mengusir,null
 5,OTHER,monyet-monyet lain,null
 ,,yang berbadan lebih kecil dari arena,null
@@ -31,18 +31,18 @@
 ,,berada di,null
 19,OTHER,kantor-kantor pemerintah,null
 ,,dan,null
-20,OTHER,hewan ini,15
+20,OTHER,hewan ini,null
 ,,dianggap mengganggu,null
 21,OTHER,ketertiban umum.,null
 22,OTHER,Jenis monyet,null
 ,,yang dikerahkan,null
-23,OTHER,pemkot,11|3
+23,OTHER,pemkot,11
 ,,"berbadan besar, berekor panjang, dan memiliki wajah berwarna hitam.",null
-24,OTHER,Monyet ini,22
+24,OTHER,Monyet ini,null
 ,,diikat dengan,null
 25,OTHER,tali panjang,null
 ,,dan pelatih yang mengawasi,null
-26,OTHER,mereka,24|22
+26,OTHER,mereka,null
 ,,akan melepas,null
 27,OTHER,tali,null
 ,,begitu,null
@@ -56,21 +56,21 @@
 ,,mendapatkan,null
 32,OTHER,perhatian khusus,null
 ,,karena sering diserbu,null
-33,OTHER,monyet.,28
-34,PERSON|OTHER,Monyet besar,26|24|22
+33,OTHER,monyet.,null
+34,PERSON|OTHER,Monyet besar,null
 ,,akan dikerahkan di,null
 35,NUM,dua stadion,null
 ,,untuk mengusir serbuan,null
-36,OTHER,monyet kecil,28
-37,,,34|26|24|22
+36,OTHER,monyet kecil,null
+37,,,null
 ,,akan dikerahkan di,null
 38,FACILITY|OTHER,dua stadion tersebut,null
 ,,untuk mengusir serbuan,null
-39,THINGS,"monyet kecil,",33|28
+39,THINGS,"monyet kecil,",null
 ,," kata""",null
 40,PERSON|OTHER,"Devender Prasad,",null
 ,,pejabat,null
-41,OTHER|LOCATION,pemerintah kota Delhi,23|11|3
+41,OTHER|LOCATION,pemerintah kota Delhi,23
 ,,kepada,null
 42,ORGANIZATION|OTHER,kantor berita AFP.,29
 ,,Selama,null
@@ -89,15 +89,15 @@
 50,OTHER|TITLE,kantor perdana menteri,null
 ,,dan,null
 51,ORGANIZATION|OTHER,departemen pertahanan.,null
-52,OTHER,Binatang ini,46|44
+52,OTHER,Binatang ini,46
 ,,tidak bisa dibunuh karena,null
 53,OTHER|LOCATION,masyarakat India,null
 ,,menganggap,null
-54,OTHER,mereka,52|46|44
+54,OTHER,mereka,52
 ,,suci.,null
 ,,Selain harus mengusir,null
 55,OTHER,"kawanan monyet,",null
-56,OTHER|LOCATION,pemkot Delhi,41|23|11|3
+56,OTHER|LOCATION,pemkot Delhi,41
 ,,juga kesulitan mengatasi,null
 57,TITLE|OTHER,wabah demam berdarah.,null
 58,OTHER,Curah hujan,null
@@ -107,7 +107,7 @@
 ,,bagi,null
 61,OTHER,nyamuk aedes,null
 ,,berkembang biak.,null
-62,ORGANIZATION,Pemkot,56|41|23|11|3
+62,ORGANIZATION,Pemkot,56
 ,,telah menempatkan,null
 63,OTHER,ikan,null
 ,,di,null
@@ -117,10 +117,10 @@
 66,TITLE|ORGANIZATION,Miliarder AS,null
 ,,jamu,null
 67,ORGANIZATION|LOCATION,orang kaya Cina,null
-68,THINGS,Dua miliarder Amerika,66
-69,THINGS,Bill Gates,68|66
+68,THINGS,Dua miliarder Amerika,null
+69,THINGS,Bill Gates,null
 ,,dan,null
-70,THINGS,Warren Buffett,68|66
+70,THINGS,Warren Buffett,null
 ,,akan mengadakan,null
 71,OTHER,jamuan makan malam,null
 ,,di,null
@@ -129,26 +129,26 @@
 73,OTHER,sejumlah orang terkaya,null
 ,,di,null
 74,OTHER,Cina.,null
-75,PERSON|OTHER,Gates dan Buffett,69|70|68|66
+75,PERSON|OTHER,Gates dan Buffett,null
 ,,mengatakan,null
-76,OTHER,mereka,null
+76,OTHER,mereka,75
 ,,berada di,null
 77,LOCATION,Cina,74
 ,,untuk mempelajari,null
 78,OTHER,kegiatan amal,null
 ,,di,null
-79,OTHER,negara itu.,77|74
+79,OTHER,negara itu.,77
 80,PERSON,Banyak orang,null
 ,,menduga,null
-81,OTHER,mereka,75|69|70|68|66
+81,OTHER,mereka,76
 ,,ingin membujuk,null
 82,OTHER,para tamu,null
 ,,agar,null
 83,OTHER,lebih banyak,null
 ,,menyumbang untuk,null
 84,OTHER,amal.,null
-85,PERSON,Kedua,81|75|69|70|68|66
-86,PERSON,orang terkaya dunia,81|75|69|70|68|66
+85,PERSON,Kedua,null
+86,PERSON,orang terkaya dunia,null
 ,,itu sudah berhasil membujuk,null
 87,OTHER,banyak orang,null
 ,,yang sangat kaya di,null
@@ -174,17 +174,17 @@
 99,OTHER,sampah,null
 ,,dari,null
 100,ORGANIZATION|OTHER,industri bangunan.,null
-101,PERSON,Dia,97|96
+101,PERSON,Dia,97
 ,,mengatakan kepada,null
 102,PERSON,BBC,null
 ,,bahwa,null
-103,OTHER,dia,101|97|96
+103,OTHER,dia,101
 ,,sudah berencana menyumbangkan seluruh harta,null
-104,OTHER,nya,103|101|97|96
+104,OTHER,nya,103
 ,,untuk,null
 105,OTHER,amal,null
 ,,bila,null
-106,OTHER,dia,104|103|101|97|96
+106,OTHER,dia,104
 ,,meninggal.,null
 ,," Beramal dan membantu sudah menjadi""",null
 107,OTHER,bagian,null
@@ -211,7 +211,7 @@
 117,OTHER,makan,null
 118,OTHER,"diri sendiri,",null
 ,," kata""",null
-119,OTHER,nya.,106|104|103|101|97|96
+119,OTHER,nya.,106
 ,,Menyumbangkan,null
 120,PERSON,uang,null
 ,,untuk,null
@@ -233,14 +233,14 @@
 128,OTHER,komik,null
 ,,Kisah,null
 129,TITLE,pendiri Facebook,127
-130,PERSON,Mark Zuckerberg,129|127
+130,PERSON,Mark Zuckerberg,null
 ,,akan diceritakan dalam,null
-131,LOCATION|OTHER,sebuah komik biografi.,128
+131,LOCATION|OTHER,sebuah komik biografi.,null
 132,EVENT,Komik,null
 ,,dengan judul,null
-133,LOCATION,Mark Zuckerberg,130|129|127
+133,LOCATION,Mark Zuckerberg,130
 ,,:,null
-134,LOCATION|OTHER,"Pencipta Facebook,",133|130|129|127
+134,LOCATION|OTHER,"Pencipta Facebook,",133
 ,,akan tersedia di,null
 135,OTHER,pasar,null
 ,,sebelum,null
@@ -267,18 +267,18 @@
 ,,yang pernah menggarap film,null
 148,LOCATION|OTHER|THINGS,Fight ' s Club,null
 ,,ini sebenarnya belum memperoleh izin,null
-149,FACILITY|OTHER,Mark Zuckerberg.,134|133|130|129|127
+149,FACILITY|OTHER,Mark Zuckerberg.,134
 ,,Pemuda berusia,null
 150,TIME,26 tahun,null
-151,,,149|134|133|130|129|127
+151,,,149
 ,,mengharapkan tidak ada orang yang membuat,null
 152,OTHER,film,null
 ,,tentang,null
-153,OTHER,saya,149|134|133|130|129|127
+153,OTHER,saya,149
 ,,ketika,null
-154,OTHER,saya,153|149|134|133|130|129|127
+154,OTHER,saya,153
 ,,"masih hidup,  kata""",null
-155,OTHER,nya,154|153|149|134|133|130|129|127
+155,OTHER,nya,154
 ,,dalam,null
 156,OTHER,sebuah konferensi teknologi,null
 157,TIME,Juni silam.,null
@@ -291,14 +291,14 @@
 ,,Hanya butuh,null
 161,TIME,enam tahun,null
 ,,bagi,null
-162,LOCATION,Zuckerberg,155|154|153|149|134|133|130|129|127
+162,LOCATION,Zuckerberg,155
 ,,untuk bisa mencapai,null
 163,OTHER,kesuksesan,null
 ,,seperti,null
 164,THINGS|OTHER,"sekarang ini,",null
 ,,setelah sebelum,null
 165,OTHER,nya,null
-166,OTHER,dia,162|155|154|153|149|134|133|130|129|127
+166,OTHER,dia,162
 ,,meluncurkan,null
 167,OTHER,situs ini,null
 ,,saat masih duduk sebagai,null
@@ -308,7 +308,7 @@
 170,TIME,"September silam,",null
 171,TIME,majalah Forbes,null
 ,,memasukkan,null
-172,OTHER,dia,166|162|155|154|153|149|134|133|130|129|127
+172,OTHER,dia,166
 ,,dalam daftar,null
 173,PERSON,35 orang terkaya,null
 ,,di,null
@@ -318,7 +318,7 @@
 ,,diperkirakan mencapai,null
 176,THINGS|NUM,"US $ 6,4 miliar.",null
 ,,Tetapi langkah,null
-177,OTHER,dia,172|166|162|155|154|153|149|134|133|130|129|127
+177,OTHER,dia,172
 ,,menuju,null
 178,OTHER,kesuksesan,null
 ,,tidak lah mulus.,null
@@ -330,7 +330,7 @@
 182,OTHER|LOCATION,pembuatan Facebook,null
 ,,datang dari,null
 183,OTHER,mereka.,180
-184,PERSON,Mereka,183|180
+184,PERSON,Mereka,183
 ,,terlibat dalam,null
 185,OTHER,sengketa hukum,null
 ,,yang berlarut-larut pada,null
@@ -338,7 +338,7 @@
 ,,dan diakhiri dengan pembayaran yang dirahasiakan jumlah,null
 187,OTHER,nya,null
 ,,kepada,null
-188,ORGANIZATION|OTHER,Cameron dan Tyler,184|183|180
+188,ORGANIZATION|OTHER,Cameron dan Tyler,184
 ,,"Winklevoss, yang",null
 189,OTHER,kini,null
 ,,juga membuat situs,null
@@ -354,11 +354,11 @@
 ,,untuk menentukan mengenai,null
 195,OTHER,kepemilikan,null
 ,,dari,null
-196,THINGS,"jamrud raksasa,",192
+196,THINGS,"jamrud raksasa,",null
 ,,yang disebut sebagai terbesar.,null
-197,FACILITY|ORGANIZATION,Jamrud Bahia,196|192
+197,FACILITY|ORGANIZATION,Jamrud Bahia,null
 ,,dinamakan sesuai lokasi penemuan,null
-198,OTHER,nya,197|196|192
+198,OTHER,nya,null
 ,,di,null
 199,OTHER|FACILITY,salah satu daerah,null
 ,,di,null
@@ -366,7 +366,7 @@
 ,,memiliki berat,null
 201,FACILITY|OTHER,380 kg.,null
 ,,Diperkirakan,null
-202,TITLE|OTHER,jamrud raksasa itu,198|197|196|192
+202,TITLE|OTHER,jamrud raksasa itu,null
 ,,bernilai,null
 203,OTHER|THINGS|NUM,lebih dari US $ 370 juta,null
 ,,dan,null
@@ -374,7 +374,7 @@
 ,,mengklaim kepemilikan,null
 205,OTHER,hak,null
 ,,atas,null
-206,OTHER,batu tersebut.,202|198|197|196|192
+206,OTHER,batu tersebut.,null
 207,ORGANIZATION,Jaksa,193
 ,,akan mendengarkan,null
 208,OTHER,semua pihak,null
@@ -391,54 +391,54 @@
 ,,dari,null
 215,LOCATION,Kalifornia,null
 ,,yang mengatakan,null
-216,OTHER,dia,214|213
+216,OTHER,dia,214
 ,,telah membayar kepada,null
 217,NUM|THINGS,dua orang,null
 218,THINGS,agen permata,null
 ,,Brasil,null
 219,OTHER|THINGS|NUM,senilai US $ 60.000,null
 ,,untuk,null
-220,OTHER,jamrud tersebut,206|202|198|197|196|192
+220,OTHER,jamrud tersebut,null
 ,,tak lama setelah ditemukan,null
 221,TIME|OTHER,sembilan tahun lalu.,null
-222,PERSON,Thomas,214|213
+222,PERSON,Thomas,214
 ,,mengatakan telah mengatur agar,null
-223,OTHER,batu itu,220|206|202|198|197|196|192
+223,OTHER,batu itu,null
 ,,dikirim melalui,null
 224,OTHER,kapal,null
 ,,ke kediaman,null
-225,OTHER,nya,222|214|213
+225,OTHER,nya,222
 ,,di,null
 226,ORGANIZATION|OTHER,"San Jose,",null
 ,,tetapi tak pernah muncul.,null
-227,OTHER,Dia,225|222|214|213
+227,OTHER,Dia,225
 ,,percaya,null
-228,OTHER,batu itu,223|220|206|202|198|197|196|192
+228,OTHER,batu itu,null
 ,,telah dicuri untuk dijual kembali dengan,null
 229,OTHER,harga yang lebih mahal.,null
-230,PERSON,Thomas,227|225|222|214|213
+230,PERSON,Thomas,227
 231,OTHER|PERSON,hanya salah satu,null
 ,,dari,null
 232,PERSON,enam pihak,null
 ,,yang mengklaim sebagai pemilik,null
-233,ORGANIZATION|OTHER,jamrud raksasa itu.,228|223|220|206|202|198|197|196|192
+233,ORGANIZATION|OTHER,jamrud raksasa itu.,null
 234,THINGS,Satu masalah,null
 ,,yang dihadapi adalah,null
-235,OTHER,dia,230|227|225|222|214|213
+235,OTHER,dia,230
 ,,kehilangan,null
 236,OTHER,tanda terima,null
 ,,akibat kebakaran yang melanda rumah,null
-237,OTHER,nya.,235|230|227|225|222|214|213
-238,OTHER,Jamrud itu,233|228|223|220|206|202|198|197|196|192
+237,OTHER,nya.,235
+238,OTHER,Jamrud itu,null
 ,,akhirnya sampai ke,null
 239,OTHER,"Amerika,",null
 ,,meskipun setibanya di,null
 240,LOCATION,Amerika,239
 ,,tidak jelas siapa pemilik,null
-241,OTHER,nya.,238|233|228|223|220|206|202|198|197|196|192
+241,OTHER,nya.,null
 242,THINGS,Satu hal,null
 ,,yang diketahui,null
-243,OTHER,batu itu,241|238|233|228|223|220|206|202|198|197|196|192
+243,OTHER,batu itu,null
 ,,sempat disimpan di,null
 244,OTHER,lemari besi bank,null
 ,,di,null
@@ -450,12 +450,12 @@
 ,,diterjang,null
 248,PERSON|OTHER,"Badai Katrina,",null
 ,,sehingga,null
-249,OTHER,batu berharga,243|241|238|233|228|223|220|206|202|198|197|196|192
+249,OTHER,batu berharga,243
 ,,terendam di,null
 250,OTHER,dalam air,null
 ,,untuk,null
 251,OTHER,beberapa bulan.,null
-252,OTHER|PERSON,Jamrud Bahia,249|243|241|238|233|228|223|220|206|202|198|197|196|192
+252,OTHER|PERSON,Jamrud Bahia,null
 ,,kemudian dibawa ke,null
 253,PERSON,Las Vegas,null
 ,,untuk dilihat oleh,null
@@ -476,12 +476,12 @@
 ,,dalam,null
 262,OTHER|TIME,pemilihan Minggu 3/ 10,null
 ,,#NAME?,null
-263,OTHER,dia,257|256
+263,OTHER,dia,257
 ,,bisa membaca dan menulis.,null
 264,EVENT,Jajak pendapat,null
 ,,memperlihatkan,null
-265,EVENT,"badut itu,",263|257|256
-266,EVENT,"Tiririca,",265|263|257|256
+265,EVENT,"badut itu,",263
+266,EVENT,"Tiririca,",265
 ,,akan meraih,null
 267,OTHER|NUM,lebih dari satu juta suara.,null
 ,,Namun,null
@@ -489,41 +489,41 @@
 ,,di,null
 269,LOCATION,Sao Paulo,null
 ,,menuntut,null
-270,OTHER,dia,266|265|263|257|256
+270,OTHER,dia,266
 ,,untuk memperlihatkan bisa memenuhi persyaratan baca tulis.,null
 271,OTHER|LOCATION,Sejumlah surat kabar Brasil,null
 ,,melaporkan,null
-272,PERSON,Tiririca,270|266|265|263|257|256
+272,PERSON,Tiririca,270
 ,,#NAME?,null
 273,PERSON|OTHER,satu dari sepuluh warga Brasil,null
 ,,buta aksara.,null
-274,PERSON,Tiririca,272|270|266|265|263|257|256
+274,PERSON,Tiririca,272
 ,,#NAME?,null
 275,ORGANIZATION|OTHER,bahasa sehari-hari Portugis,null
 ,,arti,null
-276,ORGANIZATION,nya,274|272|270|266|265|263|257|256
+276,ORGANIZATION,nya,274
 ,,tukang mengeluh menjadi,null
 277,OTHER,sensasi besar,null
 ,,selama,null
 278,OTHER,kampanye pemilihan.,null
 ,,Video kampanye,null
-279,EVENT,nya,276|274|272|270|266|265|263|257|256
+279,EVENT,nya,276
 ,,yang kocak berhasil meraih,null
 280,PERSON,jutaan penonton,null
 ,,di,null
 281,OTHER,YouTube.,null
-282,OTHER,Dia,279|276|274|272|270|266|265|263|257|256
+282,OTHER,Dia,279
 ,,"antara lain menggunakan slogan  Tidak bisa lebih buruk lagi "" dan "" Apa yang dilakukan wakil""",null
 283,TITLE,anda,null
 ,,? Sungguh,null
-284,OTHER,saya,282|279|276|274|272|270|266|265|263|257|256
+284,OTHER,saya,282
 ,,tidak tahu. Tapi pilih lah,null
-285,OTHER,saya,284|282|279|276|274|272|270|266|265|263|257|256
+285,OTHER,saya,284
 ,,dan,null
-286,OTHER,saya,285|284|282|279|276|274|272|270|266|265|263|257|256
+286,OTHER,saya,285
 ,,akan mencari tahu untuk,null
 287,OTHER,anda.,283
-288,,,268
+288,,,null
 ,,memutuskan untuk menggelar,null
 289,OTHER,ujian aksara,null
 ,,setelah,null
@@ -533,20 +533,20 @@
 ,,di situs,null
 292,THINGS,nya,null
 ,,yang memperlihatkan,null
-293,OTHER,Tiririca,286|285|284|282|279|276|274|272|270|266|265|263|257|256
+293,OTHER,Tiririca,286
 ,,tampak kesulitan membaca.,null
 294,ORGANIZATION,Komisi pemilihan,null
 ,,mengatakan sudah terlambat untuk menghentikan pencalonan,null
-295,OTHER,nya,293|286|285|284|282|279|276|274|272|270|266|265|263|257|256
+295,OTHER,nya,293
 ,,namun,null
-296,OTHER,dia,295|293|286|285|284|282|279|276|274|272|270|266|265|263|257|256
+296,OTHER,dia,295
 ,,bisa diberhentikan setelah,null
 297,OTHER,pemilihan nanti,null
 ,,jika gagal memperlihatkan kemampuan membaca.,null
-298,THINGS,Calon selebriti,296|295|293|286|285|284|282|279|276|274|272|270|266|265|263|257|256
+298,THINGS,Calon selebriti,null
 ,,"Tiririca, yang nama asli",null
-299,OTHER,nya,298|296|295|293|286|285|284|282|279|276|274|272|270|266|265|263|257|256
-300,ORGANIZATION|PERSON,Francisco Everardo Oliveira Silva,300|300
+299,OTHER,nya,296
+300,ORGANIZATION|PERSON,Francisco Everardo Oliveira Silva,null
 ,,#NAME?,null
 301,OTHER,sirkus,null
 ,,sejak berusia,null
@@ -555,14 +555,14 @@
 303,OTHER,"negara bagian miskin,",null
 304,OTHER,Ceara.,303
 ,,Dengan pengalaman,null
-305,OTHER,"nya,",300|300|300
-306,OTHER,dia,305|300|300|300
+305,OTHER,"nya,",300
+306,OTHER,dia,305
 307,OTHER,kini,null
 ,,menjadi,null
 308,OTHER,salah seorang pelawak,null
 ,,yang terkenal di,null
 309,OTHER,TV.,null
-310,PERSON,Dia,306|305|300|300|300
+310,PERSON,Dia,306
 ,,merupakan,null
 311,OTHER|THINGS,salah seorang dari puluhan calon,null
 ,,yang berasal dari dunia,null
@@ -614,9 +614,9 @@
 336,LOCATION,Strasbourg,null
 ,,dengan menggendong anak bayi,null
 337,OTHER,nya.,null
-338,PERSON,Licia Ronzulli,337
+338,PERSON,Licia Ronzulli,null
 ,,mengatakan,null
-339,OTHER,ia,338|337
+339,OTHER,ia,338
 ,,ingin menunjukkan berat,null
 340,OTHER,nya,null
 ,,beban yang ditanggung,null
@@ -637,7 +637,7 @@
 ,,tampak tidur nyenyak selama,null
 349,OTHER,sidang,null
 ,,berlangsung.,null
-350,PERSON,Ronzulli,339|338|337
+350,PERSON,Ronzulli,339
 ,,yang mewakili,null
 351,ORGANIZATION,Partai Kebebasan Rakyat,null
 ,,pimpinan,null
@@ -645,12 +645,12 @@
 ,,mendapat,null
 353,OTHER,sambutan meriah,null
 ,,ketika berdiri untuk menyampaikan pidato,null
-354,OTHER,nya.,350|339|338|337
-355,PERSON,Ia,354|350|339|338|337
+354,OTHER,nya.,350
+355,PERSON,Ia,354
 ,,mengatakan kepada rekan,null
-356,OTHER,nya,355|354|350|339|338|337
+356,OTHER,nya,355
 357,OTHER|TITLE|ORGANIZATION,sesama anggota parlemen,null
-358,,Saya,356|355|354|350|339|338|337
+358,,Saya,356
 ,,ingin melihat,null
 359,OTHER,komitmen yang lebih besar,null
 ,,untuk,null
@@ -663,13 +663,13 @@
 364,,Naskah asli,null
 365,PERSON,Harry Potter,null
 ,,dipamerkan,null
-366,PERSON,Naskah asli,364
+366,PERSON,Naskah asli,null
 ,,dari kisah,null
 367,PERSON,Harry Potter,365
 ,,yang ditulis,null
 368,OTHER,tangan,null
 ,,oleh pengarang,null
-369,OTHER,"nya,",367|365
+369,OTHER,"nya,",367
 370,ORGANIZATION|OTHER,"JK Rowling,",null
 ,,dipamerkan sebagai,null
 371,OTHER,bagian,null
@@ -683,7 +683,7 @@
 ,,itu berisi Balada,null
 376,PERSON,Nick,null
 ,,Si Kepala Nyaris Putus.,null
-377,OTHER,Naskah itu,366|364
+377,OTHER,Naskah itu,null
 ,,akan dipamerkan dalam,null
 378,OTHER,festival,null
 ,,di,null
@@ -696,15 +696,15 @@
 ,,ditulis sebagai,null
 383,OTHER,bagian,null
 ,,dari buku,null
-384,FACILITY,Harry Potter,369|367|365
+384,FACILITY,Harry Potter,369
 ,,dan,null
 385,FACILITY,Kamar Rahasia,null
 ,,tetapi kemudian,null
 386,FACILITY|OTHER,kedua halaman itu,null
 ,,dibuang sehingga tidak termasuk dalam buku yang diterbitkan.,null
-387,OTHER,Kedua halaman itu,386
+387,OTHER,Kedua halaman itu,null
 ,,disumbangkan oleh,null
-388,FACILITY,JK Rowling,375|370
+388,FACILITY,JK Rowling,375
 ,,bagi,null
 389,LOCATION,Yayasan Kamus Bahasa Skotlandia,null
 390,LOCATION,tahun 2005,null
@@ -716,7 +716,7 @@
 ,,Skotlandia.,null
 394,EVENT,Sekarang,null
 ,,halaman,null
-395,EVENT,naskah asli,377|366|364
+395,EVENT,naskah asli,null
 ,,itu dimiliki oleh seorang,null
 396,OTHER,kolektor buku terkemuka,null
 ,,Inggris dan pemilik,null
@@ -730,16 +730,16 @@
 ,,pernah mendukung,null
 402,OTHER,berbagai festival buku,null
 ,,tetapi,null
-403,OTHER,saya,400|398
+403,OTHER,saya,400
 ,,harus mengatakan bahwa,null
-404,OTHER,saya,403|400|398
+404,OTHER,saya,403
 ,,sangat senang,null
 405,OTHER,kami,null
 ,,ikut dalam,null
 406,LOCATION,Festival Wigtown,null
 ,,"ini. "",null
 ,,"" Memamerkan naskah Balada",null
-407,PERSON,Nick,381|376
+407,PERSON,Nick,null
 ,,si Kepala Nyaris Putus adalah cara yang sangat bagus untuk membantu mendukung,null
 408,OTHER,acara ini.,null
 409,,TV Australia,null
@@ -769,15 +769,15 @@
 422,OTHER,ear piece,null
 423,OTHER,dia,420
 ,,mengatakan,null
-424,,Saya,423|420
+424,,Saya,423
 ,,mual dengan,null
 425,OTHER,masalah ini.,null
-426,OTHER,Saya,424|423|420
+426,OTHER,Saya,424
 ,,amat meminta,null
 427,OTHER,"maaf,",null
 428,OTHER,ini,null
 429,OTHER,semata-mata kecelakaan.,null
-430,,Dia,426|424|423|420
+430,,Dia,426
 ,,kemudian mengumumkan,null
 431,OTHER,"pemenang yang sebenarnya,",null
 ,,yaitu,null
@@ -788,7 +788,7 @@
 ,,yang terjadi kalau,null
 435,OTHER|THINGS,"siaran TV langsung,",null
 ,," kata""",null
-436,PERSON|OTHER,Sarah Murdoch.,430|426|424|423|420
+436,PERSON|OTHER,Sarah Murdoch.,430
 437,,Ini,null
 ,,"edan, edan, edan.",null
 438,PERSON,Martinovich,416
@@ -802,8 +802,8 @@
 442,,Ini,null
 443,OTHER,"semata-mata kekeliruan,",null
 ,," kata""",null
-444,OTHER,nya.,438|416
-445,PERSON,Sarah Murdoch,436|430|426|424|423|420
+444,OTHER,nya.,438
+445,PERSON,Sarah Murdoch,436
 ,,berusaha menjelaskan,null
 446,OTHER,kekeliruan itu,null
 ,,terjadi karena,null
@@ -817,22 +817,22 @@
 ,,pemenang,null
 451,OTHER,"nya,",null
 ,," jelas""",null
-452,PERSON,nya.,445|436|430|426|424|423|420
+452,PERSON,nya.,445
 453,THINGS,Kedua finalis,null
 ,,kemudian berpelukan sebelum,null
-454,PERSON,Ware,450|432
+454,PERSON,Ware,450
 ,,mengucapkan,null
 455,OTHER,terima kasih,null
 ,,kepada para pendukung,null
-456,OTHER,nya,454|450|432
+456,OTHER,nya,454
 ,,dan berjalan di atas,null
 457,OTHER,catwalk,null
 ,,untuk,null
 458,OTHER,terakhir kali.,null
 ,,Dan,null
-459,FACILITY,Sarah Murdoch,452|445|436|430|426|424|423|420
+459,FACILITY,Sarah Murdoch,452
 ,,-,null
-460,FACILITY,seorang model,460|460
+460,FACILITY,seorang model,null
 ,,yang merangkap,null
 461,OTHER,presenter,null
 ,,TV - menikah dengan,null
@@ -863,7 +863,7 @@
 ,,yang paling populer walau,null
 476,OTHER,tak banyak,null
 ,,yang pernah membaca,null
-477,OTHER,nya.,471|464
+477,OTHER,nya.,471
 ,,Namun,null
 478,OTHER,kini,null
 479,TITLE|ORGANIZATION|OTHER,"Akademi Kerajaan Spanyol,",466
@@ -871,7 +871,7 @@
 480,OTHER,pelindung resmi,null
 481,OTHER,"bahasa Spanyol,",null
 ,,membagi,null
-482,OTHER,karya itu,477|471|464
+482,OTHER,karya itu,477
 ,,ke dalam,null
 483,OTHER,2.000 segmen.,null
 484,OTHER,Segmen-segmen itu,483
@@ -887,9 +887,9 @@
 ,,adalah mempromosikan,null
 489,OTHER|LOCATION,bahasa Spanyol,481
 ,,"dan novel terkenal itu, yang akan menggunakan judul lengkap",null
-490,TITLE,nya,482|477|471|464
-491,TITLE|PERSON|OTHER,The Ingenious Hidalgo Don Quixote of La Mancha.,490|482|477|471|464
-492,,Bahasa Spanyol,489|481
+490,TITLE,nya,null
+491,TITLE|PERSON|OTHER,The Ingenious Hidalgo Don Quixote of La Mancha.,null
+492,,Bahasa Spanyol,489
 ,,tidak mendapat,null
 493,OTHER,ruang yang sepatutnya,null
 ,,di,null
@@ -909,7 +909,7 @@
 ,,""",null
 ,,Ditulis pada""",null
 502,OTHER|TIME,"tahun 1605,",null
-503,TIME|OTHER,novel ini,491|490|482|477|471|464
+503,TIME|OTHER,novel ini,491
 ,,berkisah tentang petualangan seorang,null
 504,ORGANIZATION,pria pensiunan,null
 ,,di kawasan,null
@@ -917,7 +917,7 @@
 ,,yang punya obsesi dengan,null
 506,OTHER,gagasan-gagasan kesatria.,null
 ,,Novel asli,null
-507,OTHER,nya,503|491|490|482|477|471|464
+507,OTHER,nya,503
 ,,terdiri dari,null
 508,FACILITY,26 bab,null
 ,,dan hampir mencapai,null
@@ -925,11 +925,11 @@
 ,,Bagi yang berminat harus mendaftarkan,null
 510,OTHER,diri,null
 ,,di,null
-511,ORGANIZATION,YouTube,473|465
+511,ORGANIZATION,YouTube,null
 ,,dan yang terpilih akan membaca,null
 512,OTHER,segmen tertentu,null
 ,,untuk diunggah di,null
-513,OTHER,YouTube.,511|473|465
+513,OTHER,YouTube.,511
 514,EVENT,The Hobbit,null
 ,,cari,null
 515,EVENT,aktor kerdil,null
@@ -947,11 +947,11 @@
 ,,meraih,null
 522,PERSON,Piala Oscar,null
 ,,atas karya,null
-523,OTHER,nya,521|519
+523,OTHER,nya,521
 524,ORGANIZATION|OTHER,Lord of the Rings : The Return of the King.,null
 ,,Iklan yang muncul di koran terbitan,null
 525,OTHER,"Wellington,",null
-526,LOCATION,Selandia Baru,518
+526,LOCATION,Selandia Baru,null
 ,,menyebutkan,null
 527,PERSON,Wingnut Films,null
 ,,mencari,null
@@ -968,14 +968,14 @@
 533,OTHER,lampu hijau,null
 ,,dari,null
 534,OTHER,perusahaan perfilman,null
-535,ORGANIZATION,MGM Studios,534
+535,ORGANIZATION,MGM Studios,null
 ,,akibat,null
 536,ORGANIZATION,kesulitan keuangan,null
 ,,yang tengah dialami.,null
 ,,"Namun,",null
 537,OTHER|FACILITY,juru bicara Wingnut,null
 ,,mengatakan,null
-538,OTHER,mereka,527
+538,OTHER,mereka,null
 ,,"ingin  bersiap-siap "".""",null
 539,OTHER,Juru bicara,537
 ,,mengatakan kepada,null
@@ -1001,12 +1001,12 @@
 ,,dan muncul dengan,null
 551,OTHER,aktor dewasa lain,null
 ,,ketika,null
-552,OTHER,kami,550
+552,OTHER,kami,null
 ,,memerlukan,null
 553,OTHER,orang,null
 ,,"untuk terlihat lebih kecil atau lebih tinggi,  jelas""",null
-554,OTHER,si juru bicara.,539|537
-555,OTHER,Dia,554|539|537
+554,OTHER,si juru bicara.,539
+555,OTHER,Dia,554
 ,,menambahkan,null
 556,OTHER,semua pelamar,null
 ,,harus berusia,null
@@ -1038,9 +1038,9 @@
 572,OTHER,enam inci,null
 573,OTHER|NUM,sekitar 75 cm.,null
 ,,Surat-surat yang ditulis,null
-574,OTHER,"si pengarang,",564|562
+574,OTHER,"si pengarang,",564
 ,,yang diterbitkan setelah,null
-575,OTHER,dia,574|564|562
+575,OTHER,dia,574
 ,,"meninggal, menggambarkan",null
 576,OTHER,penampakan fisik,null
 577,OTHER,sosok protagonis,null
@@ -1064,7 +1064,7 @@
 ,,tertutup dengan,null
 588,EVENT,"bulu cokelat,",null
 ,," tambah""",null
-589,OTHER,nya.,575|574|564|562
+589,OTHER,nya.,575
 ,,Pencarian,null
 590,PERSON,casting,null
 ,,untuk,null
@@ -1079,7 +1079,7 @@
 595,OTHER,"kelahiran Meksiko,",null
 596,PERSON,Guillermo Del Toro,null
 ,,telah bersedia menjadi sutradara,null
-597,OTHER,"film tersebut,",591|578
+597,OTHER,"film tersebut,",null
 ,,tapi menarik diri,null
 598,OTHER|TIME,bulan Juni,null
 ,,dengan alasan,null
@@ -1095,7 +1095,7 @@
 604,OTHER,nya,601
 605,ORGANIZATION|OTHER,"Lord of the Rings : The Return of the King,",null
 ,,diperkirakan akan menggantikan,null
-606,OTHER,dia,596
+606,OTHER,dia,null
 ,,di,null
 607,OTHER,"kursi sutradara,",null
 ,,meski belum ada,null
@@ -1153,7 +1153,7 @@
 640,OTHER,"pemanenan,",null
 641,OTHER|PERSON,dua orang saja,null
 ,,"cukup,  kata""",null
-642,OTHER,Cavaille,631|624
+642,OTHER,Cavaille,631
 ,,kepada,null
 643,OTHER|LOCATION,harian Le Parisien.,null
 644,,Ladang itu,null
@@ -1164,7 +1164,7 @@
 ,,dan di,null
 647,OTHER,dekat sungai.,null
 ,,Jadi,null
-648,OTHER,mereka,638|634
+648,OTHER,mereka,638
 ,,"bisa mencuri dengan aman. "",null
 649,OTHER,Seorang saksi mata""",null
 ,,mengaku mendengar,null
@@ -1179,7 +1179,7 @@
 654,OTHER,"tempat kejadian,",null
 ,,kata,null
 655,PERSON|OTHER,harian setempat.,null
-656,PERSON,Cavaille,642|631|624
+656,PERSON,Cavaille,642
 ,,menambahkan bahwa,null
 657,OTHER,kawanan pencuri,null
 ,,jelas sangat profesional dan tak akan kesulitan menjual,null
@@ -1190,14 +1190,14 @@
 660,EVENT,pencurian,null
 ,,tidak termasuk dalam,null
 661,OTHER,lindungan asuransi.,null
-662,PERSON,Cavaille,656|642|631|624
+662,PERSON,Cavaille,656
 ,,sangat marah dengan,null
-663,OTHER,peristiwa tersebut,660
+663,OTHER,peristiwa tersebut,null
 ,,dan mengatakan tidak tahu sama sekali akan siapa yang kira-kira melakukan,null
-664,OTHER,pencurian.,663|660
+664,OTHER,pencurian.,null
 ,,Sebelum,null
 665,OTHER,nya,null
-666,OTHER,ia,662|656|642|631|624
+666,OTHER,ia,662
 ,,sangat mempercayai adanya,null
 667,OTHER,rasa solidaritas,null
 668,OTHER,antarsesama pembuat anggur.,null
@@ -1211,34 +1211,34 @@
 ,,dari penampilan,null
 673,OTHER,nya,671
 ,,di,null
-674,OTHER,kejuaraan dunia karaoke,669
+674,OTHER,kejuaraan dunia karaoke,null
 ,,di,null
 675,OTHER,"Moskow,",null
 676,OTHER,Rusia.,null
-677,PERSON,Edward Pimentel,673|671
+677,PERSON,Edward Pimentel,673
 ,,mendapat hadiah satu juta,null
 678,NUM|LOCATION,pangsit Rusia,null
 ,,setelah keluar sebagai,null
 679,OTHER,favorit penonton,null
 ,,dalam,null
-680,ORGANIZATION|OTHER,kontes itu.,674|669
+680,ORGANIZATION|OTHER,kontes itu.,null
 681,OTHER,Pihak panitia,null
 ,,mengatakan bila,null
-682,PERSON,Pimentel,677|673|671
+682,PERSON,Pimentel,677
 ,,makan,null
 683,NUM,100 pangsit,null
 684,OTHER,"setiap hari,",null
 ,,pasokan yang,null
-685,OTHER,ia,682|677|673|671
+685,OTHER,ia,682
 ,,miliki baru akan habis dalam waktu,null
 686,FACILITY|OTHER,27 tahun.,null
-687,OTHER,Penyanyi amatir ini,685|682|677|673|671
+687,OTHER,Penyanyi amatir ini,685
 ,,akan mendapat kupon untuk makan,null
 688,OTHER,pangsit,null
 ,,kapan pun,null
-689,OTHER,dia,687|685|682|677|673|671
+689,OTHER,dia,687
 ,,mau.,null
-690,OTHER,Ia,689|687|685|682|677|673|671
+690,OTHER,Ia,689
 ,,gagal meraih,null
 691,OTHER,angka,null
 ,,dari,null
@@ -1251,7 +1251,7 @@
 ,,dan,null
 696,OTHER,Blues.,null
 ,,Pemenang,null
-697,EVENT,kejuaraan karaoke dunia,680|674|669
+697,EVENT,kejuaraan karaoke dunia,null
 ,,ini berasal dari,null
 698,LOCATION,Finlandia,null
 ,,untuk kategori penyanyi,null
@@ -1280,13 +1280,13 @@
 712,OTHER,ia,707
 ,,dikecam habis.,null
 ,,Sebagai seorang,null
-713,OTHER,"pesepak bola profesional,",712|707
-714,OTHER,ia,713|712|707
+713,OTHER,"pesepak bola profesional,",null
+714,OTHER,ia,712
 ,,sepertinya harus menjaga kesehatan tubuh,null
-715,OTHER,nya,714|713|712|707
+715,OTHER,nya,714
 ,,"tanpa terkecuali, bahkan ketika musim libur.",null
 ,,Namun,null
-716,FACILITY,Rooney,715|714|713|712|707
+716,FACILITY,Rooney,715
 717,OTHER,tidak sendirian.,null
 718,PERSON,Banyak olahragawan,null
 ,,terkenal melakukan,null
@@ -1299,13 +1299,13 @@
 ,,Persoalan,null
 723,OTHER,nya,null
 ,,apakah,null
-724,OTHER,mereka,720|721
+724,OTHER,mereka,718
 ,,harus menghentikan,null
 725,OTHER,kebiasaan itu,null
 ,,untuk memberi,null
 726,OTHER,contoh yang lebih baik,null
 ,,karena,null
-727,OTHER,mereka,724|720|721
+727,OTHER,mereka,724
 ,,diidolakan,null
 728,OTHER,banyak orang,null
 ,,?,null
@@ -1318,7 +1318,7 @@
 ,,dan,null
 733,OTHER,statistik,null
 ,,menunjukkan,null
-734,OTHER,mereka,732
+734,OTHER,mereka,null
 ,,yang merokok sebelum berusia,null
 735,NUM,16,null
 ,,adalah yang paling sulit menghentikan,null
@@ -1333,7 +1333,7 @@
 741,OTHER,"pemain sepak bola,",null
 ,,diidolakan dan karena status,null
 742,OTHER,nya,740
-743,OTHER,mereka,742|740
+743,OTHER,mereka,742
 ,,perlu menempatkan diri sebagai,null
 744,OTHER,figur panutan.,null
 745,,Remaja,null
@@ -1344,10 +1344,10 @@
 ,,antara,null
 748,OTHER,"olahraga dan kemewahan,",null
 ,," kata""",null
-749,OTHER,nya.,738|737
+749,OTHER,nya.,738
 750,,Mereka,745
 ,,akan mulai merokok kalau melihat idola,null
-751,OTHER,mereka,750|745
+751,OTHER,mereka,750
 752,,Anna Gilmore,null
 ,,di,null
 754,FACILITY,"Universitas Bath,",null
@@ -1368,7 +1368,7 @@
 762,OTHER,mereka.,760
 763,PERSON,Penelitian,null
 ,,membuktikan,null
-764,OTHER,mereka,762|760
+764,OTHER,mereka,null
 ,,yang tumbuh dengan,null
 765,OTHER,"orang tua perokok,",null
 766,NUM,90%,null
@@ -1382,7 +1382,7 @@
 ,,kepada,null
 770,OTHER,olahraga,null
 ,,ikut mempengaruhi,null
-771,OTHER,anak-anak,null
+771,OTHER,anak-anak,760
 ,,untuk merokok. Jadi,null
 772,OTHER,"panutan yang negatif,",null
 ,,termasuk,null
@@ -1400,8 +1400,7 @@
 ,,mengatakan menyalahkan,null
 780,OTHER|ORGANIZATION,olahragawan idola,null
 ,,sebagai penyebab remaja merokok tidak lah tepat.,null
-,,""",null
-781,TITLE,Penelitian""",null
+781,,Penelitian,null
 ,,membuktikan bahwa,null
 782,OTHER,tekanan,null
 ,,dari,null
@@ -1436,16 +1435,16 @@
 797,OTHER,mereka,796
 ,,ini,null
 798,OTHER,orang dewasa.,null
-799,OTHER,Mereka,797|796
+799,OTHER,Mereka,797
 ,,boleh saja merokok tanpa harus dituding bertanggung jawab terhadap apa yang di luar kekuasaan,null
-800,OTHER,nya.,799|797|796
+800,OTHER,nya.,799
 ,," '""",null
 801,TITLE|PERSON,Menteri Keuangan Sri Mulyani,null
 ,,mengatakan,null
 802,OTHER,koreksi tajam,null
 ,,pada,null
 803,OTHER|TITLE|ORGANIZATION,Indeks Harga Saham Gabungan,null
-804,ORGANIZATION,IHSG,803
+804,ORGANIZATION,IHSG,null
 ,,hingga,null
 805,OTHER|NUM,sekitar 4 persen,null
 ,,dalam,null
@@ -1463,12 +1462,12 @@
 812,OTHER,jumpa pers,null
 ,,bersama Dirut,null
 813,ORGANIZATION|LOCATION,Bursa Efek Jakarta,null
-814,OTHER,"BEJ,",813
+814,OTHER,"BEJ,",null
 815,PERSON,Erry Firmansyah,null
 ,,di,null
 816,OTHER|LOCATION,"gedung Depkeu Jakarta,",null
 817,TIME,"Rabu malam,",null
-818,TIME,Menkeu,null
+818,TIME,Menkeu,801
 ,,menjelaskan,null
 819,OTHER,beberapa,null
 820,OTHER,faktor ekonomi,null
@@ -1563,7 +1562,7 @@
 ,,yang berlaku efektif,null
 871,OTHER,"Januari,",null
 ,," ujar""",null
-872,OTHER,nya.,858|854
+872,OTHER,nya.,858
 873,EVENT,Pemerintah,860
 ,,juga telah berkomitmen untuk meningkatkan,null
 874,OTHER,produksi padi nasional,null
@@ -1578,7 +1577,7 @@
 878,TITLE|PERSON,Crude Palm Oil,null
 879,PERSON,CPO,878
 880,ORGANIZATION,PT Astra Agro Lestari,null
-881,ORGANIZATION,AALI,880
+881,ORGANIZATION,AALI,881
 ,,pada,null
 882,TIME,Oktober 2007,null
 ,,naik,null
@@ -1602,7 +1601,7 @@
 ,,di,null
 893,OTHER,penghujung tahun ini.,null
 ,,"Namun ,lanjut",null
-894,OTHER,"Santoso,",888|887
+894,OTHER,"Santoso,",888
 895,OTHER,produksi,null
 ,,secara,null
 896,OTHER,total,null
@@ -1620,7 +1619,7 @@
 902,TIME,10 bulan,null
 ,,"pertama, produksi",null
 903,OTHER|ORGANIZATION,super CPO,null
-904,ORGANIZATION,AALI,881|880
+904,ORGANIZATION,AALI,881
 ,,naik,null
 905,OTHER|NUM,"sebesar 4,6 persen",null
 ,,dari,null
@@ -1673,7 +1672,7 @@
 ,,tak melihat,null
 934,OTHER,dampak yang terlalu negatif,null
 ,,karena mampu menyerap kerugian,null
-935,OTHER,nya,931
+935,OTHER,nya,null
 ,,dengan menggunakan,null
 936,OTHER,pendekatan pasar.,null
 937,OTHER,Ini,null
@@ -1690,11 +1689,11 @@
 ,,"lebih tinggi, kata",null
 943,OTHER,nya.,923
 ,,Mengenai kekhawatiran besar,null
-944,OTHER,nya,943|923
+944,OTHER,nya,943
 ,,kredit akan mengancam,null
 945,OTHER,"kondisi perbankan,",null
 ,,akibat meningkatnya kredit bermasalah.,null
-946,PERSON,Halim,944|943|923
+946,PERSON,Halim,923
 ,,mengatakan,null
 947,OTHER,ketahanan perbankan,null
 948,OTHER,saat ini,null
@@ -1729,7 +1728,7 @@
 ,,disampaikan,null
 965,TITLE,Dubes,null
 ,,saat menerima pengurus,null
-966,LOCATION,ICMI London,null
+966,LOCATION,ICMI London,959
 ,,yang terdiri atas,null
 967,OTHER,"Ketua,",null
 968,PERSON|OTHER,"Muslimin Anwar,",967
@@ -1789,7 +1788,7 @@
 999,OTHER,Inggris.,987
 1000,OTHER,Celah ini,null
 ,,yang bisa dilakukan oleh,null
-1001,ORGANIZATION,ICMI London,979|966
+1001,ORGANIZATION,ICMI London,979
 ,,dalam upaya menjembatani,null
 1002,OTHER|LOCATION,para pengusaha Indonesia,null
 ,,yang akan melebarkan sayap,null
@@ -1803,11 +1802,11 @@
 ,,dan juga melihat,null
 1007,OTHER,produk unggulan,null
 ,,Indonesia yang bisa dijual di,null
-1008,OTHER,"Inggris,",999|987
+1008,OTHER,"Inggris,",999
 ,,ujar Dubes yang melihat,null
 1009,OTHER,banyak hal,null
 ,,yang bisa dilakukan,null
-1010,OTHER,pengusaha Indonesia.,1003|1002
+1010,OTHER,pengusaha Indonesia.,1003
 ,,Sebelum,null
 1011,TITLE,nya,null
 1012,TITLE|ORGANIZATION|LOCATION,Ketua ICMI London,null
@@ -1823,7 +1822,7 @@
 ,,nilai,null
 1018,ORGANIZATION|LOCATION,ekspor Indonesia,null
 ,,ke,null
-1019,LOCATION,Inggris,1008|999|987
+1019,LOCATION,Inggris,1008
 ,,sepanjang,null
 1020,OTHER|TIME,tahun 2005,null
 ,,tercatat,null
@@ -1833,7 +1832,7 @@
 ,,didominasi jenis barang-barang,null
 1023,THINGS|OTHER,tekstil dan alas kaki.,null
 1024,ORGANIZATION,PT Indonesia Air Transport Tbk,null
-1025,ORGANIZATION,IATA,1025|1025
+1025,ORGANIZATION,IATA,1024
 ,,pada,null
 1026,OTHER,tahun ini,null
 ,,berencana menambah,null
@@ -1863,7 +1862,7 @@
 ,,di,null
 1042,OTHER,"Jakarta,",null
 1043,OTHER,Senin.,null
-1044,PERSON,Roekman,1041|1040
+1044,PERSON,Roekman,1041
 ,,mengatakan,null
 1045,OTHER,pesawat tersebut,null
 ,,akan disewakan dengan,null
@@ -1876,16 +1875,16 @@
 1049,OTHER,para turis,null
 ,,lokal dan asing yang akan berkunjung ke,null
 1050,OTHER,"Bali,",1034
-1051,OTHER,"NTT,",1030|1029
-1052,PERSON,NTB,1032|1031
+1051,OTHER,"NTT,",1030
+1052,PERSON,NTB,1032
 ,,maupun,null
 1053,PERSON|OTHER,Labuhan Bajo.,1033
 ,,Perusahaan,null
-1054,ORGANIZATION,travel,1048|1047
+1054,ORGANIZATION,travel,1048
 ,,tersebut sudah mempunyai keinginan menambah,null
 1055,NUM|OTHER,"lima pesawat lagi,",null
 ,,ujar,null
-1056,OTHER,nya.,1044|1041|1040
+1056,OTHER,nya.,1044
 1057,OTHER,Saat ini,null
 1058,OTHER,kami,null
 ,,baru mampu memenuhi,null
@@ -1904,8 +1903,8 @@
 ,,akan diserahkan pada,null
 1066,OTHER,"akhir Mei,",null
 ,,tambah,null
-1067,OTHER,nya.,1056|1044|1041|1040
-1068,PERSON,Roekman,1067|1056|1044|1041|1040
+1067,OTHER,nya.,1056
+1068,PERSON,Roekman,1067
 ,,mengatakan selama,null
 1069,OTHER,ini,null
 1070,OTHER,perseroan,null
@@ -1932,19 +1931,19 @@
 ,,dengan,null
 1084,ORGANIZATION,perusahaan penyewaan pesawat,null
 ,,sangat diperlukan karena tidak mungkin,null
-1085,OTHER,perseroan,1077|1070
+1085,OTHER,perseroan,1077
 ,,menyediakan,null
 1086,OTHER,"pesawat sendiri,",null
 ,,karena,null
 1087,OTHER,risiko dan investasi,null
 1088,THINGS,nya,null
 ,,"besar, kata",null
-1089,PERSON,Henry,1082|1081
+1089,PERSON,Henry,1082
 ,,Sementara wilayah,null
-1090,OTHER,"NTT,",null
-1091,ORGANIZATION,NTB,null
+1090,OTHER,"NTT,",1051
+1091,ORGANIZATION,NTB,1052
 ,,dan,null
-1092,ORGANIZATION|LOCATION,Labuhan Bajo,null
+1092,ORGANIZATION|LOCATION,Labuhan Bajo,1053
 ,,sudah menjadi,null
 1093,OTHER,"daerah tujuan wisata turis,",null
 ,,namun transportasi yang menuju ke,null
@@ -1960,7 +1959,7 @@
 ,,dengan,null
 1099,OTHER,"IATA,",null
 ,,lanjut,null
-1100,OTHER,Henry.,1089|1082|1081
+1100,OTHER,Henry.,1089
 1101,PERSON,Roekman,null
 ,,menambahkan,null
 1102,OTHER,kontrak penyewaan pesawat,null
@@ -2005,7 +2004,7 @@
 1125,TIME,2006,null
 1126,OTHER|THINGS|NUM,"sebesar Rp 28,6 miliar.",null
 1127,ORGANIZATION|PERSON,PT Bank Mayapada Internasional Tbk,null
-1128,PERSON,MAYA,null
+1128,PERSON,MAYA,1128
 ,,akan melakukan,null
 1129,OTHER,penawaran umum,null
 ,,obligasi,null
@@ -2019,11 +2018,11 @@
 1135,FACILITY,Tahun 2007,null
 1136,FACILITY,sebanyak - banyak Rp 250 miliar.,null
 ,,Dalam prospektus,null
-1137,EVENT,nya,1127
+1137,EVENT,nya,1128
 ,,yang dipublikasikan di,null
 1138,OTHER,"Jakarta,",null
 1139,OTHER,"Selasa,",null
-1140,ORGANIZATION|OTHER,Bank Mayapada,1137|1127
+1140,ORGANIZATION|OTHER,Bank Mayapada,1137
 ,,mengatakan,null
 1141,TITLE|ORGANIZATION,Obligasi Bank Mayapada II,1131
 1142,OTHER|TIME,Tahun 2007,null
@@ -2063,7 +2062,7 @@
 1161,TIME,24 - 26 April 2007,null
 ,,dan akan dicatatkan di,null
 1162,FACILITY,Bursa Efek Surabaya,null
-1163,FACILITY,BES,null
+1163,FACILITY,BES,1162
 ,,pada,null
 1164,TIME|OTHER,1 Mei 2007.,null
 1165,ORGANIZATION,PT Medco Energy Internasional Tbk,null
@@ -2077,7 +2076,7 @@
 1170,ORGANIZATION,PLN,1169
 1171,OTHER|PERSON,senilai 430 juta dolar AS.,null
 ,,Dalam penjelasan,null
-1172,OTHER,nya,1170|1169
+1172,OTHER,nya,1170
 ,,ke,null
 1173,ORGANIZATION,Badan Pengawas Pasar Modal,null
 1174,ORGANIZATION,"Bapepam,",1173
@@ -2088,7 +2087,7 @@
 1177,OTHER,nota kesepahaman,null
 1178,OTHER,"perjanjian jual beli gas,",null
 ,,dengan,null
-1179,OTHER,"PLN,",1170|1169
+1179,OTHER,"PLN,",1170
 ,,pada,null
 1180,TIME,21 Maret,null
 ,,lalu.,null
@@ -2207,11 +2206,11 @@
 ,,dalam,null
 1245,OTHER,"dolar AS,",null
 ,,ujar,null
-1246,OTHER,nya.,1233|1225
+1246,OTHER,nya.,1233
 ,,Sementara,null
 1247,OTHER,itu,null
 ,,",ujar",null
-1248,OTHER,"dia,",1246|1233|1225
+1248,OTHER,"dia,",1246
 1249,OTHER,dividen interim,null
 ,,untuk,null
 1250,OTHER|TIME,tahun 2006,null
@@ -2236,7 +2235,7 @@
 ,,telah dibayarkan untuk,null
 1262,OTHER|TIME,"tahun 2005,",null
 ,,kata,null
-1263,OTHER,dia.,1248|1246|1233|1225
+1263,OTHER,dia.,1248
 ,,Dalam,null
 1264,ORGANIZATION|OTHER,RUPS tersebut,null
 1265,OTHER,pemegang saham,null
@@ -2256,11 +2255,11 @@
 ,,pada,null
 1273,EVENT,"penutupan rapat tersebut,",null
 ,,ujar,null
-1274,OTHER,nya.,1263|1248|1246|1233|1225
+1274,OTHER,nya.,1263
 ,,Selain,null
 1275,THINGS,itu,null
 ,,",ucap",null
-1276,THINGS,nya,1274|1263|1248|1246|1233|1225
+1276,THINGS,nya,1274
 1277,THINGS,pemegang saham,null
 ,,juga mengangkat kembali,null
 1278,THINGS,"Eddie A Arsyad,",null
@@ -2271,7 +2270,7 @@
 1281,THINGS,Direktur-Direktur Perseroan,null
 ,,yang akan bekerja sampai penutupan,null
 1282,ORGANIZATION|OTHER,RUPS tahunan 2009.,null
-1283,OTHER,Ia,1276|1274|1263|1248|1246|1233|1225
+1283,OTHER,Ia,1276
 ,,"menambahkan, kantor",null
 1284,ORGANIZATION,Akuntan Publik Haryanto Sahari,null
 ,,dan,null
@@ -2304,7 +2303,7 @@
 ,,Penyaluran kredit,null
 1300,THINGS|NUM,Rp 10 triliun,null
 ,,tersebut menurut,null
-1301,PERSON,Jahja,1298|1297
+1301,PERSON,Jahja,1298
 ,,akan dianggarkan dari penarikan,null
 1302,OTHER|ORGANIZATION,Surat Bank Indonesia,null
 1303,OTHER,SBI.,1302
@@ -2405,7 +2404,7 @@
 1357,PERSON,"20,2 miliar ringgit Malaysia",null
 1358,PERSON|ORGANIZATION,"5,6 miliar dolar AS",null
 ,,dibandingkan,null
-1359,LOCATION,Indonesia,1351|1348
+1359,LOCATION,Indonesia,1351
 ,,yang hanya mencapai,null
 1360,PERSON,"4,7 miliar ringgit Malaysia",null
 1361,PERSON|OTHER,"1,3 miliar dolar AS.",null
@@ -2417,7 +2416,7 @@
 1365,EVENT,Dr Tan Yee Kew,null
 ,,mengemukakan dalam,null
 1366,OTHER,"sidang parlemen,",null
-1367,LOCATION,Malaysia,1356|1345
+1367,LOCATION,Malaysia,1356
 ,,menduduki,null
 1368,OTHER,urutan ke-2,null
 ,,setelah,null
@@ -2440,7 +2439,7 @@
 1380,OTHER|NUM,"sebesar 11,4 miliar ringgit",null
 1381,NUM|ORGANIZATION,"3,16 miliar dolar AS",null
 ,,dan,null
-1382,LOCATION,Indonesia,1359|1351|1348
+1382,LOCATION,Indonesia,1359
 ,,berada di,null
 1383,OTHER,urutan ke-4,null
 ,,dengan nilai,null
@@ -2448,7 +2447,7 @@
 ,,Jadi tidak benar,null
 1385,ORGANIZATION,PMA,null
 ,,ke,null
-1386,LOCATION,Malaysia,1367|1356|1345
+1386,LOCATION,Malaysia,1367
 ,,"semakin memburuk, kata",null
 1387,TITLE|PERSON,Tan Yee Kew,null
 ,,menanggapi pernyataan,null
@@ -2524,7 +2523,7 @@
 ,,kepada,null
 1436,OTHER,"BEJ,",null
 1437,OTHER,Kamis.,null
-1438,OTHER,Dia,1435|1434
+1438,OTHER,Dia,1435
 ,,mengatakan,null
 1439,OTHER,penurunan produksi ini,null
 ,,terjadi di,null
@@ -2540,7 +2539,7 @@
 ,,berakibat pula pada penurunan produksi,null
 1446,EVENT,minyak sawit mentah,null
 1447,EVENT,CPO,null
-1448,EVENT,AALI,1418|1417
+1448,EVENT,AALI,1418
 1449,OTHER|NUM,sebesar 10 persen,null
 ,,dari,null
 1450,NUM|THINGS,223 ton,null
@@ -2551,7 +2550,7 @@
 ,,pada,null
 1453,EVENT,"kuartal I 2007,",null
 ,,kata,null
-1454,OTHER,nya.,1438|1435|1434
+1454,OTHER,nya.,1438
 1455,ORGANIZATION|PERSON,Lembaga Penjamin Simpanan,null
 1456,PERSON,LPS,null
 ,,menurunkan,null
@@ -2586,7 +2585,7 @@
 ,,di,null
 1473,OTHER,"Jakarta,",null
 1474,OTHER,Kamis.,null
-1475,OTHER,Dia,1472|1471
+1475,OTHER,Dia,1472
 ,,"juga mengatakan, meski pada",null
 1476,TIME,22 Maret,null
 1477,TIME,LPS,null
@@ -2662,10 +2661,10 @@
 1519,OTHER,peringkat individu,null
 1520,PERSON,Individual Rating,null
 ,,dari,null
-1521,LOCATION,Panin,1508|1507
+1521,LOCATION,Panin,1508
 ,,di,null
 1522,OTHER|PERSON,' C/ D '.,null
-1523,PERSON,Fitch,1511|1510
+1523,PERSON,Fitch,1511
 ,,juga memberikan,null
 1524,OTHER,peringkat ekspektasi,null
 1525,OTHER|PERSON,' AA - idn ',null
@@ -2684,7 +2683,7 @@
 ,,dengan,null
 1533,THINGS,prospek,null
 ,,dari peringkat-peringkat yang diberikan adalah stabil.,null
-1534,PERSON,Fitch,1523|1511|1510
+1534,PERSON,Fitch,1523
 ,,menyatakan,null
 1535,OTHER,peringkat-peringkat tersebut,null
 ,,mencerminkan,null
@@ -2700,7 +2699,7 @@
 1541,LOCATION,ANZ,1540
 1542,LOCATION,Banking Group,null
 ,,walaupun mungkin terbatas.,null
-1543,PERSON,Panin,1521|1508|1507
+1543,PERSON,Panin,1521
 ,,adalah,null
 1544,OTHER|NUM,bank kedelapan terbesar,null
 ,,di,null
@@ -2709,12 +2708,12 @@
 ,,dari,null
 1547,OTHER,total aset perbankan,null
 ,,dan,null
-1548,ORGANIZATION,ANZ,1541|1540
+1548,ORGANIZATION,ANZ,1541
 ,,memiliki,null
 1549,OTHER,kepemilikan minoritas,null
 ,,di,null
 1550,OTHER,bank tersebut.,null
-1551,PERSON,Fitch,1534|1523|1511|1510
+1551,PERSON,Fitch,1534
 ,,mengatakan,null
 1552,OTHER,sejalan,null
 ,,dengan,null
@@ -2754,8 +2753,8 @@
 ,,Secara,null
 1572,OTHER,keseluruhan,null
 ,,",lanjut",null
-1573,OTHER,"Fitch,",1551|1534|1523|1511|1510
-1574,EVENT,Panin,1543|1521|1508|1507
+1573,OTHER,"Fitch,",1551
+1574,EVENT,Panin,1543
 ,,membukukan,null
 1575,OTHER,profitabilitas yang lebih baik,null
 ,,dengan,null
@@ -2914,7 +2913,7 @@
 ,,sampai,null
 1659,OTHER,saat ini,null
 ,,melalui,null
-1660,ORGANIZATION|PERSON,PT Panin Life Tbk,1654|1649
+1660,ORGANIZATION|PERSON,PT Panin Life Tbk,1654
 ,,yang menguasai,null
 1661,NUM|THINGS|OTHER,"45,1 persen saham.",null
 1662,ORGANIZATION,ANZ,null
@@ -2936,9 +2935,9 @@
 ,,Seperti,null
 1671,OTHER,bank-bank sekelas,null
 ,,"yang besar,",null
-1672,TITLE,Panin,1660|1654|1649
+1672,TITLE,Panin,1660
 ,,juga mengubah fokus pembiayaan,null
-1673,OTHER,nya,1672|1660|1654|1649
+1673,OTHER,nya,1672
 ,,ke segmen,null
 1674,OTHER,konsumer,null
 ,,dan,null
@@ -2971,7 +2970,7 @@
 ,,dengan,null
 1691,OTHER,"aset minimum tertentu,",null
 ,,kata,null
-1692,OTHER,nya,1681|1680
+1692,OTHER,nya,1681
 ,,ketika ditemui setelah,null
 1693,OTHER|ORGANIZATION,Rapat Koordinasi BUMN,null
 ,,yang juga dihadiri oleh,null
@@ -2980,7 +2979,7 @@
 ,,di,null
 1696,OTHER,"Jakarta,",null
 1697,OTHER,Kamis.,null
-1698,PERSON,Ia,1692|1681|1680
+1698,PERSON,Ia,1692
 ,,mengatakan dengan kondisi kredit bermasalah NPL yang telah mencapai,null
 1699,OTHER|FACILITY,di bawah 5 persen,null
 ,,di,null
@@ -2993,27 +2992,27 @@
 1703,OTHER|TIME,bulan Juli,null
 ,,mendatang.,null
 ,,"Sehingga ,kata",null
-1704,OTHER,"nya,",1698|1692|1681|1680
+1704,OTHER,"nya,",1698
 ,,akan dilakukan,null
 1705,OTHER,revisi rencana bisnis,null
 ,,untuk mempercepat perkembangan,null
-1706,ORGANIZATION|OTHER,Bank Mandiri.,1687|1682
+1706,ORGANIZATION|OTHER,Bank Mandiri.,1687
 1707,PERSON,Agus,null
 ,,mengatakan,null
 1708,OTHER,saat ini,null
 ,,NPL,null
-1709,ORGANIZATION,bank Mandiri,1706|1687|1682
+1709,ORGANIZATION,bank Mandiri,1706
 ,,yaitu,null
 1710,PERSON|OTHER,"4,7 persen,",null
 ,,dengan NPL yang,null
 1711,OTHER|THINGS,kurang dari 5 persen,null
 ,,"tersebut,",null
-1712,ORGANIZATION,bank Mandiri,1709|1706|1687|1682
+1712,ORGANIZATION,bank Mandiri,1709
 ,,siap untuk mengembangkan,null
 1713,OTHER,bisnis,null
 ,,dan melakukan,null
 1714,OTHER,merger maupun akuisisi.,null
-1715,ORGANIZATION,Bank Mandiri,1712|1709|1706|1687|1682
+1715,ORGANIZATION,Bank Mandiri,1712
 ,,punya,null
 1716,PERSON,5 strategi bisnis,null
 ,,dan berusaha mencapai pangsa pasar,null
@@ -3028,21 +3027,21 @@
 1721,OTHER,merger,null
 ,,dan mengakuisisi perusahaan,null
 1722,OTHER,"multifinance,",null
-1723,PERSON,Agus,1720|1707
+1723,PERSON,Agus,1720
 ,,enggan mengemukakan lebih lanjut perihal rencana,null
-1724,THINGS,nya,1723|1720|1707
+1724,THINGS,nya,1723
 ,,tersebut.,null
 1725,PERSON,Kita,null
 ,,"tunggu saja, kata",null
-1726,OTHER,nya.,1724|1723|1720|1707
+1726,OTHER,nya.,1724
 ,,Sementara,null
 1727,OTHER,"itu,",null
 ,,menurut,null
 1728,TITLE|OTHER,"Menteri Negara BUMN,",null
 1729,OTHER,"Sugiharto,",1728
-1730,ORGANIZATION,Bank Mandiri,1715|1712|1709|1706|1687|1682
+1730,ORGANIZATION,Bank Mandiri,1715
 ,,adalah bank yang berhasil menurunkan NPL,null
-1731,OTHER,nya,1730|1715|1712|1709|1706|1687|1682
+1731,OTHER,nya,1730
 ,,dari,null
 1732,PERSON,"16,17 persen",null
 ,,atau,null
@@ -3057,7 +3056,7 @@
 1737,TIME,tahun 2006.,null
 ,,Pada,null
 1738,OTHER,"2006,",null
-1739,ORGANIZATION,Bank Mandiri,1731|1730|1715|1712|1709|1706|1687|1682
+1739,ORGANIZATION,Bank Mandiri,1731
 ,,berhasil memperoleh penghargaan,null
 1740,THINGS,The Best Overall for Corporate Governance Award,null
 ,,dan,null
@@ -3084,9 +3083,9 @@
 1755,ORGANIZATION|OTHER,Washington AS.,null
 ,,Salah satu,null
 1756,NUM,nya,null
-1757,TITLE,Pak Menteri,1745|1744
+1757,TITLE,Pak Menteri,1745
 ,,bakal ketemu dengan,null
-1758,LOCATION|OTHER,"Paul Wolfowitz,",1749|1748
+1758,LOCATION|OTHER,"Paul Wolfowitz,",1749
 ,,tentu saja ditemani oleh,null
 1759,PERSON|OTHER,"James Adams,",null
 1760,PERSON,Vice President,null
@@ -3099,10 +3098,10 @@
 ,,di,null
 1765,OTHER,"Jakarta,",null
 1766,OTHER,Jumat.,null
-1767,PERSON,Dia,1764|1763
+1767,PERSON,Dia,1764
 ,,menjelaskan dalam,null
 1768,OTHER,"pertemuan itu,",null
-1769,TITLE|ORGANIZATION,Meneg PPN,1757|1745|1744
+1769,TITLE|ORGANIZATION,Meneg PPN,1757
 ,,akan menyampaikan,null
 1770,OTHER,kondisi terakhir,null
 ,,di,null
@@ -3120,7 +3119,7 @@
 1777,TITLE|PERSON,Pak Adams,1759
 1778,PERSON,kemarin,null
 ,,sudah beri petunjuk kalau,null
-1779,OTHER,dia,1777|1759
+1779,OTHER,dia,1777
 ,,akan membantu,null
 1780,LOCATION,Indonesia,1771
 ,,yang ingin meminta,null
@@ -3129,34 +3128,34 @@
 ,,-,null
 1783,EVENT,red,null
 ,,"yang berbunga rendah, tapi",null
-1784,OTHER,kita,1780|1771
+1784,OTHER,kita,1780
 ,,tahu,null
 1785,OTHER,diri,null
 ,,juga.,null
-1786,OTHER,Kita,1784|1780|1771
+1786,OTHER,Kita,1784
 ,,kan sudah masuk,null
 1787,OTHER|EVENT,"' middle income countries,",null
 ,,jadi jangan-jangan susah.,null
 ,,"Namun,",null
-1788,OTHER,dia,1767|1764|1763
+1788,OTHER,dia,1767
 ,,menambahkan kemungkinan mengajukan pinjaman berbunga rendah ke,null
 1789,ORGANIZATION,Bank Dunia,null
 ,,hanya sebagai,null
 1790,OTHER,tindakan antisipasi.,null
 1791,EVENT,Bunga pinjaman,null
-1792,ORGANIZATION,IDA,1782|1781
+1792,ORGANIZATION,IDA,1782
 1793,OTHER|THINGS,hanya sekitar - 2 persen,null
 ,,per,null
 1794,OTHER,tahun.,null
-1795,OTHER,Kita,1786|1784|1780|1771
+1795,OTHER,Kita,1786
 ,,pengen menunjukkan kayak-kayaknya nih kalau,null
 1796,OTHER,besok,null
 ,,"susah,",null
-1797,OTHER,kita,1795|1786|1784|1780|1771
+1797,OTHER,kita,1795
 ,,mau minjam ke,null
 1798,ORGANIZATION|OTHER,"Bank Dunia,",1789
 ,,tutur,null
-1799,OTHER,nya.,1788|1767|1764|1763
+1799,OTHER,nya.,1788
 ,,Kehadiran,null
 1800,TITLE|ORGANIZATION,Meneg PPN/,null
 1801,OTHER|TITLE,Kepala Bappenas,null
@@ -3215,13 +3214,13 @@
 1832,TITLE|OTHER,"Dirjen Pajak Depkeu,",null
 1833,PERSON,Darmin Nasution,1832
 ,,mengatakan pihak,null
-1834,OTHER,nya,1833|1832
+1834,OTHER,nya,1833
 ,,menyambut baik,null
 1835,OTHER,dukungan masyarakat internasional,null
 ,,terhadap,null
 1836,OTHER,reformasi perpajakan,null
 ,,yang tengah dilakukan pihak,null
-1837,OTHER,nya.,1834|1833|1832
+1837,OTHER,nya.,1834
 1838,EVENT,Hibah,null
 ,,dari,null
 1839,LOCATION,Jepang,null
@@ -3239,7 +3238,7 @@
 ,,dan,null
 1846,THINGS|OTHER,"pengembangan sumber daya,",null
 ,,kata,null
-1847,OTHER,Darmin.,1837|1834|1833|1832
+1847,OTHER,Darmin.,1837
 1848,TIME,"Saat ini,",null
 1849,TIME,Jepang,1839
 ,,tengah berkolaborasi dengan,null
@@ -3303,7 +3302,7 @@
 ,,di,null
 1884,OTHER|LOCATION,"Gedung Depkeu Jakarta,",null
 1885,OTHER,Senin.,null
-1886,OTHER,Dia,1879|1878
+1886,OTHER,Dia,1879
 ,,"mengatakan, rakortas yang dihadiri",null
 1887,OTHER,seluruh,null
 ,,pengambil,null
@@ -3322,8 +3321,8 @@
 ,,masih meneruskan,null
 1896,OTHER,"tim itu,",null
 ,,kata,null
-1897,OTHER,Gubernur.,1879|1878
-1898,PERSON,Burhanuddin,1897|1879|1878
+1897,OTHER,Gubernur.,1879
+1898,PERSON,Burhanuddin,1897
 ,,menegaskan,null
 1899,OTHER,rakortas,null
 ,,sama sekali tidak dibahas,null
@@ -3376,17 +3375,17 @@
 1925,ORGANIZATION,Exedy Corporation,1918
 ,,yang berkedudukan di,null
 1926,OTHER,Jepang.,null
-1927,OTHER,Kami,1917|1916
+1927,OTHER,Kami,1917
 ,,telah menandatangani,null
 1928,OTHER,perjanjian pengikatan,null
 ,,untuk penjualan,null
 1929,OTHER,seluruh saham,null
 ,,milik,null
-1930,ORGANIZATION,PT Astra Otoparts,1917|1916
+1930,ORGANIZATION,PT Astra Otoparts,1917
 ,,di,null
-1931,ORGANIZATION,PT Exedy Indonesia,1925|1918
+1931,ORGANIZATION,PT Exedy Indonesia,1925
 ,,kepada,null
-1932,LOCATION|OTHER,"Exedy Corporation,",1931|1925|1918
+1932,LOCATION|OTHER,"Exedy Corporation,",1931
 ,,kata,null
 1933,TITLE|ORGANIZATION|OTHER,"Sekretaris Perusahaan Astra Otoparts,",null
 1934,PERSON,Kartina Rahayu,1933
@@ -3394,12 +3393,12 @@
 1935,OTHER,"Jakarta,",null
 1936,OTHER,Senin.,null
 ,,Menurut,null
-1937,OTHER,"dia,",1934|1933
+1937,OTHER,"dia,",1934
 1938,OTHER,penjualan saham tersebut,null
 ,,akan berlaku efektif apabila syarat-syarat sebagaimana termuat dalam,null
 1939,OTHER,perjanjian pengikatan jual beli saham,null
 ,,telah terpenuhi.,null
-1940,OTHER,Dia,1937|1934|1933
+1940,OTHER,Dia,1937
 ,,mengatakan,null
 1941,OTHER,transaksi tersebut,null
 ,,tidak mengandung,null
@@ -3421,7 +3420,7 @@
 ,,dari,null
 1951,OTHER,"ekuitas,",null
 ,,tambah,null
-1952,OTHER,nya.,1940|1937|1934|1933
+1952,OTHER,nya.,1940
 1953,TITLE|PERSON,Menkeu Sri Mulyani Indrawati,null
 ,,membebaskan,null
 1954,OTHER,tarif akhir,null
@@ -3441,7 +3440,7 @@
 ,,setelah ditetapkan selama,null
 1963,OTHER,satu tahun,null
 ,,sejak tanggal berlaku.,null
-1964,OTHER,Dia,null
+1964,OTHER,Dia,1953
 ,,"menambahkan,",null
 1965,OTHER|FACILITY,permohonan pembebasan BM,null
 ,,harus diajukan kepada,null
@@ -3462,8 +3461,8 @@
 ,,yang ditunjuk,null
 1974,OTHER,pemerintah.,null
 1975,ORGANIZATION,Perusahaan alat berat,null
-1976,ORGANIZATION|PERSON,PT United Tractors Tbk,null
-1977,PERSON,UNTR,null
+1976,ORGANIZATION|PERSON,PT United Tractors Tbk,1975
+1977,PERSON,UNTR,1977
 ,,melalui anak perusahaan yang dimiliki sepenuh,null
 1978,OTHER,nya,null
 ,,oleh,null
@@ -3473,11 +3472,11 @@
 ,,membeli,null
 1981,PERSON|TITLE,99 persen kepemilikan saham,null
 1982,TITLE|PERSON,Dynamics Acres Sdn Bhd,null
-1983,PERSON,DASB,null
+1983,PERSON,DASB,1982
 ,,pada sebuah,null
 1984,ORGANIZATION,perusahaan pertambangan batu bara,null
-1985,ORGANIZATION|PERSON,PT Dasa Eka Jasatama,null
-1986,PERSON,DEJ,null
+1985,ORGANIZATION|PERSON,PT Dasa Eka Jasatama,1984
+1986,PERSON,DEJ,1985
 ,,dengan,null
 1987,OTHER,nilai maksimal,null
 1988,NUM|THINGS|OTHER,"19,50 juta dolar AS.",null
@@ -3494,24 +3493,24 @@
 ,,yang pencairan,null
 1995,OTHER,nya,null
 ,,kepada,null
-1996,ORGANIZATION,DASB,null
+1996,ORGANIZATION,DASB,1983
 ,,akan tunduk pada,null
 1997,OTHER,ketentuan dan persyaratan,null
 ,,yang diatur dalam,null
 1998,OTHER,"perjanjian jual beli saham,",null
 ,,kata,null
 1999,TITLE|ORGANIZATION|OTHER,"Wakil Presdir UNTR,",null
-2000,PERSON|OTHER,"Djoko Pranoto,",null
+2000,PERSON|OTHER,"Djoko Pranoto,",1999
 ,,dalam laporan,null
-2001,OTHER,nya,null
+2001,OTHER,nya,2000
 ,,kepada,null
 2002,TITLE|LOCATION,Bursa Efek Surabaya,null
-2003,PERSON,BES,null
+2003,PERSON,BES,2002
 ,,di,null
 2004,OTHER,"Jakarta,",null
 2005,OTHER,Jumat.,null
 ,,Menurut,null
-2006,OTHER,"nya,",null
+2006,OTHER,"nya,",2001
 ,,transaksi pembelian,null
 2007,OTHER|ORGANIZATION,saham DEJ,null
 ,,tunduk pada,null
@@ -3539,20 +3538,20 @@
 ,,atau perpanjangan,null
 2021,OTHER,nya,null
 ,,",kata",null
-2022,OTHER,"dia,",null
+2022,OTHER,"dia,",2006
 ,,maka,null
-2023,PERSON,Pama,null
+2023,PERSON,Pama,1980
 ,,akan memiliki,null
 2024,OTHER|ORGANIZATION,saham DEJ,null
 ,,dan secara tidak langsung akan turut memiliki,null
 2025,OTHER,seluruh aset,null
 ,,yang dimiliki,null
-2026,OTHER,DEJ.,null
+2026,OTHER,DEJ.,1986
 ,,Sebagai,null
 2027,OTHER,bagian,null
 ,,dari,null
 2028,OTHER,"kesepakatan,",null
-2029,PERSON,Pama,null
+2029,PERSON,Pama,2023
 ,,akan membantu penyelesaian,null
 2030,OTHER|THINGS,kewajiban DEJ,null
 ,,kepada,null
@@ -3560,9 +3559,9 @@
 ,,sampai dengan jumlah,null
 2032,NUM|OTHER,"11 juta dolar AS,",null
 ,,tambah,null
-2033,OTHER,nya.,null
+2033,OTHER,nya.,2022
 ,,Dikatakan,null
-2034,THINGS,"nya,",null
+2034,THINGS,"nya,",2033
 2035,THINGS|OTHER,penandatanganan SSA ini,null
 ,,sekaligus merupakan,null
 2036,OTHER,bagian,null
@@ -3572,7 +3571,7 @@
 2038,OTHER|FACILITY,upaya penyelesaian,null
 2039,FACILITY,piutang DEJ,null
 ,,kepada,null
-2040,LOCATION,Pama,null
+2040,LOCATION,Pama,2029
 ,,dan akuisisi sebelum,null
 2041,OTHER,nya,null
 ,,atas,null
@@ -3582,13 +3581,13 @@
 ,,dan,null
 2044,THINGS|OTHER,perusahaan pemasaran batu bara.,null
 2045,ORGANIZATION,Perusahaan farmasi,null
-2046,ORGANIZATION|PERSON,PT Tempo Scan Pacific Tbk,null
-2047,PERSON,TSPC,null
+2046,ORGANIZATION|PERSON,PT Tempo Scan Pacific Tbk,2045
+2047,PERSON,TSPC,2046
 ,,di,null
 2048,OTHER,"Jakarta,",null
 2049,OTHER,"Jumat,",null
 ,,menyatakan perolehan laba bersih,null
-2050,OTHER,nya,null
+2050,OTHER,nya,2047
 ,,dalam,null
 2051,TIME,tiga bulan,null
 ,,pertama yang berakhir,null
@@ -3608,7 +3607,7 @@
 ,,memperlihatkan,null
 2060,EVENT|OTHER,pertumbuhan laba bersih tersebut,null
 ,,didukung oleh penjualan bersih,null
-2061,OTHER,nya,null
+2061,OTHER,nya,2050
 ,,yang meningkat dari,null
 2062,THINGS|NUM,"Rp 638,29 miliar",null
 ,,pada,null
@@ -3650,13 +3649,13 @@
 2082,OTHER|THINGS|NUM,"Rp 296,82 miliar.",null
 2083,TITLE,Direktur Utama,null
 2084,ORGANIZATION,PT Bursa Efek Surabaya,null
-2085,ORGANIZATION,BES,null
-2086,ORGANIZATION,Bastian Purnama,null
+2085,ORGANIZATION,BES,2084
+2086,ORGANIZATION,Bastian Purnama,2083
 ,,di,null
 2087,OTHER,"Jakarta,",null
 2088,OTHER,"Jumat,",null
 ,,mengatakan pihak,null
-2089,OTHER,nya,null
+2089,OTHER,nya,2086
 ,,kembali akan melakukan,null
 2090,OTHER,pelelangan,null
 ,,atas,null
@@ -3778,7 +3777,7 @@
 ,,sesaat sebelum memasuki seminar yang diadakan dalam rangka,null
 2167,OTHER,pertemuan tahunan,null
 2168,ORGANIZATION,Asian Development Bank,null
-2169,ORGANIZATION,ADB,null
+2169,ORGANIZATION,ADB,2168
 ,,ke-40.,null
 2170,LOCATION,Jepang,null
 ,,sangat mendukung,null
@@ -3794,7 +3793,7 @@
 ,,maupun,null
 2176,OTHER,"pinjaman,",null
 ,,ujar mantan,null
-2177,TITLE,direktur eksekutif,null
+2177,TITLE,direktur eksekutif,2162
 ,,IMF itu.,null
 ,,Pasca,null
 2178,OTHER,"CGI,",null
@@ -3808,7 +3807,7 @@
 2183,LOCATION,Jepang,null
 2184,OTHER,sendiri,null
 ,,telah menunjukkan komitmen,null
-2185,OTHER,nya,null
+2185,OTHER,nya,2183
 ,,dalam,null
 2186,OTHER,hubungan bilateral,null
 ,,dengan membantu memberikan pinjaman,null
@@ -3832,12 +3831,12 @@
 ,,sepakat untuk semakin mempererat,null
 2196,OTHER,"hubungan itu,",null
 ,,ujar,null
-2197,OTHER,nya.,null
+2197,OTHER,nya.,2177
 ,,Selain,null
 2198,OTHER,"itu,",null
 2199,OTHER,pertemuan bilateral,null
 ,,dengan,null
-2200,LOCATION,Jepang,null
+2200,LOCATION,Jepang,2185
 ,,yang berlangsung,null
 2201,TIME,Sabtu pagi,null
 ,,5/ 5 juga membicarakan mengenai kerja sama,null
@@ -3861,8 +3860,8 @@
 2213,OTHER,peti kemas,null
 ,,dan,null
 2214,OTHER,batu bara,null
-2215,ORGANIZATION|PERSON,PT Humpuss Intermoda Transportasi Tbk,null
-2216,PERSON,HITS,null
+2215,ORGANIZATION|PERSON,PT Humpuss Intermoda Transportasi Tbk,2209
+2216,PERSON,HITS,2215
 ,,di,null
 2217,OTHER,"Jakarta,",null
 2218,OTHER,"Rabu,",null
@@ -3870,7 +3869,7 @@
 2219,PERSON,dua buah,null
 2220,TITLE,kapal tanker minyak,null
 ,,milik,null
-2221,OTHER,nya,null
+2221,OTHER,nya,2216
 ,,yang telah habis masa kontrak,null
 2222,OTHER,nya,null
 ,,dengan,null
@@ -3880,26 +3879,26 @@
 2225,OTHER,efisiensi,null
 ,,dan,null
 2226,OTHER,"tingkat profitabilitas,",null
-2227,TITLE,perseroan,null
+2227,TITLE,perseroan,2221
 ,,mengusulkan menjual,null
 2228,ORGANIZATION|OTHER,armada kapal tersebut,null
 ,,dan menggunakan hasil penjualan,null
-2229,OTHER,nya,null
+2229,OTHER,nya,2228
 ,,untuk membeli,null
 2230,OTHER,kapal,null
 ,,dengan,null
 2231,OTHER,jenis lain.,null
-2232,OTHER,Perseroan,null
+2232,OTHER,Perseroan,2227
 ,,juga berencana meminjam,null
 2233,OTHER,dana perbankan,null
 ,,untuk,null
 2234,ORGANIZATION,tambahan dana,null
-2235,ORGANIZATION|OTHER,"pembelian kapal tersebut,",null
+2235,ORGANIZATION|OTHER,"pembelian kapal tersebut,",2230
 ,,kata,null
-2236,OTHER,perseroan,null
+2236,OTHER,perseroan,2232
 ,,dalam keterbukaan informasi,null
-2237,OTHER,nya.,null
-2238,ORGANIZATION,Perseroan,null
+2237,OTHER,nya.,2236
+2238,ORGANIZATION,Perseroan,2237
 ,,telah menunjuk,null
 2239,ORGANIZATION,PT Indoprofita Konsultama,null
 ,,sebagai,null
@@ -3926,12 +3925,12 @@
 ,,dikemukakan,null
 2252,OTHER|TITLE,Deputi Gubernur,null
 2253,TITLE,Bank Indonesia,null
-2254,ORGANIZATION,"BI,",null
-2255,ORGANIZATION|OTHER|TITLE,Hartadi A Sarwono,null
+2254,ORGANIZATION,"BI,",2253
+2255,ORGANIZATION|OTHER|TITLE,Hartadi A Sarwono,2252
 ,,di,null
 2256,PERSON,"Jakarta,",null
 2257,OTHER,Rabu.,null
-2258,OTHER,Ia,null
+2258,OTHER,Ia,2255
 ,,mengatakan,null
 2259,OTHER,persentase tersebut,null
 ,,termasuk tinggi karena NPL untuk,null
@@ -3945,13 +3944,13 @@
 ,,termasuk kategori,null
 2265,THINGS,sunset,null
 ,,"industri, kata",null
-2266,PERSON,Hartadi,null
+2266,PERSON,Hartadi,2258
 ,,dalam acara sosialisasi program peningkatan,null
 2267,OTHER|ORGANIZATION,teknologi industri TPT,null
 ,,di,null
 2268,FACILITY,BI,null
 2269,OTHER,Jakarta.,null
-2270,PERSON,Hartadi,null
+2270,PERSON,Hartadi,2266
 ,,mengatakan bahwa,null
 2271,OTHER|ORGANIZATION,industri TPT,null
 ,,sebenarnya merupakan salah satu dari sepuluh,null
@@ -3959,7 +3958,7 @@
 ,,yang ditetapkan,null
 2273,PERSON,pemerintah,null
 ,,"untuk dikembangkan, namun perkembangan peningkatan kapasitas produksi",null
-2274,OTHER,nya,null
+2274,OTHER,nya,2271
 ,,menghadapi,null
 2275,OTHER,kendala besar,null
 ,,sementara,null
@@ -3981,7 +3980,7 @@
 2284,OTHER,kredit perbankan nasional,null
 ,,yang mencapai,null
 2285,THINGS|NUM,RP 843 triliun.,null
-2286,PERSON,Hartadi,null
+2286,PERSON,Hartadi,2270
 ,,menjelaskan,null
 2287,OTHER,keengganan perbankan,null
 ,,untuk memberikan,null
@@ -3989,7 +3988,7 @@
 ,,pada,null
 2289,OTHER,industri,null
 ,,tersebut membuat perkembangan,null
-2290,OTHER,nya,null
+2290,OTHER,nya,2289
 ,,sungguh sangat memprihatinkan.,null
 ,,Upaya yang dilakukan,null
 2291,OTHER,pemerintah,null
@@ -4000,7 +3999,7 @@
 ,,untuk mengatasi kesulitan yang dihadapi,null
 2294,EVENT|OTHER,industri TPT.,null
 ,,Dana yang disediakan,null
-2295,OTHER,pemerintah,null
+2295,OTHER,pemerintah,2291
 2296,OTHER|TIME,tahun 2007,null
 ,,untuk,null
 2297,OTHER,potongan harga,null
@@ -4008,12 +4007,12 @@
 2298,OTHER,bantuan kredit,null
 ,,guna pembelian,null
 2299,OTHER,mesin atau peralatan,null
-2300,OTHER|ORGANIZATION,industri TPT,null
+2300,OTHER|ORGANIZATION,industri TPT,2294
 ,,dalam,null
 2301,OTHER|TIME,pelaksanaan program tersebut,null
 ,,mencapai,null
 2302,THINGS|NUM,Rp 255 miliar.,null
-2303,PERSON,Ia,null
+2303,PERSON,Ia,2286
 ,,berharap,null
 2304,OTHER,forum ini,null
 2305,OTHER,acara sosialisasi,null
@@ -4038,7 +4037,7 @@
 ,,dari,null
 2315,THINGS,industri TPT,null
 ,,yang cukup bagus.,null
-2316,PERSON,Ansari,null
+2316,PERSON,Ansari,2311
 ,,mengatakan secara,null
 2317,ORGANIZATION,keseluruhan,null
 2318,ORGANIZATION,program modernisasi mesin,null
@@ -4051,7 +4050,7 @@
 ,,diperkirakan mencapai,null
 2322,THINGS|NUM,Rp 2 triliun.,null
 ,,Menurut,null
-2323,PERSON,Ansari,null
+2323,PERSON,Ansari,2316
 ,,pada,null
 2324,TIME,2006,null
 2325,TIME,kontribusi industri TPT,null
@@ -4068,14 +4067,14 @@
 2331,OTHER,kontribusi pasar modal,null
 ,,terhadap,null
 2332,ORGANIZATION|OTHER,Produk domestik Bruto,null
-2333,ORGANIZATION,PDB,null
+2333,ORGANIZATION,PDB,2332
 ,,pada,null
 2334,OTHER,saat ini,null
 ,,mencapai,null
 2335,NUM,40 persen,null
 ,,dengan kapitalisasi,null
 2336,THINGS|NUM,Rp 1.400 triliun.,null
-2337,TITLE|PERSON,Sri Mulyani,null
+2337,TITLE|PERSON,Sri Mulyani,2330
 ,,dalam,null
 2338,OTHER,acara pembukaan,null
 2339,LOCATION,Indonesia Investor Forum,null
@@ -4085,7 +4084,7 @@
 ,,mengatakan,null
 2342,OTHER,kontribusi pasar modal,null
 ,,terhadap,null
-2343,ORGANIZATION,PDB,null
+2343,ORGANIZATION,PDB,2333
 ,,ini menunjukkan,null
 2344,OTHER,trend,null
 ,,naik dibanding pada,null
@@ -4093,15 +4092,15 @@
 ,,yang,null
 2346,OTHER|NUM,"hanya sebesar 37,4 persen",null
 ,,dari,null
-2347,THINGS,PDB,null
+2347,THINGS,PDB,2343
 ,,dengan kapitalisasi,null
 2348,THINGS|NUM,Rp 1.250 triliun.,null
 2349,OTHER,Peningkatan ini,null
 ,,juga ditunjukkan dari naiknya,null
 2350,OTHER|PERSON,Indeks Harga Saham Gabungan,null
-2351,ORGANIZATION,IHSG,null
+2351,ORGANIZATION,IHSG,2350
 2352,ORGANIZATION|LOCATION,Bursa Efek Jakarta,null
-2353,LOCATION,BEJ,null
+2353,LOCATION,BEJ,2352
 ,,yang pada,null
 2354,OTHER|NUM,akhir 2006,null
 ,,telah menyentuh,null
@@ -4144,10 +4143,10 @@
 ,,dapat terus berkembang pada,null
 2374,OTHER,saat ini,null
 ,,"dan masa mendatang serta mampu mendukung pembangunan ekonomi yang kuat dan berkelanjutan, harap",null
-2375,OTHER,Mulyani.,null
+2375,OTHER,Mulyani.,2337
 2376,PERSON|OTHER,Perolehan laba bersih,null
 2377,ORGANIZATION|PERSON,PT Astra Agro Lestari Tbk,null
-2378,PERSON,AALI,null
+2378,PERSON,AALI,2377
 ,,sampai,null
 2379,TITLE,kuartal pertama 2007,null
 ,,naik,null
@@ -4174,15 +4173,15 @@
 2392,OTHER,"CPO,",null
 ,,kata,null
 2393,TITLE|OTHER,"Direktur AALI,",null
-2394,OTHER,Santosa,null
+2394,OTHER,Santosa,2393
 ,,dalam,null
 2395,OTHER,keterbukaan informasi,null
 ,,kepada,null
 2396,TITLE|PERSON,Bursa Efek Jakarta,null
-2397,OTHER,"BEJ,",null
+2397,OTHER,"BEJ,",2396
 2398,OTHER,Selasa.,null
 ,,Menurut,null
-2399,OTHER,nya,null
+2399,OTHER,nya,2394
 ,,harga,null
 2400,ORGANIZATION,CPO,null
 ,,naik tajam menjadi,null
@@ -4226,8 +4225,8 @@
 2422,NUM,"22,9 persen.",null
 2423,PERSON,Deputi Senior,null
 2424,PERSON,Bank Indonesia,null
-2425,PERSON,BI,null
-2426,PERSON,Miranda S. Goeltom,null
+2425,PERSON,BI,2424
+2426,PERSON,Miranda S. Goeltom,2423
 ,,memprediksi pertumbuhan ekspor non -,null
 2427,NUM,migas,null
 2428,NUM|OTHER,minyak dan gas,null
@@ -4242,7 +4241,7 @@
 ,,di,null
 2434,OTHER,"Jakarta,",null
 2435,OTHER,"Selasa,",null
-2436,PERSON,Miranda,null
+2436,PERSON,Miranda,2426
 ,,"mengatakan, kecilnya pertumbuhan ekspor",null
 2437,OTHER,non migas,null
 ,,ini karena,null
@@ -4267,7 +4266,7 @@
 2448,OTHER,rekor tertinggi,null
 ,,selama,null
 2449,OTHER,ini.,null
-2450,PERSON,Miranda,null
+2450,PERSON,Miranda,2436
 ,,menyoroti peran ekspor,null
 2451,OTHER,non - migas,null
 ,,"ini, karena",null
@@ -4291,17 +4290,17 @@
 ,,dan,null
 2463,THINGS|OTHER,"pendapatan cadangan devisa,",null
 ,,tambah,null
-2464,OTHER,nya.,null
+2464,OTHER,nya.,2450
 ,,Untuk meningkatkan,null
 2465,THINGS|OTHER,ekspor ini,null
 ,,",kata",null
-2466,OTHER,"nya,",null
+2466,OTHER,"nya,",2464
 ,,perlu,null
 2467,OTHER,adanya regulasi,null
 ,,untuk meningkatkan dan dapat menghilangkan hambatan,null
 2468,OTHER,ekspor.,null
 2469,PERSON,"Deputi Gubernur Senior BI,",null
-2470,PERSON,Miranda S. Goeltom,null
+2470,PERSON,Miranda S. Goeltom,2469
 ,,"mengatakan,",null
 2471,TITLE|LOCATION,pertumbuhan ekonomi Indonesia,null
 ,,yang paling optimistik pada,null
@@ -4320,7 +4319,7 @@
 ,,di,null
 2478,OTHER,"Jakarta,",null
 2479,OTHER,"Selasa,",null
-2480,PERSON,Miranda,null
+2480,PERSON,Miranda,2470
 ,,"mengatakan,",null
 2481,OTHER,pemerintah,null
 ,,harus menganalisis,null
@@ -4337,7 +4336,7 @@
 2487,OTHER,trend,null
 ,,meningkat atau tidak.,null
 ,,"Namun ,tambah",null
-2488,OTHER,"nya,",null
+2488,OTHER,"nya,",2480
 2489,OTHER|PERSON,itung-itungan BI,null
 ,,masih bisa berubah dengan melihat,null
 2490,OTHER,angka perkembangan,null
@@ -4375,18 +4374,18 @@
 2510,ORGANIZATION,Bank Mandiri,null
 ,,menyiapkan anggaran untuk belanja,null
 2511,ORGANIZATION,teknologi informasi,null
-2512,LOCATION,TI,null
+2512,LOCATION,TI,2511
 2513,OTHER|THINGS,sebesar 35 juta dolar AS,null
 ,,pada,null
 2514,NUM,"2008,",null
 ,,guna,null
 2515,OTHER,pemeliharaan dan penambahan,null
 2516,OTHER|TIME|THINGS,kapasitas teknologi informasi,null
-2517,OTHER,nya.,null
+2517,OTHER,nya.,2510
 2518,OTHER,Ini,null
 ,,ada dalam,null
 2519,ORGANIZATION,draft,null
-2520,OTHER,"kami,",null
+2520,OTHER,"kami,",2517
 ,,tapi pasti,null
 2521,OTHER,nya,null
 ,,"bisa saja bertambah, karena",null
@@ -4395,14 +4394,14 @@
 2523,OTHER,"teknologi yang baru,",null
 ,,kata,null
 2524,TITLE|ORGANIZATION|OTHER,"Direktur Teknologi dan Operasional Bank Mandiri,",null
-2525,PERSON,Sasmita,null
+2525,PERSON,Sasmita,2524
 ,,di,null
 2526,OTHER,"Jakarta,",null
 2527,OTHER,Jumat.,null
 ,,Menurut,null
-2528,OTHER,"dia,",null
+2528,OTHER,"dia,",2525
 2529,OTHER|ORGANIZATION,investasi TI,null
-2530,ORGANIZATION,Bank Mandiri,null
+2530,ORGANIZATION,Bank Mandiri,2520
 ,,dimulai sejak,null
 2531,OTHER|TIME,"tahun 2000,",null
 ,,dengan dana yang dipersiapkan,null
@@ -4411,7 +4410,7 @@
 2533,OTHER,dana tersebut,null
 ,,baru terpakai,null
 2534,NUM|OTHER,168 juta dolar AS.,null
-2535,OTHER,Ia,null
+2535,OTHER,Ia,2528
 ,,"mengatakan,",null
 2536,OTHER|ORGANIZATION,belanja TI,null
 ,,sejak,null
@@ -4430,7 +4429,7 @@
 ,,meski bisa berubah masih sekitar,null
 2544,OTHER,"itu,",null
 ,,kata,null
-2545,OTHER,nya.,null
+2545,OTHER,nya.,2535
 2546,ORGANIZATION,Bank Mandiri,null
 2547,ORGANIZATION|OTHER,saat ini,null
 ,,mampu mengurangi,null
@@ -4446,7 +4445,7 @@
 ,,pada,null
 2553,TIME,2007,null
 ,,pihak,null
-2554,OTHER,nya,null
+2554,OTHER,nya,2546
 ,,menambah,null
 2555,EVENT,400 unit,null
 2556,EVENT,ATM,null
@@ -4485,7 +4484,7 @@
 ,,atau lebih kecil dari sasaran,null
 2576,FACILITY,"Rp 58,3 triliun,",null
 ,,kata,null
-2577,OTHER,Menkeu,null
+2577,OTHER,Menkeu,2565
 ,,dalam,null
 2578,OTHER,jumpa pers,null
 ,,usai,null
@@ -4495,7 +4494,7 @@
 2581,ORGANIZATION,"Jakarta,",null
 2582,OTHER,Selasa.,null
 ,,Dijelaskan,null
-2583,OTHER,"Menkeu,",null
+2583,OTHER,"Menkeu,",2577
 2584,OTHER,penurunan defisit ini,null
 ,,terjadi karena meski ada,null
 2585,OTHER,peningkatan belanja negara,null
@@ -4509,7 +4508,7 @@
 2590,OTHER|THINGS|NUM,"sebesar Rp 24,9 triliun.",null
 2591,OTHER,Penerimaan negara,null
 ,,",lanjut",null
-2592,OTHER,nya,null
+2592,OTHER,nya,2583
 ,,meningkat dari,null
 2593,THINGS|NUM,Rp 690 triliun,null
 ,,menjadi,null
@@ -4553,7 +4552,7 @@
 ,,Secara umum,null
 2615,OTHER,semua,null
 ,,"terkendali, dengan",null
-2616,OTHER,pemerintah,null
+2616,OTHER,pemerintah,2608
 ,,melakukan,null
 2617,THINGS,langkah-langkah,null
 ,,untuk,null
@@ -4561,7 +4560,7 @@
 ,,seperti penghematan penggunaan,null
 2619,OTHER|ORGANIZATION,"BBM dan listrik,",null
 ,,kata,null
-2620,OTHER,nya.,null
+2620,OTHER,nya.,2603
 ,,Menurut,null
 2621,OTHER,"Boediono,",null
 2622,THINGS|NUM,APBN 2008,null
@@ -4572,7 +4571,7 @@
 ,,per,null
 2625,THINGS,hari,null
 ,,atau kalau bisa ditingkatkan.,null
-2626,TITLE,Wapres,null
+2626,TITLE,Wapres,2621
 ,,akan langsung mengawasi,null
 2627,OTHER,produksi minyak,null
 ,,dengan membentuk,null
@@ -4580,7 +4579,7 @@
 ,,dari,null
 2629,OTHER,"antardepartemen,",null
 ,,kata,null
-2630,OTHER,nya.,null
+2630,OTHER,nya.,2626
 ,,Dalam,null
 2631,OTHER,"kesempatan itu,",null
 2632,TITLE,Menkeu,null
@@ -4598,7 +4597,7 @@
 ,,per,null
 2639,THINGS,barel.,null
 ,,Menurut,null
-2640,OTHER,"nya,",null
+2640,OTHER,"nya,",2632
 ,,dengan mengasumsikan,null
 2641,OTHER,harga minyak,null
 ,,akan mencapai,null
@@ -4619,12 +4618,12 @@
 ,,dari,null
 2650,OTHER,PDB.,null
 2651,TITLE|PERSON,Pemeringkat Efek Indonesia,null
-2652,PERSON,Pefindo,null
+2652,PERSON,Pefindo,2651
 ,,memberikan peringkat,null
 2653,ORGANIZATION,idBBB +,null
 ,,untuk,null
 2654,ORGANIZATION|PERSON,PT Truba Jaya Engineering,null
-2655,PERSON,TRJE,null
+2655,PERSON,TRJE,2654
 ,,dan,null
 2656,OTHER,rencana penerbitan,null
 2657,ORGANIZATION|LOCATION|OTHER,Obligasi I/ 2007,null
@@ -4648,12 +4647,12 @@
 ,,kata,null
 2668,TITLE|PERSON|OTHER,"analis Pefindo Ronald Hertanto,",null
 ,,dalam sebuah pernyataan,null
-2669,OTHER,nya,null
+2669,OTHER,nya,2668
 ,,di,null
 2670,OTHER,"Jakarta,",null
 2671,OTHER,Rabu.,null
 ,,"Namun ,kata",null
-2672,OTHER,"dia,",null
+2672,OTHER,"dia,",2669
 2673,OTHER,peringkat tersebut,null
 ,,dibatasi oleh rata-rata,null
 2674,OTHER,stabilitas bisnis perusahaan,null
@@ -4661,7 +4660,7 @@
 2675,OTHER,kebutuhan modal kerja besar,null
 ,,pada waktu mendatang yang dapat mendorong melemahnya,null
 2676,OTHER|THINGS,profil keuangan perusahaan.,null
-2677,ORGANIZATION,TRJE,null
+2677,ORGANIZATION,TRJE,2655
 ,,adalah,null
 2678,OTHER,sebuah perusahaan,null
 ,,yang bergerak di,null

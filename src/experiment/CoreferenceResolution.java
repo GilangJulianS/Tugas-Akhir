@@ -36,7 +36,7 @@ public class CoreferenceResolution {
     static BufferedWriter writer, xmlWriter;
     
     public static void main(String[] args) throws Exception{
-        addCoreference("corpus_ne_simple_reweight.txt.xml", "coref_j48_v2.model", "feature_header.arff", 20);
+        addCoreference("corpus_ne_simple_reweight.txt.xml", "coref_j48_v2.model", "feature_header2.arff", 20);
 //        addCoreference("corpus_ne_simple_reweight.txt2.xml", "coref_j48.model", "feature_header.arff", 20);
     }
     
@@ -94,7 +94,7 @@ public class CoreferenceResolution {
         DenseInstance instance = new DenseInstance(dataset.numAttributes());
         instance.setDataset(dataset);
         for(int i=0; i<features.size(); i++){
-            if(i == 6){
+            if(i == 7){
                 instance.setValue(i, Integer.valueOf(features.get(i)));
             }else{
                 instance.setValue(i, features.get(i));
