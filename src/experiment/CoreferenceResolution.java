@@ -36,7 +36,7 @@ public class CoreferenceResolution {
     static BufferedWriter writer, xmlWriter;
     
     public static void main(String[] args) throws Exception{
-        addCoreference("corpus_ne_simple_reweight.txt.xml", "coref_j48_v2.model", "feature_header2.arff", 20);
+        addCoreference("corpus_ne_simple_reweight.txt.xml", "coref_j48_v2.model", "feature_header2.arff", 10);
 //        addCoreference("corpus_ne_simple_reweight.txt2.xml", "coref_j48.model", "feature_header.arff", 20);
     }
     
